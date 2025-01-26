@@ -1,0 +1,7 @@
+watchdog
+rarfile
+pystray 
+py7zr
+Pillow
+PyQt5
+PySide6
