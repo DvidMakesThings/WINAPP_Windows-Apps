@@ -26,7 +26,7 @@ from watchdog.events import FileSystemEventHandler
 # ------------------------------------------------------------------
 # Configuration
 # ------------------------------------------------------------------
-WATCH_FOLDER = r"C:\Users\DSP\Downloads"  # Change this path as needed
+WATCH_FOLDER = os.path.join(os.path.expanduser("~"), "Downloads")  # Dynamic path to the Downloads folder
 GC_INTERVAL = 3600   # Force garbage collection every 1 hour
 FILE_ACCESS_ATTEMPTS = 5
 FILE_ACCESS_DELAY_SEC = 1
@@ -224,7 +224,9 @@ class ArchiveWindow(QtWidgets.QWidget):
         self.setWindowTitle("DeCompress Monitor")
 
         # Set a window icon (use your own icon file here)
-        app_icon = QtGui.QIcon("G:\_GitHub\Eagle-projects\Scripts\DeCompress\extract-icon.png")  # Make sure myicon.ico is in the same folder
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        app_icon_path = os.path.join(script_dir, "extract-icon.png")
+        app_icon = QtGui.QIcon(app_icon_path)
         self.setWindowIcon(app_icon)
 
         self.resize(343, 562)
@@ -306,7 +308,9 @@ class DeCompressApp(QtWidgets.QApplication):
         self.tray_icon = QSystemTrayIcon(self)
 
         # Load a custom icon for the tray
-        tray_app_icon = QtGui.QIcon("G:\_GitHub\Eagle-projects\Scripts\DeCompress\extract-icon.png")  # Same icon as window
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        tray_app_icon_path = os.path.join(script_dir, "extract-icon.png")
+        tray_app_icon = QtGui.QIcon(tray_app_icon_path)
         self.tray_icon.setIcon(tray_app_icon)
 
         # Optional: set a global application icon
