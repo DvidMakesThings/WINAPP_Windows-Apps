@@ -1,18 +1,18 @@
 @echo off
 echo.
 echo ======================================================
-echo   Step 3: Clone all Repos into C:\_GitHub
+echo   Step 3: Clone all Repos into G:\_GitHub
 echo ======================================================
 echo.
 echo We'll now clone every repository owned by "DvidMakesThings" 
-echo into C:\_GitHub. Make sure C:\ is available.
+echo into G:\_GitHub. Make sure G:\ is available.
 echo.
 echo Press any key to begin cloning...
 pause > nul
 
-:: Switch to C:\_GitHub (create it if needed)
-if not exist "C:\_GitHub" mkdir "C:\_GitHub"
-cd /d "C:\_GitHub"
+:: Switch to G:\_GitHub (create it if needed)
+if not exist "G:\_GitHub" mkdir "G:\_GitHub"
+cd /d "G:\_GitHub"
 
 :: Use GitHub CLI to list and clone all repos (limit = 1000)
 powershell -NoProfile -ExecutionPolicy Bypass -Command ^
