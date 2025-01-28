@@ -15,9 +15,9 @@ To use these hardware design files:
 4. Use the Gerber files for PCB manufacturing.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For any questions or feedback, please contact:
+For questions or feedback:
 - Email: [s.dvid@hotmail.com](mailto:s.dvid@hotmail.com)
 - GitHub: [DvidMakesThings](https://github.com/DvidMakesThings)

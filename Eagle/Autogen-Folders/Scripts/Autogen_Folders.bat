@@ -8,80 +8,65 @@ if "%~1"=="" (
     set PROJECT_NAME=%~1
 )
 
-REM Path to the template folder
-set TEMPLATE_FOLDER=G:\My Drive\Git\Templates
+REM Set the template folder to a relative path
+set TEMPLATE_FOLDER=%~dp0..\Templates
+
+REM Ask for the destination folder
+set /p DEST_FOLDER="Enter the destination folder: "
+
+REM Copy the content of the template folder to the destination folder
+xcopy "%TEMPLATE_FOLDER%" "%DEST_FOLDER%" /E /I /Y
+
+echo Files copied from %TEMPLATE_FOLDER% to %DEST_FOLDER%
 
 echo Creating project folder structure for %PROJECT_NAME%...
 
 REM Create the project folder and subfolders
-call :CreateDir "%PROJECT_NAME%\src\HardwareDesign"
-call :CreateDir "%PROJECT_NAME%\src\PDF"
-call :CreateDir "%PROJECT_NAME%\src\Libraries"
-call :CreateDir "%PROJECT_NAME%\src\Software"
-call :CreateDir "%PROJECT_NAME%\docs\Datasheets"
-call :CreateDir "%PROJECT_NAME%\docs"
-call :CreateDir "%PROJECT_NAME%\docs\Manuals"
-call :CreateDir "%PROJECT_NAME%\docs\Reports"
-call :CreateDir "%PROJECT_NAME%\images"
-call :CreateDir "%PROJECT_NAME%\tests"
-call :CreateDir "%PROJECT_NAME%\tests\UnitTests"
-call :CreateDir "%PROJECT_NAME%\tests\IntegrationTests"
-call :CreateDir "%PROJECT_NAME%\misc"
+call :CreateDir "%DEST_FOLDER%\src\HardwareDesign"
+call :CreateDir "%DEST_FOLDER%\src\PDF"
+call :CreateDir "%DEST_FOLDER%\src\Libraries"
+call :CreateDir "%DEST_FOLDER%\src\Software"
+call :CreateDir "%DEST_FOLDER%\docs\Datasheets"
+call :CreateDir "%DEST_FOLDER%\docs"
+call :CreateDir "%DEST_FOLDER%\docs\Manuals"
+call :CreateDir "%DEST_FOLDER%\docs\Reports"
+call :CreateDir "%DEST_FOLDER%\images"
+call :CreateDir "%DEST_FOLDER%\tests"
+call :CreateDir "%DEST_FOLDER%\tests\UnitTests"
+call :CreateDir "%DEST_FOLDER%\tests\IntegrationTests"
+call :CreateDir "%DEST_FOLDER%\misc"
 
 echo Creating and updating Readme.md files...
 
 REM Copy and update Readme.md files
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%" "%PROJECT_NAME%"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\src" "%PROJECT_NAME%\src"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\src\HardwareDesign" "%PROJECT_NAME%\src\HardwareDesign"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\src\PDF" "%PROJECT_NAME%\src\PDF"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\src\Libraries" "%PROJECT_NAME%\src\Libraries"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\src\Software" "%PROJECT_NAME%\src\Software"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\docs\Datasheets" "%PROJECT_NAME%\docs\Datasheets"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\docs" "%PROJECT_NAME%\docs"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\docs\Manuals" "%PROJECT_NAME%\docs\Manuals"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\docs\Reports" "%PROJECT_NAME%\docs\Reports"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\images" "%PROJECT_NAME%\images"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\tests" "%PROJECT_NAME%\tests"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\tests\UnitTests" "%PROJECT_NAME%\tests\UnitTests"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\tests\IntegrationTests" "%PROJECT_NAME%\tests\IntegrationTests"
-call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\misc" "%PROJECT_NAME%\misc"
-
-echo Checking for existing eagle.epf file...
-if exist "%PROJECT_NAME%\src\HardwareDesign\eagle.epf" (
-    set /p OVERWRITE_EPF="Eagle Project file already exists. Do you want to overwrite it? (y/n): "
-    if /i "%OVERWRITE_EPF%"=="y" (
-        echo Creating Eagle Project file...
-        copy /Y "%TEMPLATE_FOLDER%\src\HardwareDesign\eagle.epf" "%PROJECT_NAME%\src\HardwareDesign\eagle.epf"
-        if %errorlevel% neq 0 (
-            echo Failed to create eagle.epf file.
-        ) else (
-            echo Eagle Project file created successfully.
-        )
-    ) else (
-        echo Skipping Eagle Project file creation.
-    )
-) else (
-    echo Creating Eagle Proect file...
-    copy /Y "%TEMPLATE_FOLDER%\src\HardwareDesign\eagle.epf" "%PROJECT_NAME%\src\HardwareDesign\eagle.epf"
-    if %errorlevel% neq 0 (
-        echo Failed to create Eagle Project file.
-    ) else (
-        echo Eagle Project file created successfully.
-    )
-)
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%" "%DEST_FOLDER%"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\src" "%DEST_FOLDER%\src"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\src\HardwareDesign" "%DEST_FOLDER%\src\HardwareDesign"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\src\PDF" "%DEST_FOLDER%\src\PDF"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\src\Libraries" "%DEST_FOLDER%\src\Libraries"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\src\Software" "%DEST_FOLDER%\src\Software"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\docs\Datasheets" "%DEST_FOLDER%\docs\Datasheets"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\docs" "%DEST_FOLDER%\docs"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\docs\Manuals" "%DEST_FOLDER%\docs\Manuals"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\docs\Reports" "%DEST_FOLDER%\docs\Reports"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\images" "%DEST_FOLDER%\images"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\tests" "%DEST_FOLDER%\tests"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\tests\UnitTests" "%DEST_FOLDER%\tests\UnitTests"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\tests\IntegrationTests" "%DEST_FOLDER%\tests\IntegrationTests"
+call :CopyAndReplaceReadme "%TEMPLATE_FOLDER%\misc" "%DEST_FOLDER%\misc"
 
 echo Checking for existing schematic file...
-if exist "%PROJECT_NAME%\src\HardwareDesign\%PROJECT_NAME%.sch" (
+if exist "%DEST_FOLDER%\src\HardwareDesign\%PROJECT_NAME%.sch" (
     set /p OVERWRITE_SCH="Schematic file already exists. Do you want to overwrite it? (y/n): "
     if /i "%OVERWRITE_SCH%"=="y" (
         echo Creating schematic file with project name...
-        copy /Y "%TEMPLATE_FOLDER%\src\HardwareDesign\template.sch" "%PROJECT_NAME%\src\HardwareDesign\%PROJECT_NAME%.sch"
+        copy /Y "%TEMPLATE_FOLDER%\src\HardwareDesign\template.sch" "%DEST_FOLDER%\src\HardwareDesign\%PROJECT_NAME%.sch"
         if %errorlevel% neq 0 (
-            echo Failed to created template.sch file.
+            echo Failed to create template.sch file.
         ) else (
             echo template.sch file created successfully.
-            powershell -Command "(Get-Content -path '%PROJECT_NAME%\src\HardwareDesign\%PROJECT_NAME%.sch') -replace '%%PROJECT_NAME%%', '%PROJECT_NAME%' | Set-Content -path '%PROJECT_NAME%\src\HardwareDesign\%PROJECT_NAME%.sch'"
+            del "%DEST_FOLDER%\src\HardwareDesign\template.sch"
+            powershell -Command "(Get-Content -path '%DEST_FOLDER%\src\HardwareDesign\%PROJECT_NAME%.sch') -replace '%%PROJECT_NAME%%', '%PROJECT_NAME%' | Set-Content -path '%DEST_FOLDER%\src\HardwareDesign\%PROJECT_NAME%.sch'"
             if %errorlevel% neq 0 (
                 echo Failed to update schematic file with project name.
             ) else (
@@ -93,12 +78,13 @@ if exist "%PROJECT_NAME%\src\HardwareDesign\%PROJECT_NAME%.sch" (
     )
 ) else (
     echo Creating schematic file with project name...
-    copy /Y "%TEMPLATE_FOLDER%\src\HardwareDesign\template.sch" "%PROJECT_NAME%\src\HardwareDesign\%PROJECT_NAME%.sch"
+    copy /Y "%TEMPLATE_FOLDER%\src\HardwareDesign\template.sch" "%DEST_FOLDER%\src\HardwareDesign\%PROJECT_NAME%.sch"
     if %errorlevel% neq 0 (
         echo Failed to create template.sch file.
     ) else (
         echo template.sch file created successfully.
-        powershell -Command "(Get-Content -path '%PROJECT_NAME%\src\HardwareDesign\%PROJECT_NAME%.sch') -replace '%%PROJECT_NAME%%', '%PROJECT_NAME%' | Set-Content -path '%PROJECT_NAME%\src\HardwareDesign\%PROJECT_NAME%.sch'"
+        del "%DEST_FOLDER%\src\HardwareDesign\template.sch"
+        powershell -Command "(Get-Content -path '%DEST_FOLDER%\src\HardwareDesign\%PROJECT_NAME%.sch') -replace '%%PROJECT_NAME%%', '%PROJECT_NAME%' | Set-Content -path '%DEST_FOLDER%\src\HardwareDesign\%PROJECT_NAME%.sch'"
         if %errorlevel% neq 0 (
             echo Failed to update schematic file with project name.
         ) else (
@@ -129,13 +115,13 @@ goto :eof
 
 REM Function to copy and replace %PROJECT_NAME% in Readme.md files
 :CopyAndReplaceReadme
-if not exist "%~2\Readme.md" (
+if exist "%~1\Readme.md" (
     echo Creating and updating Readme.md in %~2...
     copy "%~1\Readme.md" "%~2\Readme.md"
     if %errorlevel% neq 0 (
-        echo Failed to create Readme.md to %~2.
+        echo Failed to create Readme.md in %~2.
     ) else (
-        echo Readme.md created to %~2 successfully.
+        echo Readme.md created in %~2 successfully.
         powershell -Command "(Get-Content -path '%~2\Readme.md') -replace '%%PROJECT_NAME%%', '%PROJECT_NAME%' | Set-Content -path '%~2\Readme.md'"
         if %errorlevel% neq 0 (
             echo Failed to update Readme.md with project name in %~2.

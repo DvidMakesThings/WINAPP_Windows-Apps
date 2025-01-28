@@ -9,9 +9,9 @@ This folder contains Eagle libraries for various electronic components and modul
 3. Select the desired library from this folder.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For any questions or feedback, please contact:
+For questions or feedback:
 - Email: [s.dvid@hotmail.com](mailto:s.dvid@hotmail.com)
 - GitHub: [DvidMakesThings](https://github.com/DvidMakesThings)
