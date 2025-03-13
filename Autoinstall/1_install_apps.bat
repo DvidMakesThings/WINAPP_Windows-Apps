@@ -12,8 +12,6 @@ if %errorlevel% neq 0 (
 )
 
 :: Install essential applications
-winget install -e --id Git.Git
-winget install -e --id Google.Chrome
 winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Python.Python.3.12
 winget install -e --id VLC.VLC
@@ -25,7 +23,6 @@ winget install -e --id Qt.QtCreator
 winget install -e --id PuTTY.PuTTY
 winget install -e --id Docker.DockerDesktop
 winget install -e --id KiCad.KiCad
-winget install -e --id Git.Git
 
 :: Check if Bambu Studio is available
 echo Installing Bambu Studio (if available)...

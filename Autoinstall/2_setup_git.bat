@@ -4,7 +4,7 @@ echo Configuring Git
 echo ============================================
 git config --global user.name DvidMakesThings
 git config --global user.email s.dvid@hotmail.com
-git config --global core.editor notepad
+git config --global core.editor Notepad++
 git config --global init.defaultBranch master
 
 echo Generating a global Git ignore file...

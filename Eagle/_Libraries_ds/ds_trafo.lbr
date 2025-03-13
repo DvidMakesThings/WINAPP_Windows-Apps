@@ -229,85 +229,6 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="WE-CMB_XS_744821120" urn="urn:adsk.eagle:footprint:46769275/1">
-<wire x1="-7.5" y1="3.9" x2="7.5" y2="3.9" width="0.1" layer="51"/>
-<wire x1="7.5" y1="3.9" x2="7.5" y2="-3.9" width="0.1" layer="51"/>
-<wire x1="7.5" y1="-3.9" x2="-7.5" y2="-3.9" width="0.1" layer="51"/>
-<wire x1="-7.5" y1="-3.9" x2="-7.5" y2="3.9" width="0.1" layer="51"/>
-<wire x1="-7.6" y1="4" x2="7.6" y2="4" width="0.2" layer="21"/>
-<wire x1="7.6" y1="4" x2="7.6" y2="-4" width="0.2" layer="21"/>
-<wire x1="7.6" y1="-4" x2="-7.6" y2="-4" width="0.2" layer="21"/>
-<wire x1="-7.6" y1="-4" x2="-7.6" y2="4" width="0.2" layer="21"/>
-<polygon width="0.1" layer="39">
-<vertex x="-7.8" y="4.2"/>
-<vertex x="7.8" y="4.2"/>
-<vertex x="7.8" y="-4.2"/>
-<vertex x="-7.8" y="-4.2"/>
-</polygon>
-<text x="-3.98" y="-6.17" size="1.27" layer="27">&gt;VALUE</text>
-<text x="0" y="4.72" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<circle x="-8.5" y="-2.8" radius="0.2" width="0.4" layer="21"/>
-<pad name="4" x="-5" y="2.25" drill="1.1"/>
-<pad name="3" x="5" y="2.25" drill="1.1"/>
-<pad name="2" x="5" y="-2.25" drill="1.1"/>
-<pad name="1" x="-5" y="-2.25" drill="1.1"/>
-</package>
-<package name="XFMR_14A-20-512" urn="urn:adsk.eagle:footprint:46757298/1">
-<text x="-23.08" y="29.12" size="1.27" layer="25">&gt;NAME</text>
-<text x="-23.08" y="-29.12" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="-23.8" y1="28.6" x2="-23.8" y2="-28.6" width="0.127" layer="51"/>
-<wire x1="-23.8" y1="-28.6" x2="23.8" y2="-28.6" width="0.127" layer="51"/>
-<wire x1="23.8" y1="-28.6" x2="23.8" y2="28.6" width="0.127" layer="51"/>
-<wire x1="23.8" y1="28.6" x2="-23.8" y2="28.6" width="0.127" layer="51"/>
-<wire x1="23.8" y1="28.6" x2="-23.8" y2="28.6" width="0.127" layer="21"/>
-<wire x1="-23.8" y1="28.6" x2="-23.8" y2="-28.6" width="0.127" layer="21"/>
-<wire x1="23.8" y1="-28.6" x2="23.8" y2="28.6" width="0.127" layer="21"/>
-<wire x1="-23.8" y1="-28.6" x2="23.8" y2="-28.6" width="0.127" layer="21"/>
-<wire x1="-24.05" y1="28.85" x2="-24.05" y2="-28.85" width="0.05" layer="39"/>
-<wire x1="-24.05" y1="-28.85" x2="24.05" y2="-28.85" width="0.05" layer="39"/>
-<wire x1="24.05" y1="-28.85" x2="24.05" y2="28.85" width="0.05" layer="39"/>
-<wire x1="24.05" y1="28.85" x2="-24.05" y2="28.85" width="0.05" layer="39"/>
-<circle x="-24.95" y="15.485" radius="0.1" width="0.3" layer="21"/>
-<circle x="-24.95" y="15.485" radius="0.1" width="0.3" layer="51"/>
-<pad name="1" x="-18.55" y="15.3" drill="1.44" shape="square"/>
-<pad name="7" x="18.55" y="15.3" drill="1.44"/>
-<pad name="3" x="-18.55" y="5.1" drill="1.44"/>
-<pad name="4" x="-18.55" y="-5.1" drill="1.44"/>
-<pad name="9" x="18.55" y="5.1" drill="1.44"/>
-<pad name="10" x="18.55" y="-5.1" drill="1.44"/>
-<pad name="12" x="18.55" y="-15.3" drill="1.44"/>
-<pad name="6" x="-18.55" y="-15.3" drill="1.44"/>
-<pad name="8" x="18.55" y="10.2" drill="1.44"/>
-<pad name="11" x="18.55" y="-10.2" drill="1.44"/>
-<hole x="-19.05" y="0" drill="3.43"/>
-<hole x="19.05" y="0" drill="3.43"/>
-</package>
-<package name="WE-TFC_UU9.8H" urn="urn:adsk.eagle:footprint:11381892/5">
-<description>&lt;b&gt;WE-TFC Common Mode Power Line Choke
-&lt;br&gt;&lt;br&gt;&lt;/b&gt;Size: UU9.8H, THT, 4pins
-&lt;br&gt;L X W X H=17mm X 15.5mm X 12.5mm</description>
-<wire x1="-8.5" y1="-10" x2="8.5" y2="-10" width="0.1" layer="51"/>
-<wire x1="8.5" y1="-10" x2="8.5" y2="5.5" width="0.1" layer="51"/>
-<wire x1="8.5" y1="5.5" x2="-8.5" y2="5.5" width="0.1" layer="51"/>
-<wire x1="-8.5" y1="5.5" x2="-8.5" y2="-10" width="0.1" layer="51"/>
-<wire x1="-8.6" y1="5.6" x2="8.6" y2="5.6" width="0.2" layer="21"/>
-<wire x1="8.6" y1="5.6" x2="8.6" y2="-10.1" width="0.2" layer="21"/>
-<wire x1="8.6" y1="-10.1" x2="-8.6" y2="-10.1" width="0.2" layer="21"/>
-<wire x1="-8.6" y1="-10.1" x2="-8.6" y2="5.6" width="0.2" layer="21"/>
-<pad name="2" x="4" y="3.5" drill="1"/>
-<pad name="1" x="-4" y="3.5" drill="1"/>
-<pad name="4" x="-4" y="-3.5" drill="1"/>
-<pad name="3" x="4" y="-3.5" drill="1"/>
-<text x="0" y="6" size="1.4224" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-12" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="8.8" y="-10.3"/>
-<vertex x="-8.8" y="-10.3"/>
-<vertex x="-8.8" y="5.8"/>
-<vertex x="8.8" y="5.8"/>
-</polygon>
-<circle x="-9.6" y="3.5" radius="0.2" width="0.4" layer="21"/>
-</package>
 <package name="WE-TFC_UU9.8V" urn="urn:adsk.eagle:footprint:11376030/5">
 <description>&lt;b&gt;WE-TFC Common Mode Power Line Choke
 &lt;br&gt;&lt;br&gt;&lt;/b&gt;Size: UU9.8V, THT, 4pins
@@ -368,7 +289,56 @@ Size: EE13/6/6,THT,9pins
 <pad name="9" x="5.08" y="3.8" drill="1.4"/>
 <pad name="10" x="5.08" y="7.6" drill="1.4"/>
 </package>
-<package name="WE-OLSTM_EE20_L22.2W25H16" urn="urn:adsk.eagle:footprint:45019237/1" locally_modified="yes">
+<package name="WE-TFC_UU9.8H" urn="urn:adsk.eagle:footprint:11381892/5">
+<description>&lt;b&gt;WE-TFC Common Mode Power Line Choke
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Size: UU9.8H, THT, 4pins
+&lt;br&gt;L X W X H=17mm X 15.5mm X 12.5mm</description>
+<wire x1="-8.5" y1="-10" x2="8.5" y2="-10" width="0.1" layer="51"/>
+<wire x1="8.5" y1="-10" x2="8.5" y2="5.5" width="0.1" layer="51"/>
+<wire x1="8.5" y1="5.5" x2="-8.5" y2="5.5" width="0.1" layer="51"/>
+<wire x1="-8.5" y1="5.5" x2="-8.5" y2="-10" width="0.1" layer="51"/>
+<wire x1="-8.6" y1="5.6" x2="8.6" y2="5.6" width="0.2" layer="21"/>
+<wire x1="8.6" y1="5.6" x2="8.6" y2="-10.1" width="0.2" layer="21"/>
+<wire x1="8.6" y1="-10.1" x2="-8.6" y2="-10.1" width="0.2" layer="21"/>
+<wire x1="-8.6" y1="-10.1" x2="-8.6" y2="5.6" width="0.2" layer="21"/>
+<pad name="2" x="4" y="3.5" drill="1"/>
+<pad name="1" x="-4" y="3.5" drill="1"/>
+<pad name="4" x="-4" y="-3.5" drill="1"/>
+<pad name="3" x="4" y="-3.5" drill="1"/>
+<text x="0" y="6" size="1.4224" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-12" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="8.8" y="-10.3"/>
+<vertex x="-8.8" y="-10.3"/>
+<vertex x="-8.8" y="5.8"/>
+<vertex x="8.8" y="5.8"/>
+</polygon>
+<circle x="-9.6" y="3.5" radius="0.2" width="0.4" layer="21"/>
+</package>
+<package name="WE-CMB_XS_744821120" urn="urn:adsk.eagle:footprint:46769275/1">
+<wire x1="-7.5" y1="3.9" x2="7.5" y2="3.9" width="0.1" layer="51"/>
+<wire x1="7.5" y1="3.9" x2="7.5" y2="-3.9" width="0.1" layer="51"/>
+<wire x1="7.5" y1="-3.9" x2="-7.5" y2="-3.9" width="0.1" layer="51"/>
+<wire x1="-7.5" y1="-3.9" x2="-7.5" y2="3.9" width="0.1" layer="51"/>
+<wire x1="-7.6" y1="4" x2="7.6" y2="4" width="0.2" layer="21"/>
+<wire x1="7.6" y1="4" x2="7.6" y2="-4" width="0.2" layer="21"/>
+<wire x1="7.6" y1="-4" x2="-7.6" y2="-4" width="0.2" layer="21"/>
+<wire x1="-7.6" y1="-4" x2="-7.6" y2="4" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-7.8" y="4.2"/>
+<vertex x="7.8" y="4.2"/>
+<vertex x="7.8" y="-4.2"/>
+<vertex x="-7.8" y="-4.2"/>
+</polygon>
+<text x="-3.98" y="-6.17" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="4.72" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<circle x="-8.5" y="-2.8" radius="0.2" width="0.4" layer="21"/>
+<pad name="4" x="-5" y="2.25" drill="1.1"/>
+<pad name="3" x="5" y="2.25" drill="1.1"/>
+<pad name="2" x="5" y="-2.25" drill="1.1"/>
+<pad name="1" x="-5" y="-2.25" drill="1.1"/>
+</package>
+<package name="WE-OLSTM_EE20_L22.2W25H16" urn="urn:adsk.eagle:footprint:47075709/1">
 <description>&lt;b&gt;WE-OLSTM Offline Flyback Transformers for STMicroelectronics&lt;br&gt;&lt;/b&gt;
 &lt;br&gt;Size: EE20, THT, 14Pins
 &lt;br&gt;LXWXH=22.2X25X16mm</description>
@@ -399,32 +369,84 @@ Size: EE13/6/6,THT,9pins
 <circle x="-8" y="9.3" radius="0.3" width="0.6" layer="51"/>
 <circle x="-13.5" y="7.5" radius="0.2" width="0.4" layer="51"/>
 </package>
+<package name="IRM_10_12" urn="urn:adsk.eagle:footprint:47075705/1">
+<wire x1="-22.85" y1="-11.43" x2="-22.85" y2="13.97" width="0.127" layer="51"/>
+<wire x1="-22.85" y1="13.97" x2="22.85" y2="13.97" width="0.127" layer="51"/>
+<wire x1="22.85" y1="-11.43" x2="-22.85" y2="-11.43" width="0.127" layer="51"/>
+<wire x1="22.85" y1="13.97" x2="22.85" y2="-11.43" width="0.127" layer="51"/>
+<wire x1="-22.85" y1="-11.43" x2="-22.85" y2="13.97" width="0.127" layer="21"/>
+<wire x1="-22.85" y1="13.97" x2="22.85" y2="13.97" width="0.127" layer="21"/>
+<wire x1="22.85" y1="-11.43" x2="-22.85" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="22.85" y1="13.97" x2="22.85" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-23.1" y1="14.22" x2="-23.1" y2="-11.68" width="0.05" layer="39"/>
+<wire x1="-23.1" y1="-11.68" x2="23.1" y2="-11.68" width="0.05" layer="39"/>
+<wire x1="23.1" y1="-11.68" x2="23.1" y2="14.22" width="0.05" layer="39"/>
+<wire x1="23.1" y1="14.22" x2="-23.1" y2="14.22" width="0.05" layer="39"/>
+<text x="-23.1" y="15.22" size="1.27" layer="25">&gt;NAME</text>
+<text x="-23.1" y="-12.68" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<pad name="AC_L" x="-19.25" y="-7.98" drill="1.24"/>
+<pad name="-V" x="19.25" y="-7.98" drill="1.24"/>
+<pad name="AC_N" x="-19.25" y="2.77" drill="1.24"/>
+<pad name="+V" x="19.25" y="0.02" drill="1.24"/>
+</package>
+<package name="IRM_15_12" urn="urn:adsk.eagle:footprint:47260461/1">
+<wire x1="-24.93" y1="13.6" x2="27.47" y2="13.6" width="0.127" layer="51"/>
+<wire x1="27.47" y1="13.6" x2="27.47" y2="-13.6" width="0.127" layer="51"/>
+<wire x1="27.47" y1="-13.6" x2="-24.93" y2="-13.6" width="0.127" layer="51"/>
+<wire x1="-24.93" y1="-13.6" x2="-24.93" y2="13.6" width="0.127" layer="51"/>
+<wire x1="-24.93" y1="13.6" x2="27.47" y2="13.6" width="0.127" layer="21"/>
+<wire x1="-24.93" y1="-13.6" x2="-24.93" y2="13.6" width="0.127" layer="21"/>
+<wire x1="27.47" y1="-13.6" x2="-24.93" y2="-13.6" width="0.127" layer="21"/>
+<wire x1="27.47" y1="13.6" x2="27.47" y2="-13.6" width="0.127" layer="21"/>
+<wire x1="-25.18" y1="13.85" x2="27.72" y2="13.85" width="0.05" layer="39"/>
+<wire x1="27.72" y1="13.85" x2="27.72" y2="-13.85" width="0.05" layer="39"/>
+<wire x1="27.72" y1="-13.85" x2="-25.18" y2="-13.85" width="0.05" layer="39"/>
+<wire x1="-25.18" y1="-13.85" x2="-25.18" y2="13.85" width="0.05" layer="39"/>
+<text x="-25.019" y="14.732" size="1.778" layer="25">&gt;NAME</text>
+<text x="-25.019" y="-16.51" size="1.778" layer="27">&gt;VALUE</text>
+<pad name="AC/N" x="-21.53" y="-10.4" drill="1.24"/>
+<pad name="AC/L" x="-21.53" y="10.4" drill="1.24"/>
+<pad name="-V" x="23.47" y="-10.4" drill="1.24"/>
+<pad name="+V" x="23.47" y="-2.4" drill="1.24"/>
+</package>
+<package name="XFMR_14A-20-512" urn="urn:adsk.eagle:footprint:46757298/1">
+<text x="-23.08" y="29.12" size="1.27" layer="25">&gt;NAME</text>
+<text x="-23.08" y="-29.12" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-23.8" y1="28.6" x2="-23.8" y2="-28.6" width="0.127" layer="51"/>
+<wire x1="-23.8" y1="-28.6" x2="23.8" y2="-28.6" width="0.127" layer="51"/>
+<wire x1="23.8" y1="-28.6" x2="23.8" y2="28.6" width="0.127" layer="51"/>
+<wire x1="23.8" y1="28.6" x2="-23.8" y2="28.6" width="0.127" layer="51"/>
+<wire x1="23.8" y1="28.6" x2="-23.8" y2="28.6" width="0.127" layer="21"/>
+<wire x1="-23.8" y1="28.6" x2="-23.8" y2="-28.6" width="0.127" layer="21"/>
+<wire x1="23.8" y1="-28.6" x2="23.8" y2="28.6" width="0.127" layer="21"/>
+<wire x1="-23.8" y1="-28.6" x2="23.8" y2="-28.6" width="0.127" layer="21"/>
+<wire x1="-24.05" y1="28.85" x2="-24.05" y2="-28.85" width="0.05" layer="39"/>
+<wire x1="-24.05" y1="-28.85" x2="24.05" y2="-28.85" width="0.05" layer="39"/>
+<wire x1="24.05" y1="-28.85" x2="24.05" y2="28.85" width="0.05" layer="39"/>
+<wire x1="24.05" y1="28.85" x2="-24.05" y2="28.85" width="0.05" layer="39"/>
+<circle x="-24.95" y="15.485" radius="0.1" width="0.3" layer="21"/>
+<circle x="-24.95" y="15.485" radius="0.1" width="0.3" layer="51"/>
+<pad name="1" x="-18.55" y="15.3" drill="1.44" shape="square"/>
+<pad name="7" x="18.55" y="15.3" drill="1.44"/>
+<pad name="3" x="-18.55" y="5.1" drill="1.44"/>
+<pad name="4" x="-18.55" y="-5.1" drill="1.44"/>
+<pad name="9" x="18.55" y="5.1" drill="1.44"/>
+<pad name="10" x="18.55" y="-5.1" drill="1.44"/>
+<pad name="12" x="18.55" y="-15.3" drill="1.44"/>
+<pad name="6" x="-18.55" y="-15.3" drill="1.44"/>
+<pad name="8" x="18.55" y="10.2" drill="1.44"/>
+<pad name="11" x="18.55" y="-10.2" drill="1.44"/>
+<hole x="-19.05" y="0" drill="3.43"/>
+<hole x="19.05" y="0" drill="3.43"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="WE-CMB_XS_744821120" urn="urn:adsk.eagle:package:46769279/2" type="model">
-<packageinstances>
-<packageinstance name="WE-CMB_XS_744821120"/>
-</packageinstances>
-</package3d>
-<package3d name="XFMR_14A-20-512" urn="urn:adsk.eagle:package:46757299/2" type="model">
-<packageinstances>
-<packageinstance name="XFMR_14A-20-512"/>
-</packageinstances>
-</package3d>
 <package3d name="WE-TFC_UU9.8V" urn="urn:adsk.eagle:package:26615235/2" type="model">
 <description>&lt;b&gt;WE-TFC Common Mode Power Line Choke
 &lt;br&gt;&lt;br&gt;&lt;/b&gt;Size: UU9.8V, THT, 4pins
 &lt;br&gt;L X W X H=17mm X 11.5mm X 17mm</description>
 <packageinstances>
 <packageinstance name="WE-TFC_UU9.8V"/>
-</packageinstances>
-</package3d>
-<package3d name="WE-TFC_UU9.8H" urn="urn:adsk.eagle:package:26615236/2" type="model">
-<description>&lt;b&gt;WE-TFC Common Mode Power Line Choke
-&lt;br&gt;&lt;br&gt;&lt;/b&gt;Size: UU9.8H, THT, 4pins
-&lt;br&gt;L X W X H=17mm X 15.5mm X 12.5mm</description>
-<packageinstances>
-<packageinstance name="WE-TFC_UU9.8H"/>
 </packageinstances>
 </package3d>
 <package3d name="WE-OLEE_EE20/10/6" urn="urn:adsk.eagle:package:40001872/2" type="model">
@@ -436,7 +458,25 @@ Size: EE13/6/6,THT,9pins
 <packageinstance name="WE-OLEE_EE20/10/6"/>
 </packageinstances>
 </package3d>
-<package3d name="WE-OLSTM_EE20_L22.2W25H16" urn="urn:adsk.eagle:package:45019244/2" locally_modified="yes" type="model">
+<package3d name="XFMR_14A-20-512" urn="urn:adsk.eagle:package:46757299/2" type="model">
+<packageinstances>
+<packageinstance name="XFMR_14A-20-512"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-TFC_UU9.8H" urn="urn:adsk.eagle:package:26615236/2" type="model">
+<description>&lt;b&gt;WE-TFC Common Mode Power Line Choke
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;Size: UU9.8H, THT, 4pins
+&lt;br&gt;L X W X H=17mm X 15.5mm X 12.5mm</description>
+<packageinstances>
+<packageinstance name="WE-TFC_UU9.8H"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CMB_XS_744821120" urn="urn:adsk.eagle:package:46769279/2" type="model">
+<packageinstances>
+<packageinstance name="WE-CMB_XS_744821120"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-OLSTM_EE20_L22.2W25H16" urn="urn:adsk.eagle:package:47075712/1" type="model">
 <description>&lt;b&gt;WE-OLSTM Offline Flyback Transformers for STMicroelectronics&lt;br&gt;&lt;/b&gt;
 &lt;br&gt;Size: EE20, THT, 14Pins
 &lt;br&gt;LXWXH=22.2X25X16mm</description>
@@ -444,8 +484,72 @@ Size: EE13/6/6,THT,9pins
 <packageinstance name="WE-OLSTM_EE20_L22.2W25H16"/>
 </packageinstances>
 </package3d>
+<package3d name="IRM_10_12" urn="urn:adsk.eagle:package:47075710/2" type="model">
+<packageinstances>
+<packageinstance name="IRM_10_12"/>
+</packageinstances>
+</package3d>
+<package3d name="IRM_15_12" urn="urn:adsk.eagle:package:47260462/2" type="model">
+<packageinstances>
+<packageinstance name="IRM_15_12"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
+<symbol name="WE-TFC" urn="urn:adsk.eagle:symbol:46769278/1">
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="3.51" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-4.44" y="-5.12" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-4.445" y1="0" x2="4.445" y2="0" width="0.254" layer="94"/>
+<circle x="-5.588" y="1.778" radius="0.127" width="0.381" layer="94"/>
+<circle x="-5.588" y="-1.778" radius="0.127" width="0.381" layer="94"/>
+</symbol>
+<symbol name="750370288" urn="urn:adsk.eagle:symbol:47075708/1">
+<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
+<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
+<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
+<pin name="2" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
+<pin name="7" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="10" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
+</symbol>
 <symbol name="14A-20-512" urn="urn:adsk.eagle:symbol:46769277/1">
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.1524" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.1524" layer="94" curve="-180"/>
@@ -498,61 +602,7 @@ Size: EE13/6/6,THT,9pins
 <pin name="4" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="WE-TFC" urn="urn:adsk.eagle:symbol:46769278/1">
-<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="4" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
-<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<text x="0" y="3.51" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-4.44" y="-5.12" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="-4.445" y1="0" x2="4.445" y2="0" width="0.254" layer="94"/>
-<circle x="-5.588" y="1.778" radius="0.127" width="0.381" layer="94"/>
-<circle x="-5.588" y="-1.778" radius="0.127" width="0.381" layer="94"/>
-</symbol>
-<symbol name="750370288">
-<text x="0" y="13.97" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-15.24" size="1.778" layer="95" align="bottom-center">&gt;VALUE</text>
-<text x="-7.62" y="7.62" size="1.27" layer="94" align="center">N1</text>
-<text x="7.62" y="0" size="1.27" layer="94" align="center">N2</text>
-<text x="-7.62" y="-7.62" size="1.27" layer="94" align="center">N3</text>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<circle x="2.286" y="3.81" radius="0.2032" width="0.381" layer="94"/>
-<circle x="-2.286" y="11.43" radius="0.2032" width="0.381" layer="94"/>
-<circle x="-2.286" y="-3.81" radius="0.2032" width="0.381" layer="94"/>
-<pin name="2" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="4" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="6" x="-7.62" y="-12.7" visible="pad" length="short" direction="pas"/>
-<pin name="7" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
-<pin name="8" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="10" x="-7.62" y="12.7" visible="pad" length="short" direction="pas"/>
-</symbol>
-<symbol name="WE-OLSTM_EE20_3W:1W_CENTERTAP">
+<symbol name="WE-OLSTM_EE20_3W:1W_CENTERTAP" urn="urn:adsk.eagle:symbol:47075707/1">
 <pin name="10" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="8" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="6" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
@@ -592,9 +642,218 @@ Size: EE13/6/6,THT,9pins
 <circle x="-2.286" y="-8.89" radius="0.2032" width="0.381" layer="94"/>
 <circle x="-2.286" y="6.35" radius="0.2032" width="0.381" layer="94"/>
 </symbol>
+<symbol name="IRM_10_12" urn="urn:adsk.eagle:symbol:47075706/1">
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="AC/L" x="-15.24" y="2.54" length="middle" direction="in"/>
+<pin name="AC/N" x="-15.24" y="-2.54" length="middle" direction="in"/>
+<pin name="+V" x="15.24" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="-V" x="15.24" y="-2.54" length="middle" direction="out" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-CMB_XS_744821120" urn="urn:adsk.eagle:component:46769280/1" locally_modified="yes" prefix="T" uservalue="yes">
+<deviceset name="WE-TFC_UU9.8V" urn="urn:adsk.eagle:component:46769283/1" prefix="L">
+<description>&lt;b&gt;WE-TFC Common Mode Power Line Choke
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Suppression of common mode noise up to 70 dB
+&lt;br&gt; Approximate 1% stray inductance for symmetrical interference suppression
+&lt;br&gt; High isolation between the windings
+&lt;br&gt; Flammability corresponding to UL 94 V-0
+&lt;br&gt; Clima category 40/125/21
+
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Mains filter
+&lt;br&gt; Compact switched-mode power supplies
+&lt;br&gt; Electronic ballast applications (LED bulb)
+&lt;br&gt; Lighting
+&lt;br&gt; White goods
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o182603v209%20Family_WE-TFC_UU9.8V_UU9.8H_744861xxx_744862xxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.de/katalog/media/o182603v209%20Family_WE-TFC_UU9.8V_UU9.8H_744861xxx_744862xxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.de/katalog/en/WE-TFC"&gt;https://www.we-online.de/katalog/en/WE-TFC&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;Updated by Ella Wu 2021-02-04&lt;br&gt;
+&lt;/b&gt;2021 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WE-TFC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-TFC_UU9.8V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26615235/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_744862018">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862018.pdf"/>
+<attribute name="IR" value="1A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744862018 "/>
+<attribute name="RDC" value="0.31Ohm"/>
+<attribute name="VALUE" value="1.8mH"/>
+<attribute name="VR" value="300  V (AC) "/>
+<attribute name="VT" value="2500  V (AC) "/>
+</technology>
+<technology name="_744862033">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862033.pdf"/>
+<attribute name="IR" value="0.8A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744862033 "/>
+<attribute name="RDC" value="0.51Ohm"/>
+<attribute name="VALUE" value="3.3mH"/>
+<attribute name="VR" value="300  V (AC) "/>
+<attribute name="VT" value="2500  V (AC) "/>
+</technology>
+<technology name="_744862056">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862056.pdf"/>
+<attribute name="IR" value="0.6A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744862056 "/>
+<attribute name="RDC" value="0.83Ohm"/>
+<attribute name="VALUE" value="5.6mH"/>
+<attribute name="VR" value="300  V (AC) "/>
+<attribute name="VT" value="2500  V (AC) "/>
+</technology>
+<technology name="_744862082">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862082.pdf"/>
+<attribute name="IR" value="0.5A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744862082 "/>
+<attribute name="RDC" value="1.3Ohm"/>
+<attribute name="VALUE" value="8.2mH"/>
+<attribute name="VR" value="300  V (AC) "/>
+<attribute name="VT" value="2500  V (AC) "/>
+</technology>
+<technology name="_744862100">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862100.pdf"/>
+<attribute name="IR" value="0.45A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744862100 "/>
+<attribute name="RDC" value="1.65Ohm"/>
+<attribute name="VALUE" value="10mH"/>
+<attribute name="VR" value="300  V (AC) "/>
+<attribute name="VT" value="2500  V (AC) "/>
+</technology>
+<technology name="_744862120">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862120.pdf"/>
+<attribute name="IR" value="0.4A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744862120 "/>
+<attribute name="RDC" value="2Ohm"/>
+<attribute name="VALUE" value="12mH"/>
+<attribute name="VR" value="300  V (AC) "/>
+<attribute name="VT" value="2500  V (AC) "/>
+</technology>
+<technology name="_744862180">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862180.pdf"/>
+<attribute name="IR" value="0.3A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744862180 "/>
+<attribute name="RDC" value="3.1Ohm"/>
+<attribute name="VALUE" value="18mH"/>
+<attribute name="VR" value="300  V (AC) "/>
+<attribute name="VT" value="2500  V (AC) "/>
+</technology>
+<technology name="_744862250">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862250.pdf"/>
+<attribute name="IR" value="0.25A"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PART-NUMBER" value=" 744862250 "/>
+<attribute name="RDC" value="3.6Ohm"/>
+<attribute name="VALUE" value="25mH"/>
+<attribute name="VR" value="300  V (AC) "/>
+<attribute name="VT" value="2500  V (AC) "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="750370288" urn="urn:adsk.eagle:component:47075714/1" prefix="T">
+<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
+&lt;br&gt; Low real estate
+&lt;br&gt; Extended Rails
+&lt;br&gt; Reinforced Insulation
+&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
+&lt;br&gt; Operating Temp: -40°C to +125°C
+ 
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline Switching Power
+&lt;br&gt; Power Electronics
+&lt;br&gt; Electronic Ballasts
+&lt;br&gt; White Goods
+&lt;br&gt; Industrial Controls
+&lt;br&gt; Industrial Telecom
+&lt;br&gt; Metering
+&lt;br&gt; LED Lighting
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-OLEE"&gt;www.we-online.com/en/components/products/WE-OLEE&lt;/a&gt;&lt;p&gt;
+
+Created by Ella Wu 2023-04-11&lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="750370288" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-OLEE_EE20/10/6">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40001872/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750370288?ae"/>
+<attribute name="F-SWTICH" value="65kHz"/>
+<attribute name="HEIGHT" value="23.24mm"/>
+<attribute name="IOUT1" value="1A"/>
+<attribute name="ISAT1" value="1050mA"/>
+<attribute name="L1" value="1.7mH"/>
+<attribute name="LENGTH" value="22.25mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="N" value="16.88:1:1.88"/>
+<attribute name="PART-NUMBER" value=" 750370288 "/>
+<attribute name="VALUE" value=" 750370288 "/>
+<attribute name="VAUX" value="17V"/>
+<attribute name="VIN" value="85 - 265 V (AC)"/>
+<attribute name="VOUT1" value="5V"/>
+<attribute name="VT" value="3000V (AC)"/>
+<attribute name="WIDTH" value="14.4mm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CMB_XS_744821120" urn="urn:adsk.eagle:component:46769280/2" prefix="T" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CM2W-H" x="0" y="0"/>
 </gates>
@@ -615,33 +874,102 @@ Size: EE13/6/6,THT,9pins
 </device>
 </devices>
 </deviceset>
-<deviceset name="14A-20-512" urn="urn:adsk.eagle:component:46769281/1" prefix="T">
+<deviceset name="750370228" urn="urn:adsk.eagle:component:47075715/1" prefix="T">
+<description>&lt;b&gt;WE-OLSTM Offline Flyback Transformers
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Nominal input voltage: 85–265 VAC (120–375 VDC)
+&lt;br&gt;Operating temperature: –40 °C to +125 °C
+&lt;br&gt;Isolation voltage: 2 kVAC up to 5 kVAC
+&lt;br&gt;Multiple output options
+&lt;br&gt;Options for fixed frequency or quasi-resonant mode operation
+&lt;br&gt;Most products meet reinforced insulation
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt;Offline-switch mode power supplies
+&lt;br&gt;Especially designed for several ICs from STMicroelectronics
+&lt;br&gt;Auxiliary power supply
+&lt;br&gt;Home appliances
+&lt;br&gt;Consumer electronics
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o781306v209%20FAMILY-MID-OLSTM.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o781306v209%20FAMILY-MID-OLSTM.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/en/components/products/WE-OLSTM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-OLSTM&lt;/a&gt;&lt;p&gt;
+
+Created by Leviosa 2024-04-15&lt;br&gt;
+2024(C) Wurth Elektronik</description>
 <gates>
-<gate name="G$1" symbol="14A-20-512" x="0" y="0"/>
+<gate name="G$1" symbol="WE-OLSTM_EE20_3W:1W_CENTERTAP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="XFMR_14A-20-512">
+<device name="" package="WE-OLSTM_EE20_L22.2W25H16">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="10" pad="10"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:46757299/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075712/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER" value="Signal"/>
-<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="41.3mm"/>
-<attribute name="PARTREV" value="12.19"/>
-<attribute name="STANDARD" value="Manufacturer Recommendations"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750370228?ae"/>
+<attribute name="FSWITCH" value="50 - 60kHz"/>
+<attribute name="IOUT1" value="1250mA"/>
+<attribute name="ISAT" value="1325mA"/>
+<attribute name="L" value="1.5mH"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="N" value="8:1:1"/>
+<attribute name="PART-NUMBER" value=" 750370228 "/>
+<attribute name="SIZE" value="EE20/10/6"/>
+<attribute name="VALUE" value=" 750370228 "/>
+<attribute name="VAUX" value="12V"/>
+<attribute name="VIN" value="85 - 265 V (AC)"/>
+<attribute name="VOUT1" value="12V"/>
+<attribute name="VT" value="3900V(AC)"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRM_10_12" urn="urn:adsk.eagle:component:47075713/2" locally_modified="yes" prefix="AC/DC" uservalue="yes">
+<description>10W AC-DC PCB-Mount Green Power Module</description>
+<gates>
+<gate name="G$1" symbol="IRM_10_12" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="IRM_10_12">
+<connects>
+<connect gate="G$1" pin="+V" pad="+V"/>
+<connect gate="G$1" pin="-V" pad="-V"/>
+<connect gate="G$1" pin="AC/L" pad="AC_L"/>
+<connect gate="G$1" pin="AC/N" pad="AC_N"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47075710/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2" package="IRM_15_12">
+<connects>
+<connect gate="G$1" pin="+V" pad="+V"/>
+<connect gate="G$1" pin="-V" pad="-V"/>
+<connect gate="G$1" pin="AC/L" pad="AC/L"/>
+<connect gate="G$1" pin="AC/N" pad="AC/N"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47260462/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -773,262 +1101,32 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WE-TFC"&gt;https://
 </device>
 </devices>
 </deviceset>
-<deviceset name="WE-TFC_UU9.8V" urn="urn:adsk.eagle:component:46769283/1" prefix="L">
-<description>&lt;b&gt;WE-TFC Common Mode Power Line Choke
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt;Suppression of common mode noise up to 70 dB
-&lt;br&gt; Approximate 1% stray inductance for symmetrical interference suppression
-&lt;br&gt; High isolation between the windings
-&lt;br&gt; Flammability corresponding to UL 94 V-0
-&lt;br&gt; Clima category 40/125/21
-
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt; Mains filter
-&lt;br&gt; Compact switched-mode power supplies
-&lt;br&gt; Electronic ballast applications (LED bulb)
-&lt;br&gt; Lighting
-&lt;br&gt; White goods
-
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o182603v209%20Family_WE-TFC_UU9.8V_UU9.8H_744861xxx_744862xxx.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.de/katalog/media/o182603v209%20Family_WE-TFC_UU9.8V_UU9.8H_744861xxx_744862xxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.de/katalog/en/WE-TFC"&gt;https://www.we-online.de/katalog/en/WE-TFC&lt;/a&gt;&lt;p&gt;
-
-&lt;/b&gt;Updated by Ella Wu 2021-02-04&lt;br&gt;
-&lt;/b&gt;2021 (C) Wurth Elektronik</description>
+<deviceset name="14A-20-512" urn="urn:adsk.eagle:component:46769281/1" prefix="T">
 <gates>
-<gate name="G$1" symbol="WE-TFC" x="0" y="0"/>
+<gate name="G$1" symbol="14A-20-512" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="WE-TFC_UU9.8V">
+<device name="" package="XFMR_14A-20-512">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
 <connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26615235/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_744862018">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862018.pdf"/>
-<attribute name="IR" value="1A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 744862018 "/>
-<attribute name="RDC" value="0.31Ohm"/>
-<attribute name="VALUE" value="1.8mH"/>
-<attribute name="VR" value="300  V (AC) "/>
-<attribute name="VT" value="2500  V (AC) "/>
-</technology>
-<technology name="_744862033">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862033.pdf"/>
-<attribute name="IR" value="0.8A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 744862033 "/>
-<attribute name="RDC" value="0.51Ohm"/>
-<attribute name="VALUE" value="3.3mH"/>
-<attribute name="VR" value="300  V (AC) "/>
-<attribute name="VT" value="2500  V (AC) "/>
-</technology>
-<technology name="_744862056">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862056.pdf"/>
-<attribute name="IR" value="0.6A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 744862056 "/>
-<attribute name="RDC" value="0.83Ohm"/>
-<attribute name="VALUE" value="5.6mH"/>
-<attribute name="VR" value="300  V (AC) "/>
-<attribute name="VT" value="2500  V (AC) "/>
-</technology>
-<technology name="_744862082">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862082.pdf"/>
-<attribute name="IR" value="0.5A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 744862082 "/>
-<attribute name="RDC" value="1.3Ohm"/>
-<attribute name="VALUE" value="8.2mH"/>
-<attribute name="VR" value="300  V (AC) "/>
-<attribute name="VT" value="2500  V (AC) "/>
-</technology>
-<technology name="_744862100">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862100.pdf"/>
-<attribute name="IR" value="0.45A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 744862100 "/>
-<attribute name="RDC" value="1.65Ohm"/>
-<attribute name="VALUE" value="10mH"/>
-<attribute name="VR" value="300  V (AC) "/>
-<attribute name="VT" value="2500  V (AC) "/>
-</technology>
-<technology name="_744862120">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862120.pdf"/>
-<attribute name="IR" value="0.4A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 744862120 "/>
-<attribute name="RDC" value="2Ohm"/>
-<attribute name="VALUE" value="12mH"/>
-<attribute name="VR" value="300  V (AC) "/>
-<attribute name="VT" value="2500  V (AC) "/>
-</technology>
-<technology name="_744862180">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862180.pdf"/>
-<attribute name="IR" value="0.3A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 744862180 "/>
-<attribute name="RDC" value="3.1Ohm"/>
-<attribute name="VALUE" value="18mH"/>
-<attribute name="VR" value="300  V (AC) "/>
-<attribute name="VT" value="2500  V (AC) "/>
-</technology>
-<technology name="_744862250">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/744862250.pdf"/>
-<attribute name="IR" value="0.25A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 744862250 "/>
-<attribute name="RDC" value="3.6Ohm"/>
-<attribute name="VALUE" value="25mH"/>
-<attribute name="VR" value="300  V (AC) "/>
-<attribute name="VT" value="2500  V (AC) "/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="750370288" prefix="T">
-<description>&lt;b&gt;WE-OLEE EE-Style Offline Flyback Transformers
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;br&gt; &lt;/b&gt;&lt;/b&gt;Switching Frequency 50-150kHz
-&lt;br&gt; Low real estate
-&lt;br&gt; Extended Rails
-&lt;br&gt; Reinforced Insulation
-&lt;br&gt; IEC60950-1, EN60950-1, UL60950-1/CSA60950-1 and AS/NZS60950.1
-&lt;br&gt; Operating Temp: -40°C to +125°C
- 
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;Offline Switching Power
-&lt;br&gt; Power Electronics
-&lt;br&gt; Electronic Ballasts
-&lt;br&gt; White Goods
-&lt;br&gt; Industrial Controls
-&lt;br&gt; Industrial Telecom
-&lt;br&gt; Metering
-&lt;br&gt; LED Lighting
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o32894v209%20Family_MID-OLEE.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/en/components/products/WE-OLEE"&gt;www.we-online.com/en/components/products/WE-OLEE&lt;/a&gt;&lt;p&gt;
-
-Created by Ella Wu 2023-04-11&lt;br&gt;
-2023 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="750370288" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-OLEE_EE20/10/6">
-<connects>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40001872/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46757299/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750370288?ae"/>
-<attribute name="F-SWTICH" value="65kHz"/>
-<attribute name="HEIGHT" value="23.24mm"/>
-<attribute name="IOUT1" value="1A"/>
-<attribute name="ISAT1" value="1050mA"/>
-<attribute name="L1" value="1.7mH"/>
-<attribute name="LENGTH" value="22.25mm"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="N" value="16.88:1:1.88"/>
-<attribute name="PART-NUMBER" value=" 750370288 "/>
-<attribute name="VALUE" value=" 750370288 "/>
-<attribute name="VAUX" value="17V"/>
-<attribute name="VIN" value="85 - 265 V (AC)"/>
-<attribute name="VOUT1" value="5V"/>
-<attribute name="VT" value="3000V (AC)"/>
-<attribute name="WIDTH" value="14.4mm"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="750370228" prefix="T">
-<description>&lt;b&gt;WE-OLSTM Offline Flyback Transformers
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Characteristics
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;&lt;/b&gt; Nominal input voltage: 85–265 VAC (120–375 VDC)
-&lt;br&gt;Operating temperature: –40 °C to +125 °C
-&lt;br&gt;Isolation voltage: 2 kVAC up to 5 kVAC
-&lt;br&gt;Multiple output options
-&lt;br&gt;Options for fixed frequency or quasi-resonant mode operation
-&lt;br&gt;Most products meet reinforced insulation
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt; Applications
-&lt;br&gt;
-&lt;br&gt;&lt;/b&gt;Offline-switch mode power supplies
-&lt;br&gt;Especially designed for several ICs from STMicroelectronics
-&lt;br&gt;Auxiliary power supply
-&lt;br&gt;Home appliances
-&lt;br&gt;Consumer electronics
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o781306v209%20FAMILY-MID-OLSTM.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o781306v209%20FAMILY-MID-OLSTM.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/en/components/products/WE-OLSTM/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/WE-OLSTM&lt;/a&gt;&lt;p&gt;
-
-Created by Leviosa 2024-04-15&lt;br&gt;
-2024(C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="WE-OLSTM_EE20_3W:1W_CENTERTAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WE-OLSTM_EE20_L22.2W25H16">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:45019244/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/750370228?ae"/>
-<attribute name="FSWITCH" value="50 - 60kHz"/>
-<attribute name="IOUT1" value="1250mA"/>
-<attribute name="ISAT" value="1325mA"/>
-<attribute name="L" value="1.5mH"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="N" value="8:1:1"/>
-<attribute name="PART-NUMBER" value=" 750370228 "/>
-<attribute name="SIZE" value="EE20/10/6"/>
-<attribute name="VALUE" value=" 750370228 "/>
-<attribute name="VAUX" value="12V"/>
-<attribute name="VIN" value="85 - 265 V (AC)"/>
-<attribute name="VOUT1" value="12V"/>
-<attribute name="VT" value="3900V(AC)"/>
+<attribute name="MANUFACTURER" value="Signal"/>
+<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="41.3mm"/>
+<attribute name="PARTREV" value="12.19"/>
+<attribute name="STANDARD" value="Manufacturer Recommendations"/>
 </technology>
 </technologies>
 </device>

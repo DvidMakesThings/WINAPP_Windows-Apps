@@ -2882,46 +2882,46 @@ package type TQ</description>
 <text x="2.54" y="-58.42" size="1.778" layer="96">RP2040</text>
 </symbol>
 <symbol name="RP2350A">
-<pin name="GPIO0" x="22.86" y="33.02" length="middle" rot="R180"/>
-<pin name="GPIO1" x="22.86" y="30.48" length="middle" rot="R180"/>
-<pin name="GPIO2" x="22.86" y="27.94" length="middle" rot="R180"/>
-<pin name="GPIO3" x="22.86" y="25.4" length="middle" rot="R180"/>
-<pin name="GPIO4" x="22.86" y="22.86" length="middle" rot="R180"/>
-<pin name="GPIO5" x="22.86" y="20.32" length="middle" rot="R180"/>
-<pin name="GPIO6" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="GPIO7" x="22.86" y="15.24" length="middle" rot="R180"/>
-<pin name="GPIO8" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="GPIO9" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="GPIO10" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="GPIO11" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="GPIO12" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="GPIO13" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="GPIO14" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="GPIO15" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="GPIO16" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="GPIO17" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="GPIO18" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="GPIO19" x="22.86" y="-15.24" length="middle" rot="R180"/>
-<pin name="GPIO20" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="GPIO21" x="22.86" y="-20.32" length="middle" rot="R180"/>
-<pin name="GPIO22" x="22.86" y="-22.86" length="middle" rot="R180"/>
-<pin name="GPIO23" x="22.86" y="-25.4" length="middle" rot="R180"/>
-<pin name="GPIO24" x="22.86" y="-27.94" length="middle" rot="R180"/>
-<pin name="GPIO25" x="22.86" y="-30.48" length="middle" rot="R180"/>
-<pin name="GPIO26_ADC0" x="22.86" y="-33.02" length="middle" rot="R180"/>
-<pin name="GPIO27_ADC1" x="22.86" y="-35.56" length="middle" rot="R180"/>
-<pin name="GPIO28_ADC2" x="22.86" y="-38.1" length="middle" rot="R180"/>
-<pin name="GPIO29_ADC3" x="22.86" y="-40.64" length="middle" rot="R180"/>
+<pin name="#UART0_TX/I2C0_SDA/SPI0_MISO/GPIO0" x="48.26" y="40.64" length="middle" rot="R180"/>
+<pin name="#UART0_RX/I2C0_SCL/SPI0_CS/GPIO1" x="48.26" y="38.1" length="middle" rot="R180"/>
+<pin name="UART0_CTS/I2C1_SDA/SPI0_SCK/GPIO2" x="48.26" y="35.56" length="middle" rot="R180"/>
+<pin name="UART0_RTS/I2C1_SCL/SPI0_MOSI/GPIO3" x="48.26" y="33.02" length="middle" rot="R180"/>
+<pin name="UART1_TX/#I2C0_SDA/SPI0_MISO/GPIO4" x="48.26" y="30.48" length="middle" rot="R180"/>
+<pin name="UART1_RX/#I2C0_SCL/SPI0_CS/GPIO5" x="48.26" y="27.94" length="middle" rot="R180"/>
+<pin name="UART1_CTS/I2C1_SDA/SPI0_SCK/GPIO6" x="48.26" y="25.4" length="middle" rot="R180"/>
+<pin name="UART1_RTS/I2C1_SCL/SPI0_MOSI/GPIO7" x="48.26" y="22.86" length="middle" rot="R180"/>
+<pin name="UART1_TX/I2C0_SDA/SPI1_MOSI/GPIO8" x="48.26" y="15.24" length="middle" rot="R180"/>
+<pin name="UART1_RX/I2C0_SCL/SPI1_CS/GPIO9" x="48.26" y="12.7" length="middle" rot="R180"/>
+<pin name="UART1_CTS/I2C1_SDA/SPI1_SCK/GPIO10" x="48.26" y="10.16" length="middle" rot="R180"/>
+<pin name="UART1_RTS/I2C1_SCL/SPI1_MOSI/GPIO11" x="48.26" y="7.62" length="middle" rot="R180"/>
+<pin name="UART0_TX/I2C0_SDA/SPI1_MISO/GPIO12" x="48.26" y="5.08" length="middle" rot="R180"/>
+<pin name="UART0_RX/I2C0_SCL/SPI1_CS/GPIO13" x="48.26" y="2.54" length="middle" rot="R180"/>
+<pin name="UART0_CTS/I2C1_SDA/SPI1_SCK/GPIO14" x="48.26" y="0" length="middle" rot="R180"/>
+<pin name="UART0_RTS/I2C1_SCL/SPI1_MOSIGPIO15" x="48.26" y="-2.54" length="middle" rot="R180"/>
+<pin name="UART0_TX/I2C0_SDA/#SPI0_MISO/GPIO16" x="48.26" y="-10.16" length="middle" rot="R180"/>
+<pin name="UART0_RX/I2C0_SCL/#SPI0_CS/GPIO17" x="48.26" y="-12.7" length="middle" rot="R180"/>
+<pin name="UART0_CTS/I2C1_SDA/#SPI0_SCK/GPIO18" x="48.26" y="-15.24" length="middle" rot="R180"/>
+<pin name="UART0_RTS/I2C1_SCL/#SPI0_MOSI/GPIO19" x="48.26" y="-17.78" length="middle" rot="R180"/>
+<pin name="I2C0_SDA/GPIO20" x="48.26" y="-20.32" length="middle" rot="R180"/>
+<pin name="I2C0_SCL/GPIO21" x="48.26" y="-22.86" length="middle" rot="R180"/>
+<pin name="GPIO22" x="48.26" y="-25.4" length="middle" rot="R180"/>
+<pin name="GPIO23" x="48.26" y="-27.94" length="middle" rot="R180"/>
+<pin name="GPIO24" x="48.26" y="-35.56" length="middle" rot="R180"/>
+<pin name="GPIO25" x="48.26" y="-38.1" length="middle" rot="R180"/>
+<pin name="I2C1_SDA/ADC0/GPIO26" x="48.26" y="-40.64" length="middle" rot="R180"/>
+<pin name="I2C1_SCL/ADC1/GPIO27" x="48.26" y="-43.18" length="middle" rot="R180"/>
+<pin name="ADC2/GPIO28" x="48.26" y="-45.72" length="middle" rot="R180"/>
+<pin name="ADC3/GPIO29" x="48.26" y="-48.26" length="middle" rot="R180"/>
 <pin name="IOVDD" x="-22.86" y="35.56" length="middle" direction="pwr"/>
 <pin name="DVDD" x="-22.86" y="40.64" length="middle" direction="pwr"/>
 <pin name="QSPI_IOVDD" x="-22.86" y="33.02" length="middle" direction="pwr"/>
 <pin name="ADC_AVDD" x="-22.86" y="30.48" length="middle" direction="pwr"/>
-<pin name="GND" x="-22.86" y="-40.64" length="middle" direction="pwr"/>
+<pin name="GND" x="-22.86" y="-48.26" length="middle" direction="pwr"/>
 <pin name="XIN" x="-22.86" y="-15.24" length="middle" direction="in"/>
 <pin name="XOUT" x="-22.86" y="-17.78" length="middle" direction="out"/>
-<pin name="SWCLK" x="-22.86" y="-33.02" length="middle"/>
-<pin name="SWDIO" x="-22.86" y="-35.56" length="middle"/>
-<pin name="RUN" x="-22.86" y="-27.94" length="middle"/>
+<pin name="SWCLK" x="-22.86" y="-40.64" length="middle"/>
+<pin name="SWDIO" x="-22.86" y="-43.18" length="middle"/>
+<pin name="RUN" x="-22.86" y="-35.56" length="middle"/>
 <pin name="VREG_FB" x="-22.86" y="20.32" length="middle" direction="pwr"/>
 <pin name="VREG_IN" x="-22.86" y="22.86" length="middle" direction="pwr"/>
 <pin name="VREG_LX" x="-22.86" y="17.78" length="middle" direction="pwr"/>
@@ -2934,14 +2934,14 @@ package type TQ</description>
 <pin name="QSPI_SCLK" x="-22.86" y="-5.08" length="middle"/>
 <pin name="QSPI_SD3" x="-22.86" y="-2.54" length="middle"/>
 <pin name="USB_OTP_VDD" x="-22.86" y="38.1" length="middle"/>
-<pin name="USB_DP" x="22.86" y="40.64" length="middle" rot="R180"/>
-<pin name="USB_DM" x="22.86" y="38.1" length="middle" rot="R180"/>
-<wire x1="-17.78" y1="43.18" x2="17.78" y2="43.18" width="0.254" layer="94"/>
-<wire x1="17.78" y1="43.18" x2="17.78" y2="-43.18" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-43.18" x2="-17.78" y2="-43.18" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-43.18" x2="-17.78" y2="43.18" width="0.254" layer="94"/>
-<text x="15.24" y="45.72" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<text x="-15.24" y="-45.72" size="1.778" layer="96">RP2350A</text>
+<pin name="USB_DP" x="-22.86" y="-27.94" length="middle"/>
+<pin name="USB_DM" x="-22.86" y="-25.4" length="middle"/>
+<wire x1="-17.78" y1="43.18" x2="43.18" y2="43.18" width="0.254" layer="94"/>
+<wire x1="43.18" y1="43.18" x2="43.18" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="43.18" y1="-50.8" x2="-17.78" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-50.8" x2="-17.78" y2="43.18" width="0.254" layer="94"/>
+<text x="40.64" y="45.72" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<text x="-15.24" y="-53.34" size="1.778" layer="96">RP2350A</text>
 </symbol>
 <symbol name="RP2350B">
 <pin name="GPIO0" x="22.86" y="53.34" length="middle" rot="R180"/>
@@ -4200,39 +4200,21 @@ features include:
 <devices>
 <device name="A" package="QFN40P700X700X85-61T340N">
 <connects>
+<connect gate="G$1" pin="#UART0_RX/I2C0_SCL/SPI0_CS/GPIO1" pad="3"/>
+<connect gate="G$1" pin="#UART0_TX/I2C0_SDA/SPI0_MISO/GPIO0" pad="2"/>
+<connect gate="G$1" pin="ADC2/GPIO28" pad="42"/>
+<connect gate="G$1" pin="ADC3/GPIO29" pad="43"/>
 <connect gate="G$1" pin="ADC_AVDD" pad="44"/>
 <connect gate="G$1" pin="DVDD" pad="6 23 39"/>
 <connect gate="G$1" pin="GND" pad="61"/>
-<connect gate="G$1" pin="GPIO0" pad="2"/>
-<connect gate="G$1" pin="GPIO1" pad="3"/>
-<connect gate="G$1" pin="GPIO10" pad="14"/>
-<connect gate="G$1" pin="GPIO11" pad="15"/>
-<connect gate="G$1" pin="GPIO12" pad="16"/>
-<connect gate="G$1" pin="GPIO13" pad="17"/>
-<connect gate="G$1" pin="GPIO14" pad="18"/>
-<connect gate="G$1" pin="GPIO15" pad="19"/>
-<connect gate="G$1" pin="GPIO16" pad="27"/>
-<connect gate="G$1" pin="GPIO17" pad="28"/>
-<connect gate="G$1" pin="GPIO18" pad="29"/>
-<connect gate="G$1" pin="GPIO19" pad="31"/>
-<connect gate="G$1" pin="GPIO2" pad="4"/>
-<connect gate="G$1" pin="GPIO20" pad="32"/>
-<connect gate="G$1" pin="GPIO21" pad="33"/>
 <connect gate="G$1" pin="GPIO22" pad="34"/>
 <connect gate="G$1" pin="GPIO23" pad="35"/>
 <connect gate="G$1" pin="GPIO24" pad="36"/>
 <connect gate="G$1" pin="GPIO25" pad="37"/>
-<connect gate="G$1" pin="GPIO26_ADC0" pad="40"/>
-<connect gate="G$1" pin="GPIO27_ADC1" pad="41"/>
-<connect gate="G$1" pin="GPIO28_ADC2" pad="42"/>
-<connect gate="G$1" pin="GPIO29_ADC3" pad="43"/>
-<connect gate="G$1" pin="GPIO3" pad="5"/>
-<connect gate="G$1" pin="GPIO4" pad="7"/>
-<connect gate="G$1" pin="GPIO5" pad="8"/>
-<connect gate="G$1" pin="GPIO6" pad="9"/>
-<connect gate="G$1" pin="GPIO7" pad="10"/>
-<connect gate="G$1" pin="GPIO8" pad="12"/>
-<connect gate="G$1" pin="GPIO9" pad="13"/>
+<connect gate="G$1" pin="I2C0_SCL/GPIO21" pad="33"/>
+<connect gate="G$1" pin="I2C0_SDA/GPIO20" pad="32"/>
+<connect gate="G$1" pin="I2C1_SCL/ADC1/GPIO27" pad="41"/>
+<connect gate="G$1" pin="I2C1_SDA/ADC0/GPIO26" pad="40"/>
 <connect gate="G$1" pin="IOVDD" pad="1 11 20 30 38 45"/>
 <connect gate="G$1" pin="QSPI_IOVDD" pad="54"/>
 <connect gate="G$1" pin="QSPI_SCLK" pad="56"/>
@@ -4244,6 +4226,24 @@ features include:
 <connect gate="G$1" pin="RUN" pad="26"/>
 <connect gate="G$1" pin="SWCLK" pad="24"/>
 <connect gate="G$1" pin="SWDIO" pad="25"/>
+<connect gate="G$1" pin="UART0_CTS/I2C1_SDA/#SPI0_SCK/GPIO18" pad="29"/>
+<connect gate="G$1" pin="UART0_CTS/I2C1_SDA/SPI0_SCK/GPIO2" pad="4"/>
+<connect gate="G$1" pin="UART0_CTS/I2C1_SDA/SPI1_SCK/GPIO14" pad="18"/>
+<connect gate="G$1" pin="UART0_RTS/I2C1_SCL/#SPI0_MOSI/GPIO19" pad="31"/>
+<connect gate="G$1" pin="UART0_RTS/I2C1_SCL/SPI0_MOSI/GPIO3" pad="5"/>
+<connect gate="G$1" pin="UART0_RTS/I2C1_SCL/SPI1_MOSIGPIO15" pad="19"/>
+<connect gate="G$1" pin="UART0_RX/I2C0_SCL/#SPI0_CS/GPIO17" pad="28"/>
+<connect gate="G$1" pin="UART0_RX/I2C0_SCL/SPI1_CS/GPIO13" pad="17"/>
+<connect gate="G$1" pin="UART0_TX/I2C0_SDA/#SPI0_MISO/GPIO16" pad="27"/>
+<connect gate="G$1" pin="UART0_TX/I2C0_SDA/SPI1_MISO/GPIO12" pad="16"/>
+<connect gate="G$1" pin="UART1_CTS/I2C1_SDA/SPI0_SCK/GPIO6" pad="9"/>
+<connect gate="G$1" pin="UART1_CTS/I2C1_SDA/SPI1_SCK/GPIO10" pad="14"/>
+<connect gate="G$1" pin="UART1_RTS/I2C1_SCL/SPI0_MOSI/GPIO7" pad="10"/>
+<connect gate="G$1" pin="UART1_RTS/I2C1_SCL/SPI1_MOSI/GPIO11" pad="15"/>
+<connect gate="G$1" pin="UART1_RX/#I2C0_SCL/SPI0_CS/GPIO5" pad="8"/>
+<connect gate="G$1" pin="UART1_RX/I2C0_SCL/SPI1_CS/GPIO9" pad="13"/>
+<connect gate="G$1" pin="UART1_TX/#I2C0_SDA/SPI0_MISO/GPIO4" pad="7"/>
+<connect gate="G$1" pin="UART1_TX/I2C0_SDA/SPI1_MOSI/GPIO8" pad="12"/>
 <connect gate="G$1" pin="USB_DM" pad="51"/>
 <connect gate="G$1" pin="USB_DP" pad="52"/>
 <connect gate="G$1" pin="USB_OTP_VDD" pad="53"/>
