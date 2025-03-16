@@ -159,7 +159,7 @@
 </layers>
 <library>
 <packages>
-<package name="POWERDI3333-8_UX_DIO-L" urn="urn:adsk.eagle:footprint:47392600/1">
+<package name="POWERDI3333-8_UX_DIO-L" urn="urn:adsk.eagle:footprint:47392600/1" locally_modified="yes">
 <smd name="1" x="-1.5494" y="0.975" dx="0.7112" dy="0.3556" layer="1"/>
 <smd name="2" x="-1.5494" y="0.325" dx="0.7112" dy="0.3556" layer="1"/>
 <smd name="3" x="-1.5494" y="-0.325" dx="0.7112" dy="0.3556" layer="1"/>
@@ -168,12 +168,6 @@
 <smd name="6" x="1.5494" y="-0.325" dx="0.7112" dy="0.3556" layer="1"/>
 <smd name="7" x="1.5494" y="0.325" dx="0.7112" dy="0.3556" layer="1"/>
 <smd name="8" x="1.5494" y="0.975" dx="0.7112" dy="0.3556" layer="1"/>
-<polygon width="0.1524" layer="1">
-<vertex x="1.2192" y="1.3462"/>
-<vertex x="-0.7874" y="1.3462"/>
-<vertex x="-0.7874" y="-1.3462"/>
-<vertex x="1.2192" y="-1.3462"/>
-</polygon>
 <polygon width="0.1524" layer="29">
 <vertex x="1.2192" y="1.3462"/>
 <vertex x="-0.7874" y="1.3462"/>
@@ -205,6 +199,7 @@
 <wire x1="0.3048" y1="1.7018" x2="-0.3048" y2="1.7018" width="0.1524" layer="51" curve="-180"/>
 <text x="-3.0226" y="2.3368" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-3.0226" y="-3.7084" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<smd name="9" x="0.2" y="0" dx="2.1" dy="2.69" layer="1"/>
 </package>
 <package name="SO8" urn="urn:adsk.eagle:footprint:220471/2">
 <description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;</description>
@@ -403,7 +398,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="POWERDI3333-8_UX_DIO-L" urn="urn:adsk.eagle:package:47392603/2" type="model">
+<package3d name="POWERDI3333-8_UX_DIO-L" urn="urn:adsk.eagle:package:47392603/2" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="POWERDI3333-8_UX_DIO-L"/>
 </packageinstances>
@@ -693,7 +688,7 @@
 <devices>
 <device name="POWERDI3333-8_UX_DIO" package="POWERDI3333-8_UX_DIO-L">
 <connects>
-<connect gate="A" pin="D" pad="8"/>
+<connect gate="A" pin="D" pad="8 9"/>
 <connect gate="A" pin="D_2" pad="5"/>
 <connect gate="A" pin="D_3" pad="6"/>
 <connect gate="A" pin="D_4" pad="7"/>
