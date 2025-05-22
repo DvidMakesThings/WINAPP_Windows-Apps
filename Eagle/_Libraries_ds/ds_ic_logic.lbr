@@ -785,14 +785,14 @@ Philips Semiconductors, SOT363.pdf</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="74LVC1G04" urn="urn:adsk.eagle:symbol:46684128/1">
+<symbol name="74LVC1G04" urn="urn:adsk.eagle:symbol:46684128/1" locally_modified="yes">
 <circle x="8.89" y="0" radius="1.27" width="0.1524" layer="94"/>
-<pin name="IN" x="-5.08" y="0" visible="off" length="short"/>
-<pin name="OUT" x="12.7" y="0" visible="off" length="short" rot="R180"/>
-<pin name="V+" x="2.54" y="5.08" visible="off" length="short" rot="R270"/>
-<pin name="V-" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
-<text x="5.08" y="2.54" size="1.4224" layer="96">74LVC1G04</text>
-<text x="5.08" y="5.08" size="1.4224" layer="95">&gt;NAME</text>
+<pin name="IN" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="OUT" x="12.7" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="V+" x="2.54" y="5.08" visible="pad" length="short" rot="R270"/>
+<pin name="V-" x="2.54" y="-5.08" visible="pad" length="short" rot="R90"/>
+<text x="5.08" y="-7.62" size="1.4224" layer="96">&gt;VALUE</text>
+<text x="5.08" y="-5.08" size="1.4224" layer="95">&gt;NAME</text>
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="-2.54" y1="5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
 <wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
@@ -1123,7 +1123,7 @@ Philips Semiconductors, SOT363.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="74LVC1G04" urn="urn:adsk.eagle:component:46684147/1" locally_modified="yes" prefix="IC">
+<deviceset name="74LVC1G04" urn="urn:adsk.eagle:component:46684147/1" locally_modified="yes" prefix="IC" uservalue="yes">
 <description>Single inverter</description>
 <gates>
 <gate name="G$1" symbol="74LVC1G04" x="0" y="0"/>
