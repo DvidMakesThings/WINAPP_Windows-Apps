@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -181,7 +181,7 @@
 <text x="0" y="2.274" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.834" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SON127P600X500X75-8N" urn="urn:adsk.eagle:footprint:45369669/1">
+<package name="SON127P600X500X75-8N" urn="urn:adsk.eagle:footprint:45369669/1" locally_modified="yes">
 <description>8-SON (DFN), 1.27 mm pitch, 5.00 X 6.00 X 0.75 mm body
 &lt;p&gt;8-pin SON (DFN) package with 1.27 mm pitch with body size 5.00 X 6.00 X 0.75 mm&lt;/p&gt;</description>
 <circle x="-3.504" y="2.6249" radius="0.25" width="0" layer="21"/>
@@ -205,6 +205,7 @@
 <smd name="8" x="2.85" y="1.905" dx="1.0118" dy="0.4318" layer="1" roundness="100"/>
 <text x="0" y="3.5099" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.135" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<smd name="PAD" x="0" y="0" dx="3.4" dy="4.3" layer="1"/>
 </package>
 <package name="BGA96C80P6X16_800X1400X120" urn="urn:adsk.eagle:footprint:48272613/1">
 <rectangle x1="-0.9" y1="-7" x2="0.9" y2="7" layer="43"/>
@@ -590,6 +591,92 @@
 <smd name="T8" x="2.4" y="-6" dx="0.43" dy="0.43" layer="1" roundness="100"/>
 <smd name="T9" x="3.2" y="-6" dx="0.43" dy="0.43" layer="1" roundness="100"/>
 </package>
+<package name="BGA25C100P5X5_800X600X120N" urn="urn:adsk.eagle:footprint:48547598/1" locally_modified="yes">
+<description>25-BGA, collapsing, 1.00 mm pitch, 8.00 X 6.00 X 1.20 mm body
+&lt;p&gt;25-pin collapsing BGA package with 1.00 mm col pitch and 1.00 mm row pitch with body size 8.00 X 6.00 X 1.20 mm&lt;/p&gt;</description>
+<circle x="-3.554" y="2" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.05" y1="2.525" x2="-3.05" y2="4.05" width="0.12" layer="21"/>
+<wire x1="-3.05" y1="4.05" x2="-1.525" y2="4.05" width="0.12" layer="21"/>
+<wire x1="3.05" y1="2.525" x2="3.05" y2="4.05" width="0.12" layer="21"/>
+<wire x1="3.05" y1="4.05" x2="1.525" y2="4.05" width="0.12" layer="21"/>
+<wire x1="3.05" y1="-2.525" x2="3.05" y2="-4.05" width="0.12" layer="21"/>
+<wire x1="3.05" y1="-4.05" x2="1.525" y2="-4.05" width="0.12" layer="21"/>
+<wire x1="-3.05" y1="-2.525" x2="-3.05" y2="-4.05" width="0.12" layer="21"/>
+<wire x1="-3.05" y1="-4.05" x2="-1.525" y2="-4.05" width="0.12" layer="21"/>
+<wire x1="3.05" y1="-4.05" x2="-3.05" y2="-4.05" width="0.12" layer="51"/>
+<wire x1="-3.05" y1="-4.05" x2="-3.05" y2="4.05" width="0.12" layer="51"/>
+<wire x1="-3.05" y1="4.05" x2="3.05" y2="4.05" width="0.12" layer="51"/>
+<wire x1="3.05" y1="4.05" x2="3.05" y2="-4.05" width="0.12" layer="51"/>
+<smd name="A2" x="-1" y="2" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="A3" x="0" y="2" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="A4" x="1" y="2" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="A5" x="2" y="2" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="B1" x="-2" y="1" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="B2" x="-1" y="1" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="B3" x="0" y="1" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="B4" x="1" y="1" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="B5" x="2" y="1" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="C1" x="-2" y="0" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="C2" x="-1" y="0" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="C3" x="0" y="0" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="C4" x="1" y="0" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="C5" x="2" y="0" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="D1" x="-2" y="-1" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="D2" x="-1" y="-1" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="D3" x="0" y="-1" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="D4" x="1" y="-1" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="D5" x="2" y="-1" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="E1" x="-2" y="-2" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="E2" x="-1" y="-2" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="E3" x="0" y="-2" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="E4" x="1" y="-2" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="E5" x="2" y="-2" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<text x="0" y="4.685" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.685" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="BGA24C100P4X6_800X600X120N" urn="urn:adsk.eagle:footprint:48547603/1">
+<description>24-BGA, collapsing, 1.00 mm pitch, 8.00 X 6.00 X 1.20 mm body
+&lt;p&gt;24-pin collapsing BGA package with 1.00 mm col pitch and 1.00 mm row pitch with body size 8.00 X 6.00 X 1.20 mm&lt;/p&gt;</description>
+<circle x="-3.534" y="2.5" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.03" y1="2.51" x2="-3.03" y2="4.025" width="0.12" layer="21"/>
+<wire x1="-3.03" y1="4.025" x2="-1.515" y2="4.025" width="0.12" layer="21"/>
+<wire x1="3.03" y1="2.51" x2="3.03" y2="4.025" width="0.12" layer="21"/>
+<wire x1="3.03" y1="4.025" x2="1.515" y2="4.025" width="0.12" layer="21"/>
+<wire x1="3.03" y1="-2.51" x2="3.03" y2="-4.025" width="0.12" layer="21"/>
+<wire x1="3.03" y1="-4.025" x2="1.515" y2="-4.025" width="0.12" layer="21"/>
+<wire x1="-3.03" y1="-2.51" x2="-3.03" y2="-4.025" width="0.12" layer="21"/>
+<wire x1="-3.03" y1="-4.025" x2="-1.515" y2="-4.025" width="0.12" layer="21"/>
+<wire x1="3.03" y1="-4.025" x2="-3.03" y2="-4.025" width="0.12" layer="51"/>
+<wire x1="-3.03" y1="-4.025" x2="-3.03" y2="4.025" width="0.12" layer="51"/>
+<wire x1="-3.03" y1="4.025" x2="3.03" y2="4.025" width="0.12" layer="51"/>
+<wire x1="3.03" y1="4.025" x2="3.03" y2="-4.025" width="0.12" layer="51"/>
+<smd name="A1" x="-1.5" y="2.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="A2" x="-0.5" y="2.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="A3" x="0.5" y="2.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="A4" x="1.5" y="2.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="B1" x="-1.5" y="1.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="B2" x="-0.5" y="1.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="B3" x="0.5" y="1.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="B4" x="1.5" y="1.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="C1" x="-1.5" y="0.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="C2" x="-0.5" y="0.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="C3" x="0.5" y="0.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="C4" x="1.5" y="0.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="D1" x="-1.5" y="-0.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="D2" x="-0.5" y="-0.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="D3" x="0.5" y="-0.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="D4" x="1.5" y="-0.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="E1" x="-1.5" y="-1.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="E2" x="-0.5" y="-1.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="E3" x="0.5" y="-1.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="E4" x="1.5" y="-1.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="F1" x="-1.5" y="-2.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="F2" x="-0.5" y="-2.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="F3" x="0.5" y="-2.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<smd name="F4" x="1.5" y="-2.5" dx="0.35" dy="0.35" layer="1" roundness="100" thermals="no"/>
+<text x="0" y="4.66" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.66" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SON50P300X200X50-9T130X140N" urn="urn:adsk.eagle:package:45817778/1" type="model">
@@ -604,7 +691,7 @@
 <packageinstance name="BGA96C80P6X16_800X1400X120"/>
 </packageinstances>
 </package3d>
-<package3d name="SON127P600X500X75-8N" urn="urn:adsk.eagle:package:45369668/1" type="model">
+<package3d name="SON127P600X500X75-8N" urn="urn:adsk.eagle:package:45369668/1" locally_modified="yes" type="model">
 <description>8-SON (DFN), 1.27 mm pitch, 5.00 X 6.00 X 0.75 mm body
 &lt;p&gt;8-pin SON (DFN) package with 1.27 mm pitch with body size 5.00 X 6.00 X 0.75 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -629,6 +716,20 @@
 <package3d name="DIP16" urn="urn:adsk.eagle:package:48272628/1" type="box">
 <packageinstances>
 <packageinstance name="DIP16"/>
+</packageinstances>
+</package3d>
+<package3d name="BGA25C100P5X5_800X600X120N" urn="urn:adsk.eagle:package:48547597/1" locally_modified="yes" type="model">
+<description>25-BGA, collapsing, 1.00 mm pitch, 8.00 X 6.00 X 1.20 mm body
+&lt;p&gt;25-pin collapsing BGA package with 1.00 mm col pitch and 1.00 mm row pitch with body size 8.00 X 6.00 X 1.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="BGA25C100P5X5_800X600X120N"/>
+</packageinstances>
+</package3d>
+<package3d name="BGA24C100P4X6_800X600X120N" urn="urn:adsk.eagle:package:48547600/1" type="box">
+<description>24-BGA, collapsing, 1.00 mm pitch, 8.00 X 6.00 X 1.20 mm body
+&lt;p&gt;24-pin collapsing BGA package with 1.00 mm col pitch and 1.00 mm row pitch with body size 8.00 X 6.00 X 1.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="BGA24C100P4X6_800X600X120N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -697,7 +798,7 @@
 <pin name="ZQ" x="17.78" y="-48.26" length="middle" direction="pas" rot="R180"/>
 <pin name="NC" x="-17.78" y="-48.26" length="middle" direction="nc"/>
 </symbol>
-<symbol name="W25Q128JV" urn="urn:adsk.eagle:symbol:48272620/1">
+<symbol name="W25Q128JV" urn="urn:adsk.eagle:symbol:48272620/1" locally_modified="yes">
 <pin name="!CS" x="-15.24" y="0" length="middle"/>
 <pin name="DO/IO1" x="17.78" y="0" length="middle" rot="R180"/>
 <pin name="!WP!/IO2" x="17.78" y="-2.54" length="middle" rot="R180"/>
@@ -1058,7 +1159,7 @@ for high reliability applications.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="W25Q128JV" urn="urn:adsk.eagle:component:48272636/1" prefix="IC" uservalue="yes">
+<deviceset name="W25Q128JV" urn="urn:adsk.eagle:component:48272636/1" locally_modified="yes" prefix="IC" uservalue="yes">
 <description>3V 128M-BIT
 SERIAL FLASH MEMORY WITH
 DUAL/QUAD SPI &amp; QPI &amp; DTR</description>
@@ -1074,11 +1175,47 @@ DUAL/QUAD SPI &amp; QPI &amp; DTR</description>
 <connect gate="G$1" pin="CLK" pad="6"/>
 <connect gate="G$1" pin="DI/IO0" pad="5"/>
 <connect gate="G$1" pin="DO/IO1" pad="2"/>
-<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="GND" pad="4 PAD"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:45369668/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B" package="BGA25C100P5X5_800X600X120N">
+<connects>
+<connect gate="G$1" pin="!CS" pad="C2"/>
+<connect gate="G$1" pin="!HOLD!/IO3" pad="D4"/>
+<connect gate="G$1" pin="!WP!/IO2" pad="C4"/>
+<connect gate="G$1" pin="CLK" pad="B2"/>
+<connect gate="G$1" pin="DI/IO0" pad="D3"/>
+<connect gate="G$1" pin="DO/IO1" pad="D2"/>
+<connect gate="G$1" pin="GND" pad="B3"/>
+<connect gate="G$1" pin="VCC" pad="B4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:48547597/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C" package="BGA24C100P4X6_800X600X120N">
+<connects>
+<connect gate="G$1" pin="!CS" pad="C2"/>
+<connect gate="G$1" pin="!HOLD!/IO3" pad="D4"/>
+<connect gate="G$1" pin="!WP!/IO2" pad="C4"/>
+<connect gate="G$1" pin="CLK" pad="B2"/>
+<connect gate="G$1" pin="DI/IO0" pad="D3"/>
+<connect gate="G$1" pin="DO/IO1" pad="D2"/>
+<connect gate="G$1" pin="GND" pad="B3"/>
+<connect gate="G$1" pin="VCC" pad="B4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:48547600/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
