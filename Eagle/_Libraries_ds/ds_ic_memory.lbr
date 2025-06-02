@@ -725,7 +725,7 @@
 <packageinstance name="BGA25C100P5X5_800X600X120N"/>
 </packageinstances>
 </package3d>
-<package3d name="BGA24C100P4X6_800X600X120N" urn="urn:adsk.eagle:package:48547600/1" type="box">
+<package3d name="BGA24C100P4X6_800X600X120N" urn="urn:adsk.eagle:package:48547600/2" type="model">
 <description>24-BGA, collapsing, 1.00 mm pitch, 8.00 X 6.00 X 1.20 mm body
 &lt;p&gt;24-pin collapsing BGA package with 1.00 mm col pitch and 1.00 mm row pitch with body size 8.00 X 6.00 X 1.20 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -812,7 +812,7 @@
 <wire x1="12.7" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
 <text x="10.16" y="7.62" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<text x="-10.16" y="-10.16" size="1.778" layer="96">W25Q128JV</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="SST25VF016B" urn="urn:adsk.eagle:symbol:48272621/1">
 <wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
@@ -1215,7 +1215,7 @@ DUAL/QUAD SPI &amp; QPI &amp; DTR</description>
 <connect gate="G$1" pin="VCC" pad="B4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:48547600/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:48547600/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>

@@ -13,7 +13,9 @@ def convert_to_ico(input_file, output_file="output.ico"):
         print(f"Error: {e}")
 
 def main():
-    parser = argparse.ArgumentParser(description="Convert an image to ICO format.")
+    parser = argparse.ArgumentParser(
+        description="Convert an image to ICO format."
+    )
     parser.add_argument("image", help="Path to the input image (PNG, JPG, etc.)")
     parser.add_argument("-o", "--output", help="Output ICO filename (default: output.ico)", default="output.ico")
     parser.add_argument("--delete", action="store_true", help="Delete the original image after conversion")
