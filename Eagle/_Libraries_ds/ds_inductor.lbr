@@ -750,6 +750,54 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="1MH" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="L-12.5X12.5" package="L-12.5X12.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989893/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="550mA 1mH Shielded inductor ±20% 1A SMD,12.3x12.3mm Power Inductors ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C37485" constant="no"/>
+<attribute name="VALUE" value="1mH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="L-6.6X6.6" package="L-6.6X6.6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12989888/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="260mA 1mH ±20% 220mA SMD,6x6mm Power Inductors ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C168049" constant="no"/>
+<attribute name="VALUE" value="1mH" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="L-7.3X7.3" package="L-7.3X7.3">
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="250mA 1mH ±20% SMD Power Inductors ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C364094" constant="no"/>
+<attribute name="VALUE" value="1mH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

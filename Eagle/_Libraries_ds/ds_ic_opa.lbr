@@ -741,8 +741,8 @@
 <wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
 <text x="1.016" y="-5.08" size="0.8128" layer="93" rot="R90">V-</text>
 <pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-<pin name="SHDN" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
-<text x="2.6924" y="1.9304" size="0.8128" layer="94" rot="R180">SHDN</text>
+<pin name="SHDN" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
+<text x="2.6924" y="-0.6096" size="0.8128" layer="94" rot="R180">SHDN</text>
 </symbol>
 <symbol name="ADA4254">
 <pin name="IN1+" x="-17.78" y="12.7" length="middle" direction="in"/>
@@ -1162,7 +1162,7 @@ down to 2.7V.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TLV3501" prefix="IC">
+<deviceset name="TLV3501" prefix="IC" uservalue="yes">
 <description>4.5ns, Rail-to-Rail, High Speed Comparator with Shutdown</description>
 <gates>
 <gate name="G$1" symbol="OPA_SHDN" x="0" y="0"/>
@@ -1181,7 +1181,12 @@ down to 2.7V.</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:18604126/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/tlv3502.pdf?ts=1749128525689" constant="no"/>
+<attribute name="DESCRIPTION" value="6.5mV 10pA SOT-23-6 Comparators ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C193413" constant="no"/>
+<attribute name="VALUE" value="TLV3501AIDBVR" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1354,6 +1359,34 @@ Low Input Bias Current Op Amp with e-trim™</description>
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMV611MFX" prefix="IC" uservalue="yes">
+<description>MV61x Single, Dual, and Quad, 1.4-MHz, Low-Power, General-Purpose 1.8-V Operational Amplifiers</description>
+<gates>
+<gate name="G$1" symbol="OPA_PWR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="+IN" pad="1"/>
+<connect gate="G$1" pin="-IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25419215/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/lmv611.pdf?ts=1749071328501" constant="no"/>
+<attribute name="DESCRIPTION" value="Single 14nA 0.42V/us 1.5MHz SOT-23-5 Operational Amplifier ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C165135" constant="no"/>
+<attribute name="VALUE" value="LMV611MFX/NOPB " constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

@@ -2399,7 +2399,7 @@ Voltage Protection</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MIC5504-3.3YM5-TR" urn="urn:adsk.eagle:component:46684451/1" prefix="IC">
+<deviceset name="MIC5504-3.3YM5-TR" urn="urn:adsk.eagle:component:46684451/1" locally_modified="yes" prefix="IC" uservalue="yes">
 <description>The MIC5501/2/3/4 is an advanced general-purpose LDO ideal for powering general-purpose portable devices. The MIC5501/2/3/4 family of products provides a high-performance 300mA LDO</description>
 <gates>
 <gate name="G$1" symbol="MIC5504" x="0" y="0"/>
@@ -2417,7 +2417,14 @@ Voltage Protection</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:25419215/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5501-02-03-04-300mA-Single-Output-LDO-in-Small-Packages-DS20006006B.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS
+" constant="no"/>
+<attribute name="LCSC_PART" value="C41348078" constant="no"/>
+<attribute name="VALUE" value="MIC5504-3.3YM5
+" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
