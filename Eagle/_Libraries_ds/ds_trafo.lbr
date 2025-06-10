@@ -955,7 +955,13 @@ Created by Leviosa 2024-04-15&lt;br&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:47075710/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF" constant="no"/>
+<attribute name="DESCRIPTION" value="- Power supply module,Power Supplies ROHS
+" constant="no"/>
+<attribute name="LCSC_PART" value="C20618065" constant="no"/>
+<attribute name="VALUE" value="IRM_10_12" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="-2" package="IRM_15_12">
@@ -969,7 +975,13 @@ Created by Leviosa 2024-04-15&lt;br&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:47260462/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.meanwell.com/Upload/PDF/IRM-15/IRM-15-SPEC.PDF" constant="no"/>
+<attribute name="DESCRIPTION" value="15W AC-DC PCB-Mount Green Power Module" constant="no"/>
+<attribute name="LCSC_PART" value="C5439799" constant="no"/>
+<attribute name="VALUE" value="IRM-10-15
+" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

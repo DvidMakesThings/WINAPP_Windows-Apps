@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -11688,7 +11688,7 @@ Phototransistor Optocoupler</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="HLW8032" urn="urn:adsk.eagle:component:47177015/2" prefix="IC" uservalue="yes">
+<deviceset name="HLW8032" urn="urn:adsk.eagle:component:47177015/2" locally_modified="yes" prefix="IC" uservalue="yes">
 <description>Single-phase metering IC</description>
 <gates>
 <gate name="G$1" symbol="HLW8032" x="0" y="0"/>
@@ -11709,7 +11709,12 @@ Phototransistor Optocoupler</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:48701577/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://w2.electrodragon.com/Chip-cn-dat/HLW-dat/HLW8032-dat/HLW8032.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="SOP-8 Energy Metering ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C128023" constant="no"/>
+<attribute name="VALUE" value="HLW8032" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -12077,7 +12082,7 @@ Phototransistor Optocoupler</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP23017" urn="urn:adsk.eagle:component:46683908/2" prefix="IC">
+<deviceset name="MCP23017" urn="urn:adsk.eagle:component:46683908/2" locally_modified="yes" prefix="IC">
 <description>16-Bit I2C I/O Expander with Serial Interface</description>
 <gates>
 <gate name="G$1" symbol="MCP23017" x="0" y="0"/>
@@ -12152,12 +12157,17 @@ Phototransistor Optocoupler</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:46683895/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="1.7MHz I2C QFN-28-EP(6x6) I/O Expanders ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C629439" constant="no"/>
+<attribute name="VALUE" value="MCP23017T-E/ML " constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ACPL-247" urn="urn:adsk.eagle:component:47392702/1" prefix="OPT" uservalue="yes">
+<deviceset name="ACPL-247" urn="urn:adsk.eagle:component:47392702/1" locally_modified="yes" prefix="OPT" uservalue="yes">
 <description>DC Input, Multi-Channel Half-Pitch
 Phototransistor Optocoupler</description>
 <gates>
@@ -12187,7 +12197,12 @@ Phototransistor Optocoupler</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:46683889/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://docs.broadcom.com/doc/AV02-0752EN" constant="no"/>
+<attribute name="DESCRIPTION" value="80V 50mA 400mV@2.4mA,8mA 4 6V 1.2V DC SOP-16-4.4mm Transistor, Photovoltaic Output Optoisolators ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C188681" constant="no"/>
+<attribute name="VALUE" value="ACPL-247-500E " constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -12260,7 +12275,7 @@ Phototransistor Optocoupler</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ULN2803" urn="urn:adsk.eagle:component:46683946/2" prefix="IC">
+<deviceset name="ULN2803" urn="urn:adsk.eagle:component:46683946/2" locally_modified="yes" prefix="IC">
 <description>ULN2803A Darlington Transistor Arrays</description>
 <gates>
 <gate name="G$1" symbol="ULN2803" x="0" y="0"/>
@@ -12291,7 +12306,12 @@ Phototransistor Optocoupler</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:46683893/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.sycelectronica.com.ar/semiconductores/ULN2803-SMD.pdf?srsltid=AfmBOophiuKj-Ssp-X9zHCj-smbNohAULqg7ZzMWt7RSG8XB10-82Tty" constant="no"/>
+<attribute name="DESCRIPTION" value="SOP-18-300mil Darlington Transistor Arrays ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C845537" constant="no"/>
+<attribute name="VALUE" value="ULN2803AFWG" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -13276,7 +13296,7 @@ Phototransistor Optocoupler</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SP0503BAHT" urn="urn:adsk.eagle:component:46683938/1" prefix="ESD" uservalue="yes">
+<deviceset name="SP0503BAHT" urn="urn:adsk.eagle:component:46683938/1" locally_modified="yes" prefix="ESD" uservalue="yes">
 <description>TVS Diode Arrays
 Surface Mount TVS Avalanche Diode Array</description>
 <gates>
@@ -13294,7 +13314,11 @@ Surface Mount TVS Avalanche Diode Array</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:25572586/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="SOT-143 ESD and Surge Protection (TVS/ESD) ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C3040626" constant="no"/>
+<attribute name="VALUE" value="SP0503BAHTG" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -14747,7 +14771,7 @@ https://www.hestore.hu/prod_getfile.php?id=6029</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="W5500" urn="urn:adsk.eagle:component:46756751/2" prefix="IC" uservalue="yes">
+<deviceset name="W5500" urn="urn:adsk.eagle:component:46756751/2" locally_modified="yes" prefix="IC" uservalue="yes">
 <description>The W5500 chip is a Hardwired TCP/IP embedded Ethernet controller that provides
 easier Internet connection to embedded systems. W5500 enables users to have the
 Internet connectivity in their applications just by using the single chip in which TCP/IP
@@ -14807,7 +14831,12 @@ system, W5500 provides WOL (Wake on LAN) and power down mode.</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:46756750/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://docs.wiznet.io/img/products/w5500/W5500_ds_v110e.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Ethernet Controllers ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C32843" constant="no"/>
+<attribute name="VALUE" value="W5500" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

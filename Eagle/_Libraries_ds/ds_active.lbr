@@ -1185,6 +1185,32 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="DMG1012T" prefix="T" uservalue="yes">
+<description>20V 800mA 250mΩ@4.5V 280mW 750mV@250uA 1 N-channel SOT-523-3 MOSFETs ROHS</description>
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46684430/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="20V 800mA 250mΩ@4.5V 280mW 750mV@250uA 1 N-channel SOT-523-3 MOSFETs ROHS
+" constant="no"/>
+<attribute name="LCSC_PART" value="C2830301" constant="no"/>
+<attribute name="VALUE" value="DMG1012T" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

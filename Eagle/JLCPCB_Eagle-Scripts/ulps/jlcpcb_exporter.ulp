@@ -1,0 +1,158 @@
+/*
+ jlcpcb_exporter.ulp
+ Modified 2025-06-09: single BOM & CPL for both layers, bottom parts correctly labeled.
+
+ MIT License (same boilerplate as before)...
+*/
+
+// map of Eagle SMD layers
+int layer_id_map[]      = { 1, 16 };
+string layer_name_map[] = { "Top", "Bottom" };
+
+// storage for selected parts + their side
+UL_ELEMENT selected_elements[];
+int        selected_side[];
+
+// exactly your original function, unchanged
+string replace_commas(string s) {
+    while (strstr(s, ",") >= 0) {  // convert commas to spaces
+        string substitution_string = " ";
+        sprintf(s, "%s%s%s",
+            strsub(s, 0, strstr(s, ",")),
+            substitution_string,
+            strsub(s, strstr(s, ",")+1)
+        );
+    }
+    return s;
+}
+
+if (board) board(B) {
+    int skip_empty = 1;   // set to 0 if you want parts with blank values
+    string outdir = dlgDirectory("Export files to", filedir(B.name));
+    if (outdir == "") exit(0);
+
+    // collect every populated element, detect its side
+    int count = 0;
+    B.elements(E) if (E.populate) {
+        // record the part
+        selected_elements[count] = E;
+
+        // default to Top
+        int side = 0;
+        // scan all pads—if any pad is SMD on Bottom, mark Bottom
+        E.package.contacts(C) {
+            if (C.smd && C.smd.layer == layer_id_map[1]) {
+                side = 1;
+                break;
+            }
+        }
+        selected_side[count] = side;
+        count++;
+    }
+
+    // base filename (no extension)
+    string base = outdir + "/"
+        + strsub(filename(B.name), 0, strlen(filename(B.name)) - 4);
+
+    string cpl_file = base + "_cpl.csv";
+    string bom_file = base + "_bom.csv";
+
+    //
+    // 1) CPL
+    //
+    output(cpl_file) {
+        printf("Designator,Mid X,Mid Y,Layer,Rotation\n");
+        for (int i = 0; i < count; i++) {
+            UL_ELEMENT E = selected_elements[i];
+            int side      = selected_side[i];
+            if (skip_empty && E.value == "") continue;
+
+            int angle = E.angle;
+            E.attributes(A) {
+                if (A.name == "JLC_ROT" || A.name == "JLC_ROTATION")
+                    angle += strtol(A.value);
+            }
+            // flip rotation for Bottom
+            if (side == 1)
+                angle = (360 - angle + 180) % 360;
+            real ang = angle;
+
+            printf("%s,%5.2f,%5.2f,%s,%.1f\n",
+                E.name,
+                u2mm(E.x),
+                u2mm(E.y),
+                layer_name_map[side],
+                ang
+            );
+        }
+    }
+
+    //
+    // 2) BOM
+    //
+    output(bom_file) {
+        int            indexes[];
+        numeric string values[];
+
+        for (int i = 0; i < count; i++) {
+            indexes[i] = i;
+            values[i]  = selected_elements[i].value;
+        }
+        sort(count, indexes, values);
+
+        printf("Comment,Designator,Footprint,LCSC Part #\n");
+
+        string curr_val     = "";
+        string curr_pkg     = "";
+        string curr_lcsc    = "";
+        string designators  = "";
+        int    notstarting  = 0;
+
+        for (int j = 0; j < count; j++) {
+            UL_ELEMENT E = selected_elements[indexes[j]];
+            if (skip_empty && E.value == "") continue;
+
+            // pull LCSC_PART if any
+            string tmp = "";
+            E.attributes(A) {
+                if (A.name == "LCSC_PART" || A.name == "LCSC")
+                    tmp = replace_commas(A.value);
+            }
+
+            // flush when value/footprint/LCSC changes
+            if (notstarting
+             && (E.value        != curr_val
+              || E.package.name != curr_pkg
+              || tmp            != curr_lcsc)) {
+                printf("%s,%s,%s,%s\n",
+                    curr_val, designators, curr_pkg, curr_lcsc
+                );
+                designators = "";
+            }
+            notstarting = 1;
+
+            if (designators != "") designators += " ";
+            designators += E.name;
+            curr_val  = replace_commas(E.value);
+            curr_pkg  = replace_commas(E.package.name);
+            curr_lcsc = tmp;
+        }
+
+        // flush last group
+        if (curr_val != "")
+            printf("%s,%s,%s,%s\n",
+                curr_val, designators, curr_pkg, curr_lcsc
+            );
+    }
+
+    dlgMessageBox(
+        "Export complete:\n" +
+        cpl_file + "\n" +
+        bom_file,
+        "Done"
+    );
+
+} else {
+    dlgMessageBox("Run this ULP from a Board", "Error");
+    exit(0);
+}

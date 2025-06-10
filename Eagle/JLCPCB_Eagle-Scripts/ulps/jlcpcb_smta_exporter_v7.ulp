@@ -125,10 +125,13 @@ if (board) board(B) {
               angle = angle % 360;
             }
             real ang = angle;
-            printf("%s,%5.2f,%5.2f,%s,%.1f\n",
-                E.name, u2mm(E.x), u2mm(E.y),
-                layer_name_map[layer_choice],
-                ang);
+            printf("%s,%.2f,%.2f,%s,%.1f\n",
+                E.name,
+                u2mm(E.x),
+                u2mm(E.y),
+                layer_name_map[side],
+                ang
+            );
         }
     }
 

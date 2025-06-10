@@ -9,6 +9,30 @@
     "output_type": "zip",
     "outputs": [
         {
+            "filename_prefix": "",
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+                {
+                    "drills": {
+                        "NPTH": true,
+                        "PTH": true,
+                        "VIA": true
+                    },
+                    "filename_format": "%N_drill.XLN",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "Drill File",
+                    "type": "excellon"
+                }
+            ]
+        },
+        {
             "filename_prefix": "GerberJob",
             "format_specifier": {
                 "decimal": 4,
@@ -182,7 +206,7 @@
                     "type": "gerber_layer"
                 },
                 {
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Legend",
                         "index": 1,
@@ -191,7 +215,8 @@
                     "filename_format": "%N_%FF.GTO",
                     "layers": [
                         21,
-                        25
+                        25,
+                        51
                     ],
                     "milling": false,
                     "name": "Silkscreen Top",
@@ -199,7 +224,7 @@
                     "type": "gerber_layer"
                 },
                 {
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Legend",
                         "index": 1,
@@ -208,7 +233,8 @@
                     "filename_format": "%N_%FF.GBO",
                     "layers": [
                         22,
-                        26
+                        26,
+                        52
                     ],
                     "milling": false,
                     "name": "Silkscreen Bottom",
@@ -217,36 +243,6 @@
                 }
             ],
             "version": "RS274X"
-        },
-        {
-            "filename_prefix": "",
-            "format_specifier": {
-                "decimal": 3,
-                "integer": 3
-            },
-            "output_type": "drill",
-            "outputs": [
-                {
-                    "drills": {
-                        "NPTH": true,
-                        "PTH": true,
-                        "VIA": true
-                    },
-                    "filename_format": "%N_drill.XLN",
-                    "layers": {
-                        "from": 1,
-                        "to": 16
-                    },
-                    "name": "Drill File",
-                    "type": "excellon"
-                }
-            ]
-        },
-        {
-            "filename_prefix": "CAMOutputs/Assembly",
-            "output_type": "assembly",
-            "outputs": [
-            ]
         },
         {
             "filename_prefix": "CAMOutputs/DrawingFiles",

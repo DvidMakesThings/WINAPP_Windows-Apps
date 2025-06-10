@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1085,7 +1085,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAT24C256" urn="urn:adsk.eagle:component:48272633/1" prefix="IC" uservalue="yes">
+<deviceset name="CAT24C256" urn="urn:adsk.eagle:component:48272633/1" locally_modified="yes" prefix="IC" uservalue="yes">
 <description>The CAT24C256 is a EEPROM Serial 256−Kb I2C, internally
 organized as 32,768 words of 8 bits each.
 It features a 64−byte page write buffer and supports the Standard
@@ -1115,7 +1115,12 @@ for high reliability applications.</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:45817778/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.onsemi.com/download/data-sheet/pdf/cat24c256-d.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="256Kbit I2C UDFN-8(2x3) EEPROM ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C233771" constant="no"/>
+<attribute name="VALUE" value="CAT24C256HU4IGT3" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1222,7 +1227,13 @@ DUAL/QUAD SPI &amp; QPI &amp; DTR</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:45369668/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.nikom.biz/pdf/A089014.pdf?srsltid=AfmBOopZgx1G_qpdWEIfoO5Ne0YuvaGR9ub92ZA1x90R1kz9P6rrUXmf" constant="no"/>
+<attribute name="DESCRIPTION" value="128Mbit WSON-8-EP(5x6) NOR FLASH ROHS
+" constant="no"/>
+<attribute name="LCSC_PART" value="C190862" constant="no"/>
+<attribute name="VALUE" value="W25Q128JVPIQ" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="B" package="BGA25C100P5X5_800X600X120N">
@@ -1590,8 +1601,7 @@ DUAL/QUAD SPI &amp; QPI &amp; DTR</description>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/93AA56X-93LC56X-93C56X-2-Kbit-Microwire-Compatible-Serial-EEPROM-Data-Sheet.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="2Kbit SPI SOT-23-6 EEPROM ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="2Kbit SPI SOT-23-6 EEPROM ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C190271" constant="no"/>
 <attribute name="VALUE" value="93LC56BT-I/OT" constant="no"/>
 </technology>
