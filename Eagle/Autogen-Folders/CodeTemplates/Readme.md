@@ -10,6 +10,6 @@ To use the files in this project, navigate to the respective directories and fol
 This project is licensed under the MIT License.
 
 ## Contact
-For any questions or feedback, please contact:
-- Email: [s.dvid@hotmail.com](mailto:s.dvid@hotmail.com)
+For questions or feedback:
+- Email: [dvidmakesthings@gmail.com](mailto:s.dvidmakesthings@gmail.com)
 - GitHub: [DvidMakesThings](https://github.com/DvidMakesThings)

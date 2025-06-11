@@ -60,5 +60,6 @@ Run the script with `python DeCompress.py`. It will begin monitoring the specifi
 This project is licensed under the GPL3 License. See the LICENSE file for details.
 
 ## Contact
-
-For questions or feedback, email s.dvid@hotmail.com or visit [GitHub](https://github.com/DvidMakesThings).
+For questions or feedback:
+- Email: [dvidmakesthings@gmail.com](mailto:s.dvidmakesthings@gmail.com)
+- GitHub: [DvidMakesThings](https://github.com/DvidMakesThings)

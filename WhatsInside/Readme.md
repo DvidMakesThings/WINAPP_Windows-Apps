@@ -47,7 +47,6 @@ python whatisinside.py <parent_folder> [--file <filename>] [--save <save_locatio
 This project is licensed under the **GPL-3.0 License**. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-
 For questions or feedback:
-- **Email:** [s.dvid@hotmail.com](mailto:s.dvid@hotmail.com)
-- **GitHub:** [DvidMakesThings](https://github.com/DvidMakesThings)
+- Email: [dvidmakesthings@gmail.com](mailto:s.dvidmakesthings@gmail.com)
+- GitHub: [DvidMakesThings](https://github.com/DvidMakesThings)
