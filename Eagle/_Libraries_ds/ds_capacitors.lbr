@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -408,13 +408,13 @@
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 </package>
-<package name="0402" urn="urn:adsk.eagle:footprint:46766476/2">
+<package name="0402" urn="urn:adsk.eagle:footprint:46766476/2" locally_modified="yes">
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="-1.173" y1="0.483" x2="1.173" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.173" y1="0.483" x2="1.173" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.173" y1="-0.483" x2="-1.173" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.173" y1="-0.483" x2="-1.173" y2="0.483" width="0.0508" layer="39"/>
 <smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
 <smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
 <text x="-0.635" y="0.635" size="1.016" layer="25">&gt;NAME</text>
@@ -566,7 +566,7 @@
 <packageinstance name="6.3X5.5(DXL)"/>
 </packageinstances>
 </package3d>
-<package3d name="C0402" urn="urn:adsk.eagle:package:46766485/3" type="model">
+<package3d name="C0402" urn="urn:adsk.eagle:package:46766485/3" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="0402"/>
 </packageinstances>
@@ -1152,7 +1152,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="100NF-50V" urn="urn:adsk.eagle:component:48944475/1" prefix="C" uservalue="yes">
+<deviceset name="100NF-50V" urn="urn:adsk.eagle:component:48944475/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -1395,7 +1395,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="10UF-6.3V" urn="urn:adsk.eagle:component:48944472/1" prefix="C" uservalue="yes">
+<deviceset name="10UF-6.3V" urn="urn:adsk.eagle:component:48944472/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -1466,7 +1466,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1UF-25V" urn="urn:adsk.eagle:component:48944488/1" prefix="C" uservalue="yes">
+<deviceset name="1UF-25V" urn="urn:adsk.eagle:component:48944488/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -1537,7 +1537,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="220NF-50V" urn="urn:adsk.eagle:component:48944500/1" prefix="C" uservalue="yes">
+<deviceset name="220NF-50V" urn="urn:adsk.eagle:component:48944500/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -1608,7 +1608,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="22NF-50V" urn="urn:adsk.eagle:component:48944504/1" prefix="C" uservalue="yes">
+<deviceset name="22NF-50V" urn="urn:adsk.eagle:component:48944504/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -1679,7 +1679,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="4.7UF-25V" urn="urn:adsk.eagle:component:48944496/1" prefix="C" uservalue="yes">
+<deviceset name="4.7UF-25V" urn="urn:adsk.eagle:component:48944496/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -1805,7 +1805,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="2.2UF-25V" urn="urn:adsk.eagle:component:48944507/1" prefix="C" uservalue="yes">
+<deviceset name="2.2UF-25V" urn="urn:adsk.eagle:component:48944507/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -1876,7 +1876,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1UF-50V" urn="urn:adsk.eagle:component:48944489/1" prefix="C" uservalue="yes">
+<deviceset name="1UF-50V" urn="urn:adsk.eagle:component:48944489/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -1947,7 +1947,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="33NF-50V" urn="urn:adsk.eagle:component:48944502/1" prefix="C" uservalue="yes">
+<deviceset name="33NF-50V" urn="urn:adsk.eagle:component:48944502/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2073,7 +2073,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="10UF-10V" urn="urn:adsk.eagle:component:48944474/1" prefix="C" uservalue="yes">
+<deviceset name="10UF-10V" urn="urn:adsk.eagle:component:48944474/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2144,7 +2144,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="4.7UF-10V" urn="urn:adsk.eagle:component:48944497/1" prefix="C" uservalue="yes">
+<deviceset name="4.7UF-10V" urn="urn:adsk.eagle:component:48944497/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2199,7 +2199,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1NF-50V" urn="urn:adsk.eagle:component:48944468/1" prefix="C" uservalue="yes">
+<deviceset name="1NF-50V" urn="urn:adsk.eagle:component:48944468/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2286,7 +2286,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="18PF-25V" urn="urn:adsk.eagle:component:48944464/1" prefix="C" uservalue="yes">
+<deviceset name="18PF-25V" urn="urn:adsk.eagle:component:48944464/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2341,7 +2341,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="18PF-50V" urn="urn:adsk.eagle:component:48944463/1" prefix="C" uservalue="yes">
+<deviceset name="18PF-50V" urn="urn:adsk.eagle:component:48944463/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2428,7 +2428,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="10NF-16V" urn="urn:adsk.eagle:component:48944481/1" prefix="C" uservalue="yes">
+<deviceset name="10NF-16V" urn="urn:adsk.eagle:component:48944481/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2499,7 +2499,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="10NF-50V" urn="urn:adsk.eagle:component:48944479/1" prefix="C" uservalue="yes">
+<deviceset name="10NF-50V" urn="urn:adsk.eagle:component:48944479/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2586,7 +2586,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="100NF-16V" urn="urn:adsk.eagle:component:48944477/1" prefix="C" uservalue="yes">
+<deviceset name="100NF-16V" urn="urn:adsk.eagle:component:48944477/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2673,7 +2673,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="10NF-25V" urn="urn:adsk.eagle:component:48944480/1" prefix="C" uservalue="yes">
+<deviceset name="10NF-25V" urn="urn:adsk.eagle:component:48944480/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2760,7 +2760,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1UF-10V" urn="urn:adsk.eagle:component:48944486/1" prefix="C" uservalue="yes">
+<deviceset name="1UF-10V" urn="urn:adsk.eagle:component:48944486/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2831,7 +2831,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1NF-25V" urn="urn:adsk.eagle:component:48944469/1" prefix="C" uservalue="yes">
+<deviceset name="1NF-25V" urn="urn:adsk.eagle:component:48944469/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2902,7 +2902,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="100NF-10V" urn="urn:adsk.eagle:component:48944478/1" prefix="C" uservalue="yes">
+<deviceset name="100NF-10V" urn="urn:adsk.eagle:component:48944478/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2973,7 +2973,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="27PF-50V" urn="urn:adsk.eagle:component:48944495/1" prefix="C" uservalue="yes">
+<deviceset name="27PF-50V" urn="urn:adsk.eagle:component:48944495/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -3044,7 +3044,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="6.8NF-50V" urn="urn:adsk.eagle:component:48944505/1" prefix="C" uservalue="yes">
+<deviceset name="6.8NF-50V" urn="urn:adsk.eagle:component:48944505/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -3115,7 +3115,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="100NF-25V" urn="urn:adsk.eagle:component:48944476/1" prefix="C" uservalue="yes">
+<deviceset name="100NF-25V" urn="urn:adsk.eagle:component:48944476/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -3202,7 +3202,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="4.7NF-50V" urn="urn:adsk.eagle:component:48944494/1" prefix="C" uservalue="yes">
+<deviceset name="4.7NF-50V" urn="urn:adsk.eagle:component:48944494/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -3273,7 +3273,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="10NF-10V" urn="urn:adsk.eagle:component:48944482/1" prefix="C" uservalue="yes">
+<deviceset name="10NF-10V" urn="urn:adsk.eagle:component:48944482/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -3328,7 +3328,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="4.7NF-16V" urn="urn:adsk.eagle:component:48944493/1" prefix="C" uservalue="yes">
+<deviceset name="4.7NF-16V" urn="urn:adsk.eagle:component:48944493/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -3383,7 +3383,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1NF-16V" urn="urn:adsk.eagle:component:48944470/1" prefix="C" uservalue="yes">
+<deviceset name="1NF-16V" urn="urn:adsk.eagle:component:48944470/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -3438,7 +3438,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="33PF-50V" urn="urn:adsk.eagle:component:48944501/1" prefix="C" uservalue="yes">
+<deviceset name="33PF-50V" urn="urn:adsk.eagle:component:48944501/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -3548,7 +3548,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="8PF-50V" urn="urn:adsk.eagle:component:48944490/1" prefix="C" uservalue="yes">
+<deviceset name="8PF-50V" urn="urn:adsk.eagle:component:48944490/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -3603,7 +3603,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="C" urn="urn:adsk.eagle:component:48944483/1" prefix="C" uservalue="yes">
+<deviceset name="C" urn="urn:adsk.eagle:component:48944483/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -3682,7 +3682,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1NF-10V" urn="urn:adsk.eagle:component:48944471/1" prefix="C" uservalue="yes">
+<deviceset name="1NF-10V" urn="urn:adsk.eagle:component:48944471/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -3737,7 +3737,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="12PF-50V" urn="urn:adsk.eagle:component:48944492/1" prefix="C" uservalue="yes">
+<deviceset name="12PF-50V" urn="urn:adsk.eagle:component:48944492/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -3808,7 +3808,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="15PF-50V" urn="urn:adsk.eagle:component:48944506/1" prefix="C" uservalue="yes">
+<deviceset name="15PF-50V" urn="urn:adsk.eagle:component:48944506/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -3879,7 +3879,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1UF-16V" urn="urn:adsk.eagle:component:48944487/1" prefix="C" uservalue="yes">
+<deviceset name="1UF-16V" urn="urn:adsk.eagle:component:48944487/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
