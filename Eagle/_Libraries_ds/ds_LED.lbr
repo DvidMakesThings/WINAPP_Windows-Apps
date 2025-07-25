@@ -600,6 +600,120 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="LED-PURPLE" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LED-0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24294787/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="5mA 25mcd Colorless transparent lens Positive Stick 390nm~447nm Purple 120° 75mW 2.9V~3.5V 0603  LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C7371898" constant="no"/>
+<attribute name="VALUE" value="Purple" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-0805" package="LED-0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24294759/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="5mA Colorless transparent lens 390nm~429nm Positive Stick Purple 130° 75mW 2.9V~3.5V 0805  LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C7371915" constant="no"/>
+<attribute name="VALUE" value="Purple" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-WHITE" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LED-0402" package="LED-0402">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22900837/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="0402 LED Indication - Discrete ROHS
+" constant="no"/>
+<attribute name="LCSC_PART" value="C20613596" constant="no"/>
+<attribute name="VALUE" value="White" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24294787/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="20mA 200mcd~300mcd Foggy yellow lens -30℃~+85℃ White 130° 72mW 2.6V~3.6V 0603 LED Indication - Discrete ROHS
+" constant="no"/>
+<attribute name="LCSC_PART" value="C84265" constant="no"/>
+<attribute name="VALUE" value="White" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-0805" package="LED-0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24294759/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="5mA Yellow lens -40℃~+85℃ White 120° 100mW 0805 LED Indication - Discrete ROHS
+" constant="no"/>
+<attribute name="LCSC_PART" value="C434434" constant="no"/>
+<attribute name="VALUE" value="White" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-1206" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24294749/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="20mA 12000K~27000K 1300mcd Yellow -20℃~+85℃ Positive Stick White 120° 70mW 3.4V 1206 LED Indication - Discrete ROHS
+" constant="no"/>
+<attribute name="LCSC_PART" value="C965828" constant="no"/>
+<attribute name="VALUE" value="White" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

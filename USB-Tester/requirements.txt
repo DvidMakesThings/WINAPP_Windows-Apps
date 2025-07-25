@@ -1,0 +1,7 @@
+colorama>=0.4.4
+psutil>=5.8.0
+pywin32>=227; sys_platform == "win32"
+WMI>=1.5.1; sys_platform == "win32"
+win32api
+pywin32
+win32con
