@@ -1264,9 +1264,7 @@ EEPROMs</description>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://www.microchip.com/content/dam/mchp/documents/OTH/ProductDocuments/DataSheets/doc0258.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="16K (2K x 8)
-Parallel
-EEPROMs" constant="no"/>
+<attribute name="DESCRIPTION" value="16K (2K x 8) Parallel EEPROMs" constant="no"/>
 <attribute name="VALUE" value="AT28C16" constant="no"/>
 </technology>
 </technologies>
@@ -1370,9 +1368,7 @@ EEPROMs</description>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/en/devicedoc/doc0001h.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="64K (8K x 8)
-Parallel
-EEPROMs" constant="no"/>
+<attribute name="DESCRIPTION" value="64K (8K x 8) Parallel EEPROMs" constant="no"/>
 <attribute name="LCSC_PART" value="C41982" constant="no"/>
 <attribute name="VALUE" value="AT28C64" constant="no"/>
 </technology>
@@ -1469,8 +1465,7 @@ EEPROMs" constant="no"/>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="256Kbit Parallel Port PDIP-28 EEPROM ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="256Kbit Parallel Port PDIP-28 EEPROM ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C1348752" constant="no"/>
 <attribute name="VALUE" value="AT28C256" constant="no"/>
 </technology>
@@ -1478,7 +1473,7 @@ EEPROMs" constant="no"/>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAT24C256" urn="urn:adsk.eagle:component:48272633/2" prefix="IC" uservalue="yes">
+<deviceset name="CAT24C256" urn="urn:adsk.eagle:component:48272633/2" locally_modified="yes" prefix="IC" uservalue="yes">
 <description>The CAT24C256 is a EEPROM Serial 256−Kb I2C, internally
 organized as 32,768 words of 8 bits each.
 It features a 64−byte page write buffer and supports the Standard
@@ -1511,7 +1506,11 @@ for high reliability applications.</description>
 <technology name="">
 <attribute name="DATASHEET" value="https://www.onsemi.com/download/data-sheet/pdf/cat24c256-d.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="256Kbit I2C UDFN-8(2x3) EEPROM ROHS " constant="no"/>
+<attribute name="HQ_PART" value="IC0066897" constant="no"/>
 <attribute name="LCSC_PART" value="C233771" constant="no"/>
+<attribute name="MANUFACTURER" value="ON" constant="no"/>
+<attribute name="MPN" value="CAT24C256HU4IGT3" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="CAT24C256HU4IGT3" constant="no"/>
 </technology>
 </technologies>
@@ -1765,7 +1764,7 @@ for high reliability applications.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="W25Q128JV" urn="urn:adsk.eagle:component:48272636/2" prefix="IC" uservalue="yes">
+<deviceset name="W25Q128JV" urn="urn:adsk.eagle:component:48272636/2" locally_modified="yes" prefix="IC" uservalue="yes">
 <description>3V 128M-BIT
 SERIAL FLASH MEMORY WITH
 DUAL/QUAD SPI &amp; QPI &amp; DTR</description>
@@ -1791,7 +1790,11 @@ DUAL/QUAD SPI &amp; QPI &amp; DTR</description>
 <technology name="">
 <attribute name="DATASHEET" value="https://www.nikom.biz/pdf/A089014.pdf?srsltid=AfmBOopZgx1G_qpdWEIfoO5Ne0YuvaGR9ub92ZA1x90R1kz9P6rrUXmf" constant="no"/>
 <attribute name="DESCRIPTION" value="128Mbit WSON-8-EP(5x6) NOR FLASH ROHS " constant="no"/>
+<attribute name="HQ_PART" value="IC0150933" constant="no"/>
 <attribute name="LCSC_PART" value="C190862" constant="no"/>
+<attribute name="MANUFACTURER" value="Winbond" constant="no"/>
+<attribute name="MPN" value="W25Q128JVPIQ" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="W25Q128JVPIQ" constant="no"/>
 </technology>
 </technologies>

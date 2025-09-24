@@ -5195,8 +5195,14 @@ This product is recommended for safety critical applications targeting both indu
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="DATASHEET" value="https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="133MHz LQFN-56(7x7) Microcontrollers (MCU/MPU/SOC) ROHS" constant="no"/>
+<attribute name="HQ_PART" value="ZHLM0164739" constant="no"/>
 <attribute name="LCSC_PART" value="C2040" constant="no"/>
+<attribute name="MANUFACTURER" value="Raspberry Pi
+" constant="no"/>
+<attribute name="MPN" value="RP2040" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="RP2040" constant="no"/>
 </technology>
 </technologies>
@@ -5824,8 +5830,7 @@ True random number generator</description>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"/>
-<attribute name="DESCRIPTION" value="133MHz LQFN-56(7x7) Microcontrollers (MCU/MPU/SOC) ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="133MHz LQFN-56(7x7) Microcontrollers (MCU/MPU/SOC) ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C2040" constant="no"/>
 <attribute name="VALUE" value="RP2040" constant="no"/>
 </technology>

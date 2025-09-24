@@ -2196,8 +2196,13 @@ Voltage Protection</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="3V ±0.2% 15mA Fixed SOT-23 Voltage Reference ROHS " constant="no"/>
+<attribute name="HQ_PART" value="IC0022950" constant="no"/>
 <attribute name="LCSC_PART" value="C460604" constant="no"/>
-<attribute name="VALUE" value="LM4040B30FTA" constant="no"/>
+<attribute name="MANUFACTURER" value="DIODES" constant="no"/>
+<attribute name="MPN" value="LM4040C30FTA
+" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="LM4040x30" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2363,7 +2368,7 @@ Voltage Protection</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MP150" urn="urn:adsk.eagle:component:48298513/1" prefix="IC" uservalue="yes">
+<deviceset name="MP150" urn="urn:adsk.eagle:component:48298513/1" locally_modified="yes" prefix="IC" uservalue="yes">
 <description>Offline Primary-Side Regulator For Low Power Applications</description>
 <gates>
 <gate name="G$1" symbol="MP150" x="0" y="0"/>
@@ -2382,7 +2387,9 @@ Voltage Protection</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MP150" value="MP150GJ" constant="no"/>
+<attribute name="DATASHEET" value="https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP150/?srsltid=AfmBOoplx7hy2Cvv8LOqm9ztSqwNdeKyUTl1ppEoWxRINSTM2xWwZtEa" constant="no"/>
+<attribute name="DESCRIPTION" value="Offline Primary-Side Regulator For Low Power Applications " constant="no"/>
+<attribute name="VALUE" value="MP150GJ" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2737,11 +2744,9 @@ The MP2315 is a high frequency synchronous rectified step-down switch mode conve
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/EN/sku/MP2315S?srsltid=AfmBOoqbTpEIx6KSoiWl4ZUQnKkVQGj573Ur79inB-ZmXjzR-CZxOYOr"/>
-<attribute name="DESCRIPTION" value="Step-down type Adjustable 800mV~22.8V 3A 4.5V~24V TSOT-23-8 DC-DC Converters ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="Step-down type Adjustable 800mV~22.8V 3A 4.5V~24V TSOT-23-8 DC-DC Converters ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C45889" constant="no"/>
-<attribute name="VALUE" value="MP2315GJ-Z
-" constant="no"/>
+<attribute name="VALUE" value="MP2315GJ-Z " constant="no"/>
 </technology>
 </technologies>
 </device>

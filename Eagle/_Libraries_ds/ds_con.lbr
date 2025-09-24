@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -1502,7 +1502,7 @@ male, 64 pins, type b, rows AB, grid 2.54 mm</description>
 <rectangle x1="-2.32" y1="-1.35" x2="-0.22" y2="-0.2" layer="29"/>
 <rectangle x1="-0.07" y1="-1.6" x2="0.58" y2="1.6" layer="41"/>
 </package>
-<package name="J1B1211CCD" urn="urn:adsk.eagle:footprint:48944380/1">
+<package name="J1B1211CCD" urn="urn:adsk.eagle:footprint:48944380/1" locally_modified="yes">
 <wire x1="-8" y1="10.6" x2="-8" y2="-10.75" width="0.127" layer="21"/>
 <wire x1="-8" y1="-10.75" x2="8" y2="-10.75" width="0.127" layer="21"/>
 <wire x1="8" y1="-10.75" x2="8" y2="10.6" width="0.127" layer="21"/>
@@ -1523,6 +1523,8 @@ male, 64 pins, type b, rows AB, grid 2.54 mm</description>
 <pad name="12" x="6.325" y="-3.38" drill="1.02" shape="octagon"/>
 <pad name="13" x="-7.75" y="3.05" drill="1.6"/>
 <pad name="14" x="7.75" y="3.05" drill="1.6"/>
+<hole x="-5.715" y="0" drill="3.25"/>
+<hole x="5.715" y="0" drill="3.25"/>
 </package>
 <package name="M.2-B-KEY-2280-ADAPTER" urn="urn:adsk.eagle:footprint:48944373/1">
 <wire x1="-9.95" y1="3.5" x2="-9.95" y2="0.2" width="0" layer="20"/>
@@ -2995,7 +2997,7 @@ male, 64 pins, type b, rows AB, grid 2.54 mm</description>
 <text x="-5.8166" y="4.953" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 <text x="2.0828" y="4.953" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
-<package name="FPC20" urn="urn:adsk.eagle:footprint:47082458/3">
+<package name="FPC20" urn="urn:adsk.eagle:footprint:47082458/3" locally_modified="yes">
 <circle x="-4.602" y="-0.062" radius="0.1" width="0.2" layer="21"/>
 <wire x1="-8.002" y1="1.038" x2="-8.002" y2="-0.962" width="0.1" layer="51"/>
 <wire x1="-8.002" y1="-0.962" x2="8.398" y2="-0.962" width="0.1" layer="51"/>
@@ -3031,8 +3033,8 @@ male, 64 pins, type b, rows AB, grid 2.54 mm</description>
 <smd name="Z2" x="-5.552" y="1.438" dx="0.8" dy="1.5" layer="1" rot="R180"/>
 <smd name="Z3" x="5.948" y="-1.362" dx="0.8" dy="1.5" layer="1" rot="R180"/>
 <smd name="Z4" x="5.948" y="1.438" dx="0.8" dy="1.5" layer="1" rot="R180"/>
-<smd name="Z0" x="-7.3025" y="0" dx="3.81" dy="1.9304" layer="1" rot="R90"/>
-<smd name="Z5" x="7.62" y="0" dx="3.81" dy="1.9304" layer="1" rot="R90"/>
+<smd name="Z0" x="-6.7945" y="0" dx="3.81" dy="3.048" layer="1" rot="R90"/>
+<smd name="Z5" x="7.112" y="0" dx="3.81" dy="3.048" layer="1" rot="R90"/>
 <text x="-9.426" y="5.337" size="1.016" layer="25" rot="R180" align="bottom-right">&gt;NAME</text>
 <text x="3.28" y="-4.106" size="1.016" layer="27" align="bottom-right">&gt;VALUE</text>
 <polygon width="0.1524" layer="21">
@@ -4480,7 +4482,7 @@ male, 64 pins, type b, rows AB, grid 2.54 mm</description>
 <packageinstance name="M.2-B-KEY"/>
 </packageinstances>
 </package3d>
-<package3d name="J1B1211CCD" urn="urn:adsk.eagle:package:48944391/2" type="model">
+<package3d name="J1B1211CCD" urn="urn:adsk.eagle:package:48944391/2" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="J1B1211CCD"/>
 </packageinstances>
@@ -4550,7 +4552,7 @@ male, 64 pins, type b, rows AB, grid 2.54 mm</description>
 <packageinstance name="RJ45-CAT5"/>
 </packageinstances>
 </package3d>
-<package3d name="FPC20" urn="urn:adsk.eagle:package:47082459/4" type="model">
+<package3d name="FPC20" urn="urn:adsk.eagle:package:47082459/4" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="FPC20"/>
 </packageinstances>
@@ -8265,7 +8267,7 @@ male, 94 pins, type B, rows AB, grid 2.54 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="J1B1211CCD" urn="urn:adsk.eagle:component:48944403/2" prefix="ETH">
+<deviceset name="J1B1211CCD" urn="urn:adsk.eagle:component:48944403/2" locally_modified="yes" prefix="ETH">
 <description>RJ45Receptacle 1 Shielded Bend insert cat5 Gold Phosphor Bronze WithLED -40℃~+85℃ Plugin Ethernet Connectors / Modular Connectors (RJ45 RJ11) ROHS</description>
 <gates>
 <gate name="G$1" symbol="HR911105A" x="0" y="0"/>
@@ -9478,7 +9480,7 @@ male, 94 pins, type B, rows AB, grid 2.54 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AFC11-S20ICC-00" urn="urn:adsk.eagle:component:47082460/4" prefix="CON">
+<deviceset name="AFC11-S20ICC-00" urn="urn:adsk.eagle:component:47082460/4" locally_modified="yes" prefix="CON">
 <description>Drawer Type 20P Single-sided contact points/Vertical Standing paste 0.5mm SMD,P=0.5mm FFC, FPC (Flat Flexible) Connector Assemblies ROHS</description>
 <gates>
 <gate name="G$1" symbol="FPC20" x="0" y="0"/>

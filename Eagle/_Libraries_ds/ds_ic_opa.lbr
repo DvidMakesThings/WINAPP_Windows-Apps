@@ -1113,9 +1113,12 @@ down to 2.7V.</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Single 1pA 0.6V/us 1MHz SOT-23-5 Operational Amplifier ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="Single 1pA 0.6V/us 1MHz SOT-23-5 Operational Amplifier ROHS " constant="no"/>
+<attribute name="HQ_PART" value="IC0119727" constant="no"/>
 <attribute name="LCSC_PART" value="C154973" constant="no"/>
+<attribute name="MANUFACTURER" value="MICROCHIP" constant="no"/>
+<attribute name="MPN" value="MCP6001RT-I/OT
+" constant="no"/>
 <attribute name="VALUE" value="MCP6001RT-I/OT" constant="no"/>
 </technology>
 </technologies>

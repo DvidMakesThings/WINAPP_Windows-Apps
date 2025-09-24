@@ -73,52 +73,7 @@
 </layers>
 <library>
 <packages>
-<package name="LED-0603" urn="urn:adsk.eagle:footprint:24294728/1" locally_modified="yes">
-<description>Chip LED, 1.60 X 0.80 X 0.35 mm body
- &lt;p&gt;Chip LED package with body size 1.60 X 0.80 X 0.35 mm&lt;/p&gt;</description>
-<smd name="C" x="-0.75" y="0" dx="0.6118" dy="0.9118" layer="1"/>
-<smd name="A" x="0.75" y="0" dx="0.6118" dy="0.9118" layer="1"/>
-<wire x1="-1.3099" y1="0.7699" x2="0.8" y2="0.7699" width="0.12" layer="21"/>
-<wire x1="-1.3099" y1="0.7699" x2="-1.3099" y2="-0.7699" width="0.12" layer="21"/>
-<wire x1="-1.3099" y1="-0.7699" x2="0.8" y2="-0.7699" width="0.12" layer="21"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.12" layer="51"/>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.12" layer="51"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.12" layer="51"/>
-<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.12" layer="51"/>
-<text x="-0.127" y="1.4049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.127" y="-1.4049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="LED-0805" urn="urn:adsk.eagle:footprint:24294710/1" locally_modified="yes">
-<description>Chip LED, 2.00 X 1.25 X 1.10 mm body
- &lt;p&gt;Chip LED package with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
-<smd name="C" x="-1.025" y="0" dx="0.7618" dy="1.3618" layer="1"/>
-<smd name="A" x="1.025" y="0" dx="0.7618" dy="1.3618" layer="1"/>
-<wire x1="-1.6599" y1="0.9949" x2="1" y2="0.9949" width="0.12" layer="21"/>
-<wire x1="-1.6599" y1="0.9949" x2="-1.6599" y2="-0.9949" width="0.12" layer="21"/>
-<wire x1="-1.6599" y1="-0.9949" x2="1" y2="-0.9949" width="0.12" layer="21"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.12" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.12" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.12" layer="51"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.12" layer="51"/>
-<text x="-0.127" y="1.6299" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.127" y="-1.6299" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="LED-1206" urn="urn:adsk.eagle:footprint:24294704/1" locally_modified="yes">
-<description>Chip LED, 3.20 X 1.60 X 0.75 mm body
- &lt;p&gt;Chip LED package with body size 3.20 X 1.60 X 0.75 mm&lt;/p&gt;</description>
-<smd name="C" x="-1.525" y="0" dx="0.9618" dy="1.7118" layer="1"/>
-<smd name="A" x="1.525" y="0" dx="0.9618" dy="1.7118" layer="1"/>
-<wire x1="-2.2599" y1="1.1699" x2="1.6" y2="1.1699" width="0.12" layer="21"/>
-<wire x1="-2.2599" y1="1.1699" x2="-2.2599" y2="-1.1699" width="0.12" layer="21"/>
-<wire x1="-2.2599" y1="-1.1699" x2="1.6" y2="-1.1699" width="0.12" layer="21"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.12" layer="51"/>
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.12" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.12" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.12" layer="51"/>
-<text x="-0.127" y="1.8049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-0.127" y="-1.8049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="LED-0402" urn="urn:adsk.eagle:footprint:22900746/2" locally_modified="yes">
+<package name="LED-0402" urn="urn:adsk.eagle:footprint:49260826/1">
 <description>Chip LED, 1.00 X 0.50 X 0.25 mm body
  &lt;p&gt;Chip LED package with body size 1.00 X 0.50 X 0.25 mm&lt;/p&gt;</description>
 <smd name="C" x="-0.45" y="0" dx="0.7" dy="0.5" layer="1"/>
@@ -133,39 +88,118 @@
 <text x="-0.127" y="1.2549" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="-0.127" y="-1.2549" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-</packages>
-<packages3d>
-<package3d name="LEDC1608X35N_FLAT-B" urn="urn:adsk.eagle:package:24294787/2" locally_modified="yes" type="model">
+<package name="LED-0603" urn="urn:adsk.eagle:footprint:49260828/1">
 <description>Chip LED, 1.60 X 0.80 X 0.35 mm body
  &lt;p&gt;Chip LED package with body size 1.60 X 0.80 X 0.35 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="LED-0603"/>
-</packageinstances>
-</package3d>
-<package3d name="LEDC2012X110N_FLAT-B" urn="urn:adsk.eagle:package:24294759/2" locally_modified="yes" type="model">
+<smd name="C" x="-0.75" y="0" dx="0.6118" dy="0.9118" layer="1"/>
+<smd name="A" x="0.75" y="0" dx="0.6118" dy="0.9118" layer="1"/>
+<wire x1="-1.3099" y1="0.7699" x2="0.8" y2="0.7699" width="0.12" layer="21"/>
+<wire x1="-1.3099" y1="0.7699" x2="-1.3099" y2="-0.7699" width="0.12" layer="21"/>
+<wire x1="-1.3099" y1="-0.7699" x2="0.8" y2="-0.7699" width="0.12" layer="21"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.12" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.12" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.12" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.12" layer="51"/>
+<text x="-0.127" y="1.4049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.127" y="-1.4049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="LED-0805" urn="urn:adsk.eagle:footprint:49260825/1">
 <description>Chip LED, 2.00 X 1.25 X 1.10 mm body
  &lt;p&gt;Chip LED package with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="LED-0805"/>
-</packageinstances>
-</package3d>
-<package3d name="LEDC3216X75N_FLAT-B" urn="urn:adsk.eagle:package:24294749/2" locally_modified="yes" type="model">
+<smd name="C" x="-1.025" y="0" dx="0.7618" dy="1.3618" layer="1"/>
+<smd name="A" x="1.025" y="0" dx="0.7618" dy="1.3618" layer="1"/>
+<wire x1="-1.6599" y1="0.9949" x2="1" y2="0.9949" width="0.12" layer="21"/>
+<wire x1="-1.6599" y1="0.9949" x2="-1.6599" y2="-0.9949" width="0.12" layer="21"/>
+<wire x1="-1.6599" y1="-0.9949" x2="1" y2="-0.9949" width="0.12" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.12" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.12" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.12" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.12" layer="51"/>
+<text x="-0.127" y="1.6299" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.127" y="-1.6299" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="LED-1206" urn="urn:adsk.eagle:footprint:49260827/1">
 <description>Chip LED, 3.20 X 1.60 X 0.75 mm body
  &lt;p&gt;Chip LED package with body size 3.20 X 1.60 X 0.75 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="LED-1206"/>
-</packageinstances>
-</package3d>
-<package3d name="LEDC1005X25N_FLAT-B" urn="urn:adsk.eagle:package:22900837/3" locally_modified="yes" type="model">
+<smd name="C" x="-1.525" y="0" dx="0.9618" dy="1.7118" layer="1"/>
+<smd name="A" x="1.525" y="0" dx="0.9618" dy="1.7118" layer="1"/>
+<wire x1="-2.2599" y1="1.1699" x2="1.6" y2="1.1699" width="0.12" layer="21"/>
+<wire x1="-2.2599" y1="1.1699" x2="-2.2599" y2="-1.1699" width="0.12" layer="21"/>
+<wire x1="-2.2599" y1="-1.1699" x2="1.6" y2="-1.1699" width="0.12" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.12" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.12" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.12" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.12" layer="51"/>
+<text x="-0.127" y="1.8049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.127" y="-1.8049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="LED3MM" urn="urn:adsk.eagle:footprint:15654/1">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+3 mm, round</description>
+<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-1.1708" y2="0.9756" width="0.1524" layer="51" curve="-39.80361"/>
+<wire x1="-1.524" y1="0" x2="-1.1391" y2="-1.0125" width="0.1524" layer="51" curve="41.633208"/>
+<wire x1="1.1571" y1="0.9918" x2="1.524" y2="0" width="0.1524" layer="51" curve="-40.601165"/>
+<wire x1="1.1708" y1="-0.9756" x2="1.524" y2="0" width="0.1524" layer="51" curve="39.80361"/>
+<wire x1="0" y1="1.524" x2="1.2401" y2="0.8858" width="0.1524" layer="21" curve="-54.461337"/>
+<wire x1="-1.2192" y1="0.9144" x2="0" y2="1.524" width="0.1524" layer="21" curve="-53.130102"/>
+<wire x1="0" y1="-1.524" x2="1.203" y2="-0.9356" width="0.1524" layer="21" curve="52.126876"/>
+<wire x1="-1.203" y1="-0.9356" x2="0" y2="-1.524" width="0.1524" layer="21" curve="52.126876"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90"/>
+<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108"/>
+<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949"/>
+<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022"/>
+<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215"/>
+<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701"/>
+<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="LEDC1005X25N_FLAT-B" urn="urn:adsk.eagle:package:49260837/1" type="model">
 <description>Chip LED, 1.00 X 0.50 X 0.25 mm body
  &lt;p&gt;Chip LED package with body size 1.00 X 0.50 X 0.25 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="LED-0402"/>
 </packageinstances>
 </package3d>
+<package3d name="LEDC1608X35N_FLAT-B" urn="urn:adsk.eagle:package:49260835/1" type="model">
+<description>Chip LED, 1.60 X 0.80 X 0.35 mm body
+ &lt;p&gt;Chip LED package with body size 1.60 X 0.80 X 0.35 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="LED-0603"/>
+</packageinstances>
+</package3d>
+<package3d name="LEDC2012X110N_FLAT-B" urn="urn:adsk.eagle:package:49260836/1" type="model">
+<description>Chip LED, 2.00 X 1.25 X 1.10 mm body
+ &lt;p&gt;Chip LED package with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="LED-0805"/>
+</packageinstances>
+</package3d>
+<package3d name="LEDC3216X75N_FLAT-B" urn="urn:adsk.eagle:package:49260834/1" type="model">
+<description>Chip LED, 3.20 X 1.60 X 0.75 mm body
+ &lt;p&gt;Chip LED package with body size 3.20 X 1.60 X 0.75 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="LED-1206"/>
+</packageinstances>
+</package3d>
+<package3d name="LED3MM" urn="urn:adsk.eagle:package:49260829/2" type="model">
+<description>LED
+3 mm, round</description>
+<packageinstances>
+<packageinstance name="LED3MM"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="LED">
+<symbol name="LED" urn="urn:adsk.eagle:symbol:49260824/1">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.1524" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
@@ -190,417 +224,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" prefix="D">
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-LED-0402" package="LED-0402">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22900837/3"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-LED-0603" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294787/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-LED-0805" package="LED-0805">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294759/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-LED-1206" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294749/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LED-RED" prefix="D" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="LED-0402" package="LED-0402">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22900837/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="25mA Colorless transparent lens 13mcd~30mcd 615nm~635nm -30℃~+85℃ Red 130° 65mW 1.6V~2.6V 0402 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C130719" constant="no"/>
-<attribute name="VALUE" value="Red" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-0603" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294787/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C2286" constant="no"/>
-<attribute name="VALUE" value="Red" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-0805" package="LED-0805">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294759/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="25mA Colorless transparent lens 67mcd~195mcd -30℃~+85℃ 615nm~630nm Individual diode Red 130° 65mW 1.6V~2.6V 0805 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C84256" constant="no"/>
-<attribute name="VALUE" value="Red" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-1206" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294749/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="5mA 100mcd~120mcd Reverse Mount 617nm~627nm Red 120° 60mW 1.8V~2.1V 1206 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C3646938" constant="no"/>
-<attribute name="VALUE" value="Red" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LED-BLUE" prefix="D" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="LED-0402" package="LED-0402">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22900837/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="0402 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C22355736" constant="no"/>
-<attribute name="VALUE" value="Blue" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-0603" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294787/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="20mA 240mcd Colorless and transparent -20℃~+85℃ Positive Stick 455nm~475nm Blue 120° 70mW 3.3V 0603 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C965807" constant="no"/>
-<attribute name="VALUE" value="Blue" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-0805" package="LED-0805">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294759/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="20mA 260mcd Colorless transparent lens -20℃~+85℃ Positive Stick 460nm~475nm Blue 120° 70mW 3.2V 0805 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C965817" constant="no"/>
-<attribute name="VALUE" value="Blue" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-1206" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294749/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="5mA Colorless transparent lens -40℃~+85℃ 460nm~475nm Blue 120° 100mW 1206 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C434440" constant="no"/>
-<attribute name="VALUE" value="Blue" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LED-GREEN" prefix="D" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="LED-0402" package="LED-0402">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22900837/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="25mA 249mcd Colorless transparent lens -30℃~+85℃ Positive Stick 516nm~531nm Emerald 120° 80mW 3V 0402 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C965793" constant="no"/>
-<attribute name="VALUE" value="Green" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-0603" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294787/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="20mA 810mcd Colorless and transparent Individual diode 515nm~535nm -20℃~+85℃ Positive Stick Emerald 120° 70mW 3.3V 0603 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C965804" constant="no"/>
-<attribute name="VALUE" value="Green" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-0805" package="LED-0805">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294759/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Emerald 0805 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C2297" constant="no"/>
-<attribute name="VALUE" value="Green" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-1206" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294749/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="5mA 86mcd~299mcd Reverse Mount 510nm~537nm Emerald 120° 75mW 2.6V~3.2V 1206 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C3646937" constant="no"/>
-<attribute name="VALUE" value="Green" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LED-YELLOW" prefix="D" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="LED-0402" package="LED-0402">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22900837/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="20mA Colorless transparent lens -40℃~+85℃ 586nm~588nm Yellow 120° 40mW 0402 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C434450" constant="no"/>
-<attribute name="VALUE" value="Yellow" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-0603" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294787/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="20mA Colorless Transparent Lens -40℃~+85℃ 585.5nm~591.5nm Yellow 120° 60mW 0603 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C72038" constant="no"/>
-<attribute name="VALUE" value="Yellow" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-0805" package="LED-0805">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294759/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Yellow 0805 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C2296" constant="no"/>
-<attribute name="VALUE" value="Yellow" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-1206" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294749/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="10mA Colorless transparent lens -40℃~+85℃ 584nm~594nm Yellow 120° 40mW 1206 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C434443" constant="no"/>
-<attribute name="VALUE" value="Yellow" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LED-ORANGE" prefix="D" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="LED-0402" package="LED-0402">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22900837/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="5mA Colorless transparent lens -40℃~+85℃ 597.5nm~609.5nm Orange 120° 60mW 0402 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C605451" constant="no"/>
-<attribute name="VALUE" value="Orange" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-0603" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294787/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="20mA 315mcd Colorless and transparent -20℃~+85℃ 600nm~610nm Positive Stick Orange 120° 50mW 2.3V 0603 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C965800" constant="no"/>
-<attribute name="VALUE" value="Orange" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-0805" package="LED-0805">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294759/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="10mA Colorless transparent lens -40℃~+85℃ 598nm~608nm Orange 120° 40mW 0805 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C434437" constant="no"/>
-<attribute name="VALUE" value="Orange" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LED-1206" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294749/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="10mA Colorless transparent lens -40℃~+85℃ 598nm~608nm Orange 120° 40mW 1206 LED Indication - Discrete ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C434444" constant="no"/>
-<attribute name="VALUE" value="Orange" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LED-PURPLE" prefix="D" uservalue="yes">
+<deviceset name="LED-PURPLE" urn="urn:adsk.eagle:component:49260839/1" prefix="D" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -611,7 +235,7 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294787/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260835/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -627,7 +251,7 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294759/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260836/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -639,7 +263,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED-WHITE" prefix="D" uservalue="yes">
+<deviceset name="LED-WHITE" urn="urn:adsk.eagle:component:49260838/1" prefix="D" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -650,12 +274,11 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22900837/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260837/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="0402 LED Indication - Discrete ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="0402 LED Indication - Discrete ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C20613596" constant="no"/>
 <attribute name="VALUE" value="White" constant="no"/>
 </technology>
@@ -667,12 +290,11 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294787/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260835/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="20mA 200mcd~300mcd Foggy yellow lens -30℃~+85℃ White 130° 72mW 2.6V~3.6V 0603 LED Indication - Discrete ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="20mA 200mcd~300mcd Foggy yellow lens -30℃~+85℃ White 130° 72mW 2.6V~3.6V 0603 LED Indication - Discrete ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C84265" constant="no"/>
 <attribute name="VALUE" value="White" constant="no"/>
 </technology>
@@ -684,12 +306,11 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294759/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260836/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="5mA Yellow lens -40℃~+85℃ White 120° 100mW 0805 LED Indication - Discrete ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="5mA Yellow lens -40℃~+85℃ White 120° 100mW 0805 LED Indication - Discrete ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C434434" constant="no"/>
 <attribute name="VALUE" value="White" constant="no"/>
 </technology>
@@ -701,14 +322,547 @@
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24294749/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260834/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="20mA 12000K~27000K 1300mcd Yellow -20℃~+85℃ Positive Stick White 120° 70mW 3.4V 1206 LED Indication - Discrete ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="20mA 12000K~27000K 1300mcd Yellow -20℃~+85℃ Positive Stick White 120° 70mW 3.4V 1206 LED Indication - Discrete ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C965828" constant="no"/>
 <attribute name="VALUE" value="White" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED" urn="urn:adsk.eagle:component:49260845/1" prefix="D">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-LED-0402" package="LED-0402">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260837/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-LED-0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260835/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-LED-0805" package="LED-0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260836/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-LED-1206" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260834/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-ORANGE" urn="urn:adsk.eagle:component:49260840/1" locally_modified="yes" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LED-0402" package="LED-0402">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260837/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="5mA Colorless transparent lens -40℃~+85℃ 597.5nm~609.5nm Orange 120° 60mW 0402 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C605451" constant="no"/>
+<attribute name="VALUE" value="Orange" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260835/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="20mA 315mcd Colorless and transparent -20℃~+85℃ 600nm~610nm Positive Stick Orange 120° 50mW 2.3V 0603 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C965800" constant="no"/>
+<attribute name="VALUE" value="Orange" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-0805" package="LED-0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260836/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="10mA Colorless transparent lens -40℃~+85℃ 598nm~608nm Orange 120° 40mW 0805 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C434437" constant="no"/>
+<attribute name="VALUE" value="Orange" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-1206" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260834/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="10mA Colorless transparent lens -40℃~+85℃ 598nm~608nm Orange 120° 40mW 1206 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C434444" constant="no"/>
+<attribute name="VALUE" value="Orange" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3MM-TINTED" package="LED3MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260829/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-20℃~+80℃ 20mA 3mm Round Lens 45° Frosted Orange Lens Orange Plugin,D=3mm LED Indication - Discrete ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C330758" constant="no"/>
+<attribute name="VALUE" value="ORANGE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-GREEN" urn="urn:adsk.eagle:component:49260842/1" locally_modified="yes" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LED-0402" package="LED-0402">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260837/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="25mA 249mcd Colorless transparent lens -30℃~+85℃ Positive Stick 516nm~531nm Emerald 120° 80mW 3V 0402 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C965793" constant="no"/>
+<attribute name="VALUE" value="Green" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260835/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="20mA 810mcd Colorless and transparent Individual diode 515nm~535nm -20℃~+85℃ Positive Stick Emerald 120° 70mW 3.3V 0603 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="HQ_PART" value="PH0010430" constant="no"/>
+<attribute name="LCSC_PART" value="C965804" constant="no"/>
+<attribute name="MANUFACTURER" value="Wurth" constant="no"/>
+<attribute name="MPN" value="150060GS75000" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="Green" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-0805" package="LED-0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260836/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Emerald 0805 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C2297" constant="no"/>
+<attribute name="VALUE" value="Green" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-1206" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260834/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="5mA 86mcd~299mcd Reverse Mount 510nm~537nm Emerald 120° 75mW 2.6V~3.2V 1206 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C3646937" constant="no"/>
+<attribute name="VALUE" value="Green" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3MM-CLEAR" package="LED3MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260829/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-20℃~+80℃ 20mA 30° 3mm Round Lens 600nm~610nm 610nm 72mW Amber Water Clear Plugin,D=3mm LED Indication - Discrete ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C414645" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-BLUE" urn="urn:adsk.eagle:component:49260843/1" locally_modified="yes" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LED-0402" package="LED-0402">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260837/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="0402 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C22355736" constant="no"/>
+<attribute name="VALUE" value="Blue" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260835/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="20mA 240mcd Colorless and transparent -20℃~+85℃ Positive Stick 455nm~475nm Blue 120° 70mW 3.3V 0603 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="HQ_PART" value="PH0093698" constant="no"/>
+<attribute name="LCSC_PART" value="C965807" constant="no"/>
+<attribute name="MANUFACTURER" value="NATIONSTAR" constant="no"/>
+<attribute name="MPN" value="FC-1608BK-465G5 " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="Blue" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-0805" package="LED-0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260836/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="20mA 260mcd Colorless transparent lens -20℃~+85℃ Positive Stick 460nm~475nm Blue 120° 70mW 3.2V 0805 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="HQ_PART" value="PH0095697" constant="no"/>
+<attribute name="LCSC_PART" value="C965817" constant="no"/>
+<attribute name="MANUFACTURER" value="XINGLIGHT" constant="no"/>
+<attribute name="MPN" value="XL-2012UBC-A " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="Blue" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-1206" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260834/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="5mA Colorless transparent lens -40℃~+85℃ 460nm~475nm Blue 120° 100mW 1206 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C434440" constant="no"/>
+<attribute name="VALUE" value="Blue" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3MM-CLEAR" package="LED3MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260829/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="3mm Round Lens Blue Plugin,D=3mm LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C86881" constant="no"/>
+<attribute name="VALUE" value="BLUE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-RED" urn="urn:adsk.eagle:component:49260844/1" locally_modified="yes" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LED-0402" package="LED-0402">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260837/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="25mA Colorless transparent lens 13mcd~30mcd 615nm~635nm -30℃~+85℃ Red 130° 65mW 1.6V~2.6V 0402 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C130719" constant="no"/>
+<attribute name="VALUE" value="Red" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260835/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C2286" constant="no"/>
+<attribute name="VALUE" value="Red" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-0805" package="LED-0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260836/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="25mA Colorless transparent lens 67mcd~195mcd -30℃~+85℃ 615nm~630nm Individual diode Red 130° 65mW 1.6V~2.6V 0805 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C84256" constant="no"/>
+<attribute name="VALUE" value="Red" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-1206" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260834/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="5mA 100mcd~120mcd Reverse Mount 617nm~627nm Red 120° 60mW 1.8V~2.1V 1206 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C3646938" constant="no"/>
+<attribute name="VALUE" value="Red" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3MM-TINTED" package="LED3MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260829/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-20℃~+85℃ 1000mcd 2.2V 20mA 35° 3mm Round Lens 50mW 620nm~630nm 625nm Red Red Lens Plugin,D=3mm LED Indication - Discrete ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C2895470" constant="no"/>
+<attribute name="VALUE" value="RED" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3MM-CLEAR" package="LED3MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260829/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-20℃~+80℃ 20mA 30° 3mm Round Lens Red Water Clear Plugin,D=3mm LED Indication - Discrete ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C330752" constant="no"/>
+<attribute name="VALUE" value="RED" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-YELLOW" urn="urn:adsk.eagle:component:49260841/1" locally_modified="yes" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LED-0402" package="LED-0402">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260837/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="20mA Colorless transparent lens -40℃~+85℃ 586nm~588nm Yellow 120° 40mW 0402 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C434450" constant="no"/>
+<attribute name="VALUE" value="Yellow" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260835/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="20mA Colorless Transparent Lens -40℃~+85℃ 585.5nm~591.5nm Yellow 120° 60mW 0603 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C72038" constant="no"/>
+<attribute name="VALUE" value="Yellow" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-0805" package="LED-0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260836/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Yellow 0805 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C2296" constant="no"/>
+<attribute name="VALUE" value="Yellow" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LED-1206" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260834/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="10mA Colorless transparent lens -40℃~+85℃ 584nm~594nm Yellow 120° 40mW 1206 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C434443" constant="no"/>
+<attribute name="VALUE" value="Yellow" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3MM-TINTED" package="LED3MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260829/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-20℃~+75℃ 30° 3mm Round Lens 590nm~595nm 60mW Yellow Yellow Lens Plugin,D=3mm LED Indication - Discrete ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C779430" constant="no"/>
+<attribute name="VALUE" value="YELLOW" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3MM-CLEAR" package="LED3MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49260829/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-25℃~+85℃ 30mA 3mm Round Lens 585nm~590nm 595nm 80mW Water Clear Yellow Plugin,D=3mm LED Indication - Discrete ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C2895467" constant="no"/>
+<attribute name="VALUE" value="YELLOW" constant="no"/>
 </technology>
 </technologies>
 </device>

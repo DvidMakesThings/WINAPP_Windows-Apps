@@ -11712,7 +11712,11 @@ Phototransistor Optocoupler</description>
 <technology name="">
 <attribute name="DATASHEET" value="https://w2.electrodragon.com/Chip-cn-dat/HLW-dat/HLW8032-dat/HLW8032.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="SOP-8 Energy Metering ROHS " constant="no"/>
+<attribute name="HQ_PART" value="MD0751024" constant="no"/>
 <attribute name="LCSC_PART" value="C128023" constant="no"/>
+<attribute name="MANUFACTURER" value="Hiliwei Tech" constant="no"/>
+<attribute name="MPN" value="HLW8032" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="HLW8032" constant="no"/>
 </technology>
 </technologies>
@@ -12160,7 +12164,11 @@ Phototransistor Optocoupler</description>
 <technology name="">
 <attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="1.7MHz I2C QFN-28-EP(6x6) I/O Expanders ROHS " constant="no"/>
+<attribute name="HQ_PART" value="IC0080215" constant="no"/>
 <attribute name="LCSC_PART" value="C629439" constant="no"/>
+<attribute name="MANUFACTURER" value="MICROCHIP" constant="no"/>
+<attribute name="MPN" value="MCP23017-E/ML" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="MCP23017T-E/ML " constant="no"/>
 </technology>
 </technologies>
@@ -12200,7 +12208,11 @@ Phototransistor Optocoupler</description>
 <technology name="">
 <attribute name="DATASHEET" value="https://docs.broadcom.com/doc/AV02-0752EN" constant="no"/>
 <attribute name="DESCRIPTION" value="80V 50mA 400mV@2.4mA,8mA 4 6V 1.2V DC SOP-16-4.4mm Transistor, Photovoltaic Output Optoisolators ROHS " constant="no"/>
+<attribute name="HQ_PART" value="IS0001505" constant="no"/>
 <attribute name="LCSC_PART" value="C188681" constant="no"/>
+<attribute name="MANUFACTURER" value="Broadcom" constant="no"/>
+<attribute name="MPN" value="ACPL-247-500E" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="ACPL-247-500E " constant="no"/>
 </technology>
 </technologies>
@@ -12309,7 +12321,10 @@ Phototransistor Optocoupler</description>
 <technology name="">
 <attribute name="DATASHEET" value="https://www.sycelectronica.com.ar/semiconductores/ULN2803-SMD.pdf?srsltid=AfmBOophiuKj-Ssp-X9zHCj-smbNohAULqg7ZzMWt7RSG8XB10-82Tty" constant="no"/>
 <attribute name="DESCRIPTION" value="SOP-18-300mil Darlington Transistor Arrays ROHS " constant="no"/>
+<attribute name="HQ_PART" value="ZHLM0322921" constant="no"/>
 <attribute name="LCSC_PART" value="C845537" constant="no"/>
+<attribute name="MANUFACTURER" value="UMW" constant="no"/>
+<attribute name="MPN" value="ULN2803A" constant="no"/>
 <attribute name="VALUE" value="ULN2803AFWG" constant="no"/>
 </technology>
 </technologies>

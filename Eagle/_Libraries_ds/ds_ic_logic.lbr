@@ -2676,7 +2676,7 @@ High-Speed CMOS Logic Octal Buffer/Line Drivers, Three-State</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="74AC151" urn="urn:adsk.eagle:component:49052134/1" prefix="IC">
+<deviceset name="74AC151" urn="urn:adsk.eagle:component:49052134/1" locally_modified="yes" prefix="IC">
 <description>8-Line To 1-Line Data Selectors/Multiplexers</description>
 <gates>
 <gate name="A" symbol="SN74HC151PWR" x="0" y="0"/>
@@ -2708,7 +2708,12 @@ High-Speed CMOS Logic Octal Buffer/Line Drivers, Three-State</description>
 <technology name="">
 <attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/sn74hc151.pdf?ts=1749408396579&amp;ref_url=https%253A%252F%252Fwww.google.com%252F" constant="no"/>
 <attribute name="DESCRIPTION" value="24mA 4.5V~5.5V 24mA SOIC-16 Signal Switches, Multiplexers, Decoders ROHS " constant="no"/>
+<attribute name="HQ_PART" value="IC0244620" constant="no"/>
 <attribute name="LCSC_PART" value="C2674746" constant="no"/>
+<attribute name="MANUFACTURER" value="Nexperia" constant="no"/>
+<attribute name="MPN" value="74HC151PW-Q100,118
+" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="CD74ACT151M96" constant="no"/>
 </technology>
 </technologies>
