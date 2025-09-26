@@ -487,6 +487,18 @@
 <circle x="-3.7" y="0" radius="0.2" width="0.4" layer="21"/>
 <circle x="-0.5" y="0" radius="0.1" width="0.4" layer="51"/>
 </package>
+<package name="SRR5228A" urn="urn:adsk.eagle:footprint:46684194/1">
+<smd name="1" x="0" y="1.75" dx="4.4" dy="2" layer="1"/>
+<smd name="2" x="0" y="-1.75" dx="4.4" dy="2" layer="1"/>
+<text x="0" y="-3.81" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="3.81" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.6" y1="-2.6" x2="2.6" y2="-2.6" width="0.1" layer="51"/>
+<wire x1="2.6" y1="-2.6" x2="2.6" y2="2.6" width="0.1" layer="51"/>
+<wire x1="2.6" y1="2.6" x2="-2.6" y2="2.6" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="2.6" x2="-2.6" y2="-2.6" width="0.1" layer="51"/>
+<wire x1="0" y1="3.3" x2="0" y2="3.2" width="0.1" layer="21" curve="180"/>
+<wire x1="0" y1="3.2" x2="0" y2="3.3" width="0.1" layer="21" curve="180"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="0603" urn="urn:adsk.eagle:package:49051870/2" type="model">
@@ -561,6 +573,11 @@
 <packageinstance name="L-5.2X5.2"/>
 </packageinstances>
 </package3d>
+<package3d name="SRR5228A" urn="urn:adsk.eagle:package:46684196/2" type="model">
+<packageinstances>
+<packageinstance name="SRR5228A"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="FERRITE" urn="urn:adsk.eagle:symbol:49051859/1">
@@ -585,6 +602,20 @@
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <circle x="-5.842" y="0.508" radius="0.127" width="0.254" layer="94"/>
 </symbol>
+<symbol name="L-1">
+<text x="1.905" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.905" y="-0.762" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<wire x1="0" y1="2.54" x2="0.635" y2="1.905" width="0.254" layer="94" curve="-90"/>
+<wire x1="0.635" y1="1.905" x2="0" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0.635" y1="0.635" x2="0" y2="0" width="0.254" layer="94" curve="-90"/>
+<wire x1="0.635" y1="-0.635" x2="0" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0.635" y1="-1.905" x2="0" y2="-2.54" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="1.27" x2="0.635" y2="0.635" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="0.635" y2="-0.635" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-1.27" x2="0.635" y2="-1.905" width="0.254" layer="94" curve="-90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BLM18EG221TN1D" urn="urn:adsk.eagle:component:49051885/1" locally_modified="yes" prefix="L">
@@ -604,7 +635,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="150mΩ ±25% 220Ω@100MHz 0603 Ferrite Beads ROHS " constant="no"/>
+<attribute name="HQ_PART" value="WF0012312" constant="no"/>
 <attribute name="LCSC_PART" value="C113025" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MPN" value="BLM18EG221TN1D" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="BLM18EG221TN1D" constant="no"/>
 </technology>
 </technologies>
@@ -794,8 +829,7 @@
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://abracon.com/datasheets/AOTA-B201610S3R3-101-T.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="0806 Power Inductors ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="0806 Power Inductors ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C42411119" constant="no"/>
 <attribute name="VALUE" value="B201610S3R3-101-T" constant="no"/>
 </technology>
@@ -835,7 +869,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="260mA 1mH ±20% 220mA SMD,6x6mm Power Inductors ROHS" constant="no"/>
+<attribute name="HQ_PART" value="IN0035691" constant="no"/>
 <attribute name="LCSC_PART" value="C168049" constant="no"/>
+<attribute name="MANUFACTURER" value="SXN" constant="no"/>
+<attribute name="MPN" value="SMNR6045-102MT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="1mH" constant="no"/>
 </technology>
 </technologies>
@@ -973,6 +1011,77 @@
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L2" prefix="L">
+<gates>
+<gate name="G$1" symbol="L-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SRR5228A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46684196/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4.7UH" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="L-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SRR5228A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46684196/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Power Inductance 70mΩ 4.7µH ±20% 2.5A - IND_5.8X5.2MM_SM " constant="no"/>
+<attribute name="HQ_PART" value="IN0027228" constant="no"/>
+<attribute name="MANUFACTURER" value="YJYCOIN" constant="no"/>
+<attribute name="MPN" value="YP0503-4R7M" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4.2UH" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="L-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SRR5228A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46684196/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Power Inductance 70mΩ 4.7µH ±20% 2.5A - IND_5.8X5.2MM_SM " constant="no"/>
+<attribute name="HQ_PART" value="IN0027228" constant="no"/>
+<attribute name="MANUFACTURER" value="YJYCOIN" constant="no"/>
+<attribute name="MPN" value="YP0503-4R7M" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -4403,6 +4403,26 @@ male, 64 pins, type b, rows AB, grid 2.54 mm</description>
 <hole x="-6.34" y="-5.08" drill="3.25"/>
 <hole x="6.36" y="-5.08" drill="3.25"/>
 </package>
+<package name="B2B-XH-A">
+<wire x1="3.7" y1="2.875" x2="3.7" y2="-2.875" width="0.127" layer="51"/>
+<wire x1="3.7" y1="-2.875" x2="-3.7" y2="-2.875" width="0.127" layer="51"/>
+<wire x1="-3.7" y1="-2.875" x2="-3.7" y2="2.875" width="0.127" layer="51"/>
+<wire x1="-3.7" y1="2.875" x2="3.7" y2="2.875" width="0.127" layer="51"/>
+<circle x="4.44" y="-0.525" radius="0.1" width="0.2" layer="51"/>
+<wire x1="3.7" y1="2.875" x2="3.7" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="3.7" y1="-2.875" x2="-3.7" y2="-2.875" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="-2.875" x2="-3.7" y2="2.875" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="2.875" x2="3.7" y2="2.875" width="0.127" layer="21"/>
+<wire x1="-3.95" y1="3.125" x2="-3.95" y2="-3.125" width="0.05" layer="39"/>
+<wire x1="-3.95" y1="-3.125" x2="3.95" y2="-3.125" width="0.05" layer="39"/>
+<wire x1="3.95" y1="-3.125" x2="3.95" y2="3.125" width="0.05" layer="39"/>
+<wire x1="3.95" y1="3.125" x2="-3.95" y2="3.125" width="0.05" layer="39"/>
+<circle x="4.44" y="-0.525" radius="0.1" width="0.2" layer="21"/>
+<text x="-3.95" y="4.125" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.95" y="-4.125" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<pad name="2" x="-1.25" y="-0.525" drill="1.05"/>
+<pad name="1" x="1.25" y="-0.525" drill="1.05" shape="square"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="DCCM9SCBRPN" urn="urn:adsk.eagle:package:47841158/3" type="model">
@@ -7595,6 +7615,20 @@ male, 64 pins, type b, rows AB, grid 2.54 mm</description>
 <pin name="MH1" x="12.7" y="-20.32" length="middle" rot="R180"/>
 <pin name="MH2" x="12.7" y="-22.86" length="middle" rot="R180"/>
 </symbol>
+<symbol name="B2B-XH-A">
+<wire x1="-3.81" y1="3.81" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-3.175" y1="2.2225" x2="-1.5875" y2="2.8575" layer="94"/>
+<rectangle x1="-3.175" y1="-0.3175" x2="-1.5875" y2="0.3175" layer="94"/>
+<pin name="1" x="-7.62" y="2.54" length="middle" direction="pas"/>
+<pin name="2" x="-7.62" y="0" length="middle" direction="pas"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DCCM9SCBRPN" urn="urn:adsk.eagle:component:47841161/3" prefix="CON" uservalue="yes">
@@ -8295,7 +8329,11 @@ male, 94 pins, type B, rows AB, grid 2.54 mm</description>
 <technology name="">
 <attribute name="DATASHEET" value="file:///C:/Users/sdvid/Downloads/j1b1211ccd.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="RJ45Receptacle 1 Shielded Bend insert cat5 Gold Phosphor Bronze WithLED -40℃~+85℃ Plugin Ethernet Connectors / Modular Connectors (RJ45 RJ11) ROHS " constant="no"/>
+<attribute name="HQ_PART" value="UN0002907" constant="no"/>
 <attribute name="LCSC_PART" value="C910371" constant="no"/>
+<attribute name="MANUFACTURER" value="WIZnet" constant="no"/>
+<attribute name="MPN" value="J1B1211CCD" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="J1B1211CCD" constant="no"/>
 </technology>
 </technologies>
@@ -8719,7 +8757,7 @@ male, 94 pins, type B, rows AB, grid 2.54 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB_C" urn="urn:adsk.eagle:component:46619839/5" prefix="USB" uservalue="yes">
+<deviceset name="USB_C" urn="urn:adsk.eagle:component:46619839/5" locally_modified="yes" prefix="USB" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="USB-C" x="0" y="0"/>
 </gates>
@@ -8761,7 +8799,11 @@ male, 94 pins, type B, rows AB, grid 2.54 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="3A 1 Horizontal attachment 16P Female -25℃~+85℃ Type-C SMD USB Connectors ROHS " constant="no"/>
+<attribute name="HQ_PART" value="ZHLM0322915" constant="no"/>
 <attribute name="LCSC_PART" value="C2927038" constant="no"/>
+<attribute name="MANUFACTURER" value="DEALON" constant="no"/>
+<attribute name="MPN" value="USB-TYPE-C-018 " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="USB-TYPE-C-018 " constant="no"/>
 </technology>
 </technologies>
@@ -9519,7 +9561,11 @@ male, 94 pins, type B, rows AB, grid 2.54 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Drawer Type 20P Single-sided contact points/Vertical Standing paste 0.5mm SMD,P=0.5mm FFC, FPC (Flat Flexible) Connector Assemblies ROHS " constant="no"/>
+<attribute name="HQ_PART" value="CO0889517" constant="no"/>
 <attribute name="LCSC_PART" value="C11073" constant="no"/>
+<attribute name="MANUFACTURER" value="JS" constant="no"/>
+<attribute name="MPN" value="AFC11-S20ICA-00" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="AFC11-S20ICC-00 " constant="no"/>
 </technology>
 </technologies>
@@ -10231,6 +10277,28 @@ Created by Ella Wu 2024-03-08&lt;br&gt;
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-B2B-XH-A" prefix="CON" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="B2B-XH-A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B2B-XH-A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Wire to Board Connectors 2Pin Male 2.50mm " constant="no"/>
+<attribute name="HQ_PART" value="CO65818632" constant="no"/>
+<attribute name="MANUFACTURER" value="HXH" constant="no"/>
+<attribute name="MPN" value="HX25003-2A" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

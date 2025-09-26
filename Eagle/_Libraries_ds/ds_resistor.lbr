@@ -672,7 +672,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="49.9R-1%" urn="urn:adsk.eagle:component:49287465/1" prefix="R" uservalue="yes">
+<deviceset name="49.9R-1%" urn="urn:adsk.eagle:component:49287465/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -688,7 +688,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 49.9Ω 0201 Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0721921" constant="no"/>
 <attribute name="LCSC_PART" value="C155744" constant="no"/>
+<attribute name="MANUFACTURER" value="FH" constant="no"/>
+<attribute name="MPN" value="RC-01W49R9FTE" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="49.9R 1%" constant="no"/>
 </technology>
 </technologies>
@@ -795,7 +799,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0207376" constant="no"/>
 <attribute name="LCSC_PART" value="C17414" constant="no"/>
+<attribute name="MANUFACTURER" value="RALEC" constant="no"/>
+<attribute name="MPN" value="RTT051002FTP" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="10K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -827,7 +835,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 10kΩ 0201 Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0208620" constant="no"/>
 <attribute name="LCSC_PART" value="C473048" constant="no"/>
+<attribute name="MANUFACTURER" value="FH" constant="no"/>
+<attribute name="MPN" value="RC-01W1002FT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="10K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -1471,7 +1483,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="12.7K-1%" urn="urn:adsk.eagle:component:49287472/1" prefix="R" uservalue="yes">
+<deviceset name="12.7K-1%" urn="urn:adsk.eagle:component:49287472/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -1503,7 +1515,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 12.7kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+<attribute name="HQ_PART" value="RE0202294" constant="no"/>
 <attribute name="LCSC_PART" value="C25853" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="AC0402FR-0712K7L" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="12.7K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -1645,7 +1661,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="2.2K-1%" urn="urn:adsk.eagle:component:49287463/1" prefix="R" uservalue="yes">
+<deviceset name="2.2K-1%" urn="urn:adsk.eagle:component:49287463/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -1661,7 +1677,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 2.2kΩ 0201 Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0209901" constant="no"/>
 <attribute name="LCSC_PART" value="C473508" constant="no"/>
+<attribute name="MANUFACTURER" value="FH" constant="no"/>
+<attribute name="MPN" value="RC-01W2201FT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="2.2K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -1732,7 +1752,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="100K-1%" urn="urn:adsk.eagle:component:49287434/1" prefix="R" uservalue="yes">
+<deviceset name="100K-1%" urn="urn:adsk.eagle:component:49287434/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -1764,7 +1784,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+<attribute name="HQ_PART" value="RE0203322" constant="no"/>
 <attribute name="LCSC_PART" value="C25741" constant="no"/>
+<attribute name="MANUFACTURER" value="FH" constant="no"/>
+<attribute name="MPN" value="RC-02W1003FT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="100K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -1926,7 +1950,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="12.4K-1%" urn="urn:adsk.eagle:component:49287464/1" prefix="R" uservalue="yes">
+<deviceset name="12.4K-1%" urn="urn:adsk.eagle:component:49287464/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -1942,7 +1966,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50mW Thick Film Resistors ±0.5% ±200ppm/℃ 12.4kΩ 0201 Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0186667" constant="no"/>
 <attribute name="LCSC_PART" value="C851644" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0201FR-0712K4L" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="12.4K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -2013,7 +2041,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="9.09K-1%" urn="urn:adsk.eagle:component:49287446/1" prefix="R" uservalue="yes">
+<deviceset name="9.09K-1%" urn="urn:adsk.eagle:component:49287446/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -2045,7 +2073,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 9.09kΩ 0402 Chip Resistor - Surface Mount ROHS "/>
+<attribute name="HQ_PART" value="RE0203888" constant="no"/>
 <attribute name="LCSC_PART" value="C11549" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="AC0402FR-079K09L" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="9.09K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -2100,7 +2132,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="8.2K-1%" urn="urn:adsk.eagle:component:49287474/1" prefix="R" uservalue="yes">
+<deviceset name="8.2K-1%" urn="urn:adsk.eagle:component:49287474/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -2132,7 +2164,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 8.2kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+<attribute name="HQ_PART" value="RE0209227" constant="no"/>
 <attribute name="LCSC_PART" value="C25924" constant="no"/>
+<attribute name="MANUFACTURER" value="FH" constant="no"/>
+<attribute name="MPN" value="RC-02W8201FT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="8.2K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -2187,7 +2223,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="470R-1%" urn="urn:adsk.eagle:component:49287467/1" prefix="R" uservalue="yes">
+<deviceset name="470R-1%" urn="urn:adsk.eagle:component:49287467/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -2219,7 +2255,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 470Ω 0402 Chip Resistor - Surface Mount ROHS"/>
+<attribute name="HQ_PART" value="RE0205922" constant="no"/>
 <attribute name="LCSC_PART" value="C25117" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MPN" value="ERJ2RKF4700X" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="470R 1%" constant="no"/>
 </technology>
 </technologies>
@@ -2274,7 +2314,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="4.99K-1%" urn="urn:adsk.eagle:component:49287439/1" prefix="R" uservalue="yes">
+<deviceset name="4.99K-1%" urn="urn:adsk.eagle:component:49287439/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -2322,7 +2362,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 4.99kΩ 0603 Chip Resistor - Surface Mount ROHS " constant="no"/>
+<attribute name="HQ_PART" value="RE0204816" constant="no"/>
 <attribute name="LCSC_PART" value="C23046" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="AC0603FR-074K99L" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="4.99K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -2361,7 +2405,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1M-1%" urn="urn:adsk.eagle:component:49287442/1" prefix="R" uservalue="yes">
+<deviceset name="1M-1%" urn="urn:adsk.eagle:component:49287442/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -2377,7 +2421,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 1MΩ 0201 Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0422946" constant="no"/>
 <attribute name="LCSC_PART" value="C295786" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="AC0201FR-071ML " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="1M 1%" constant="no"/>
 </technology>
 </technologies>
@@ -2393,7 +2441,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+<attribute name="HQ_PART" value="RE0055809" constant="no"/>
 <attribute name="LCSC_PART" value="C26083" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay" constant="no"/>
+<attribute name="MPN" value="MCS04020C1004FE000" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="1M 1%" constant="no"/>
 </technology>
 </technologies>
@@ -2441,7 +2493,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="250mW Thick Film Resistors 200V ±100ppm/℃ ±1% 1MΩ 1206 Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0188103" constant="no"/>
 <attribute name="LCSC_PART" value="C17927" constant="no"/>
+<attribute name="MANUFACTURER" value="Uniohm" constant="no"/>
+<attribute name="MPN" value="1206W4F1004T5E" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="1M 1%" constant="no"/>
 </technology>
 </technologies>
@@ -2612,7 +2668,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="20K-1%" urn="urn:adsk.eagle:component:49287468/1" prefix="R" uservalue="yes">
+<deviceset name="20K-1%" urn="urn:adsk.eagle:component:49287468/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -2644,7 +2700,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 20kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+<attribute name="HQ_PART" value="RE0203337" constant="no"/>
 <attribute name="LCSC_PART" value="C25765" constant="no"/>
+<attribute name="MANUFACTURER" value="FH" constant="no"/>
+<attribute name="MPN" value="RC-02W2002FT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="20K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -2877,7 +2937,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="2.4K-1%" urn="urn:adsk.eagle:component:49287473/1" prefix="R" uservalue="yes">
+<deviceset name="2.4K-1%" urn="urn:adsk.eagle:component:49287473/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -2909,7 +2969,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 2.4kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+<attribute name="HQ_PART" value="RE0202491" constant="no"/>
 <attribute name="LCSC_PART" value="C25882" constant="no"/>
+<attribute name="MANUFACTURER" value="LIZ" constant="no"/>
+<attribute name="MPN" value="CR0402FF2401G" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="2.4K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -3419,7 +3483,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="33K-1%" urn="urn:adsk.eagle:component:49287471/1" prefix="R" uservalue="yes">
+<deviceset name="33K-1%" urn="urn:adsk.eagle:component:49287471/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -3451,7 +3515,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 33kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+<attribute name="HQ_PART" value="RE0321838" constant="no"/>
 <attribute name="LCSC_PART" value="C25779" constant="no"/>
+<attribute name="MANUFACTURER" value="RALEC" constant="no"/>
+<attribute name="MPN" value="RTT023302FTH" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="33K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -3812,7 +3880,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="40.2K-1%" urn="urn:adsk.eagle:component:49287470/1" prefix="R" uservalue="yes">
+<deviceset name="40.2K-1%" urn="urn:adsk.eagle:component:49287470/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -3844,7 +3912,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 40.2kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+<attribute name="HQ_PART" value="RE0063264" constant="no"/>
 <attribute name="LCSC_PART" value="C25893" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="AC0402FR-0740K2L " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="40.2K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -3986,7 +4058,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="5.1K-1%" urn="urn:adsk.eagle:component:49287462/1" prefix="R" uservalue="yes">
+<deviceset name="5.1K-1%" urn="urn:adsk.eagle:component:49287462/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -4002,7 +4074,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 5.1kΩ 0201 Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0185972" constant="no"/>
 <attribute name="LCSC_PART" value="C274341" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0201FR-075K1L" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="5.1K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -4308,8 +4384,7 @@
 <attribute name="HQ_PART" value="RE0210247" constant="no"/>
 <attribute name="LCSC_PART" value="C270817" constant="no"/>
 <attribute name="MANUFACTURER" value="Yageo" constant="no"/>
-<attribute name="MPN" value="AF0201FR-0710RL
-" constant="no"/>
+<attribute name="MPN" value="AF0201FR-0710RL " constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="10R 1%" constant="no"/>
 </technology>
@@ -4326,7 +4401,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 10Ω 0402 Chip Resistor - Surface Mount ROHS"/>
+<attribute name="HQ_PART" value="RE0191560" constant="no"/>
 <attribute name="LCSC_PART" value="C25077" constant="no"/>
+<attribute name="MANUFACTURER" value="Uniohm" constant="no"/>
+<attribute name="MPN" value="0402WGF100JTCE" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="10R 1%" constant="no"/>
 </technology>
 </technologies>
@@ -4524,7 +4603,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="3.3R-1%" urn="urn:adsk.eagle:component:49287466/1" prefix="R" uservalue="yes">
+<deviceset name="3.3R-1%" urn="urn:adsk.eagle:component:49287466/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -4540,7 +4619,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50mW Thick Film Resistors 25V -200ppm/℃~+400ppm/℃ ±1% 3.3Ω 0201 Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0422979" constant="no"/>
 <attribute name="LCSC_PART" value="C158547" constant="no"/>
+<attribute name="MANUFACTURER" value="Uniohm" constant="no"/>
+<attribute name="MPN" value="0201WMF330KTEE" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="3.3R 1%" constant="no"/>
 </technology>
 </technologies>
@@ -4833,7 +4916,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="39R-1%" urn="urn:adsk.eagle:component:49287475/1" prefix="R" uservalue="yes">
+<deviceset name="39R-1%" urn="urn:adsk.eagle:component:49287475/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -4929,7 +5012,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="2W Thick Film Resistors 200V ±100ppm/℃ ±1% 39Ω 2512 Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0461666" constant="no"/>
 <attribute name="LCSC_PART" value="C175263" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC2512FK-0739RL" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="39R 1% 2W" constant="no"/>
 </technology>
 </technologies>
@@ -4991,6 +5078,7 @@
 <attribute name="LCSC_PART" value="C728320" constant="no"/>
 <attribute name="MANUFACTURER" value="Viking" constant="no"/>
 <attribute name="MPN" value="LR12FTDSR002" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="0.002R 1%" constant="no"/>
 </technology>
 </technologies>
@@ -5104,7 +5192,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="3.3K-1%_ARRAY" urn="urn:adsk.eagle:component:49287431/2" prefix="RN" uservalue="yes">
+<deviceset name="3.3K-1%_ARRAY" urn="urn:adsk.eagle:component:49287431/2" locally_modified="yes" prefix="RN" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="742C083103JP" x="0" y="0"/>
 </gates>
@@ -5126,14 +5214,18 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="4 ±1% 3.3kΩ 62.5mW ±200ppm/℃ 0603x4 Resistor Networks, Arrays ROHS " constant="no"/>
+<attribute name="HQ_PART" value="RE0093863" constant="no"/>
 <attribute name="LCSC_PART" value="C1734380" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="TC164-FR-073K3L" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="3.3K 1%" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="7.5K-1%" urn="urn:adsk.eagle:component:49287469/1" prefix="R" uservalue="yes">
+<deviceset name="7.5K-1%" urn="urn:adsk.eagle:component:49287469/1" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -5165,7 +5257,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 7.5kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+<attribute name="HQ_PART" value="RE0188271" constant="no"/>
 <attribute name="LCSC_PART" value="C25918" constant="no"/>
+<attribute name="MANUFACTURER" value="Uniohm" constant="no"/>
+<attribute name="MPN" value="0402WGF7501TCE" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="7.5K 1%" constant="no"/>
 </technology>
 </technologies>

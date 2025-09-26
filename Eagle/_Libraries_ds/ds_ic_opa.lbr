@@ -1117,8 +1117,8 @@ down to 2.7V.</description>
 <attribute name="HQ_PART" value="IC0119727" constant="no"/>
 <attribute name="LCSC_PART" value="C154973" constant="no"/>
 <attribute name="MANUFACTURER" value="MICROCHIP" constant="no"/>
-<attribute name="MPN" value="MCP6001RT-I/OT
-" constant="no"/>
+<attribute name="MPN" value="MCP6001RT-I/OT " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="MCP6001RT-I/OT" constant="no"/>
 </technology>
 </technologies>

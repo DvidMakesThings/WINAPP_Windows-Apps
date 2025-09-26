@@ -556,6 +556,46 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <text x="-4.699" y="2.413" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.635" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="6.3X10.5(DXL)">
+<description>&lt;B&gt;WCAP-AS5H&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,6.3X7.7X2.1(DiameterXLengthXP)</description>
+<smd name="2" x="-2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<smd name="1" x="2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<wire x1="-3.4" y1="3.4" x2="1.8" y2="3.4" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="-3.4" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="1.8" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="3.4" x2="-3.4" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.8" y1="3.4" x2="3.4" y2="1.8" width="0.2" layer="21"/>
+<wire x1="1.8" y1="-3.4" x2="3.4" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="3.4" y1="1.8" x2="3.4" y2="1.1" width="0.2" layer="21"/>
+<wire x1="3.4" y1="-1.8" x2="3.4" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="3.3" x2="-3.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-3.3" x2="1.75" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-3.3" x2="3.3" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-1.75" x2="3.3" y2="1.75" width="0.1" layer="51"/>
+<wire x1="3.3" y1="1.75" x2="1.75" y2="3.3" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.3" x2="-3.3" y2="3.3" width="0.1" layer="51"/>
+<text x="-0.6" y="4.2" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-1.2" y="-4.9" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="4.3" y="-2.4" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="4.3" y="-2.4" size="1.27" layer="48" align="bottom-center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="1.9" y="3.6"/>
+<vertex x="-3.6" y="3.6"/>
+<vertex x="-3.6" y="1"/>
+<vertex x="-4.75" y="1"/>
+<vertex x="-4.75" y="-1"/>
+<vertex x="-3.6" y="-1"/>
+<vertex x="-3.6" y="-3.6"/>
+<vertex x="1.85" y="-3.6"/>
+<vertex x="3.6" y="-1.85"/>
+<vertex x="3.6" y="-1"/>
+<vertex x="4.75" y="-1"/>
+<vertex x="4.75" y="1"/>
+<vertex x="3.6" y="1"/>
+<vertex x="3.6" y="1.9"/>
+</polygon>
+<circle x="0" y="0" radius="3.15" width="0.1" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="WCAP-AS5H_4X5.5(DXL)" urn="urn:adsk.eagle:package:48944453/1" type="model">
@@ -706,7 +746,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="100uF 50V 229mA@120Hz ±20% SMD,D6.3xL7.7mm Aluminum Electrolytic Capacitors - SMD ROHS" constant="no"/>
+<attribute name="HQ_PART" value="ZHLM0353527" constant="no"/>
 <attribute name="LCSC_PART" value="C3151829" constant="no"/>
+<attribute name="MANUFACTURER" value="ROQANG" constant="no"/>
+<attribute name="MPN" value="RVT1H101M0607" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="100uF 50V" constant="no"/>
 </technology>
 </technologies>
@@ -995,7 +1039,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="100uF 25V 90mA@120Hz ±20% SMD,D6.3xL7.7mm Aluminum Electrolytic Capacitors - SMD ROHS" constant="no"/>
+<attribute name="HQ_PART" value="CA0362255" constant="no"/>
 <attribute name="LCSC_PART" value="C267469" constant="no"/>
+<attribute name="MANUFACTURER" value="HONOR" constant="no"/>
+<attribute name="MPN" value="RVT1E101M0607" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="100uF 25V" constant="no"/>
 </technology>
 </technologies>
@@ -1057,7 +1105,7 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="22UF-25V" urn="urn:adsk.eagle:component:48944465/1" prefix="C" uservalue="yes">
+<deviceset name="22UF-25V" urn="urn:adsk.eagle:component:48944465/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -1073,7 +1121,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="25V 22uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" constant="no"/>
+<attribute name="HQ_PART" value="CA0182544" constant="no"/>
 <attribute name="LCSC_PART" value="C45783" constant="no"/>
+<attribute name="MANUFACTURER" value="Samsung" constant="no"/>
+<attribute name="MPN" value="CL21A226MAYNNNE" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="22uF 25V" constant="no"/>
 </technology>
 </technologies>
@@ -1089,7 +1141,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="25V 22uF X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" constant="no"/>
+<attribute name="HQ_PART" value="CA0182777" constant="no"/>
 <attribute name="LCSC_PART" value="C12891" constant="no"/>
+<attribute name="MANUFACTURER" value="FH" constant="no"/>
+<attribute name="MPN" value="1206X226K250NT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="22uF 25V" constant="no"/>
 </technology>
 </technologies>
@@ -1376,6 +1432,25 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 </technology>
 </technologies>
 </device>
+<device name="6.3X10.5(DXL)" package="8X10.5(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:48944448/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="SMD Aluminum Electrolytic Capacitor SMD,D6.3xL10.5mm 2.2µF ±20% 400V 5000Hrs@105℃ " constant="no"/>
+<attribute name="HQ_PART" value="CA0179014" constant="no"/>
+<attribute name="MANUFACTURER" value="HUAHUI" constant="no"/>
+<attribute name="MPN" value="RVT2G2R2M0610-TR " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="2.2uF 400v" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="100UF-16V" urn="urn:adsk.eagle:component:48944459/1" locally_modified="yes" prefix="C" uservalue="yes">
@@ -1611,7 +1686,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50V 220nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" constant="no"/>
+<attribute name="HQ_PART" value="CA0174157" constant="no"/>
 <attribute name="LCSC_PART" value="C5378" constant="no"/>
+<attribute name="MANUFACTURER" value="FH" constant="no"/>
+<attribute name="MPN" value="0805B224K500NT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="220nF 50V" constant="no"/>
 </technology>
 </technologies>
@@ -1650,7 +1729,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50V 22nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" constant="no"/>
+<attribute name="HQ_PART" value="CA0171190" constant="no"/>
 <attribute name="LCSC_PART" value="C1532" constant="no"/>
+<attribute name="MANUFACTURER" value="Samsung" constant="no"/>
+<attribute name="MPN" value="CL05B223KB5NNNC" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="22nF 50V" constant="no"/>
 </technology>
 </technologies>
@@ -1721,7 +1804,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="25V 4.7uF X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" constant="no"/>
+<attribute name="HQ_PART" value="ZHLM0023346" constant="no"/>
 <attribute name="LCSC_PART" value="C22367824" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MPN" value="GRM155R61E475ME15D" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="4.7uF 25V" constant="no"/>
 </technology>
 </technologies>
@@ -1950,7 +2037,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50V 1uF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" constant="no"/>
+<attribute name="HQ_PART" value="CA0182352" constant="no"/>
 <attribute name="LCSC_PART" value="C28323" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
+<attribute name="MPN" value="C2012X7R1H105KT000N" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="1uF 50V" constant="no"/>
 </technology>
 </technologies>
@@ -2048,7 +2139,7 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2.2UF-50V" urn="urn:adsk.eagle:component:48944499/1" prefix="C" uservalue="yes">
+<deviceset name="2.2UF-50V" urn="urn:adsk.eagle:component:48944499/1" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -2064,7 +2155,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50V 2.2uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" constant="no"/>
+<attribute name="HQ_PART" value="CA0174463" constant="no"/>
 <attribute name="LCSC_PART" value="C913904" constant="no"/>
+<attribute name="MANUFACTURER" value="FH" constant="no"/>
+<attribute name="MPN" value="0603X225K160NT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="2.2uF 50V" constant="no"/>
 </technology>
 </technologies>
@@ -2277,7 +2372,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50V 1nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" constant="no"/>
+<attribute name="HQ_PART" value="CA0481650" constant="no"/>
 <attribute name="LCSC_PART" value="C1588" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
+<attribute name="MPN" value="CEU3E2X7R2A102KT0Y0S" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="1nF 50V" constant="no"/>
 </technology>
 </technologies>
@@ -2387,7 +2486,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50V 18pF C0G ±5% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" constant="no"/>
+<attribute name="HQ_PART" value="CA0486739" constant="no"/>
 <attribute name="LCSC_PART" value="C62164" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="CC0201GRNPO9BN180 " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="18pF 50V" constant="no"/>
 </technology>
 </technologies>
@@ -3094,7 +3197,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50V 6.8nF X7R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" constant="no"/>
+<attribute name="HQ_PART" value="CA0363038" constant="no"/>
 <attribute name="LCSC_PART" value="C285015" constant="no"/>
+<attribute name="MANUFACTURER" value="FH" constant="no"/>
+<attribute name="MPN" value="0201B682K500NT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="6.8nF 50V" constant="no"/>
 </technology>
 </technologies>
@@ -3276,7 +3383,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50V 4.7nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" constant="no"/>
+<attribute name="HQ_PART" value="CA0176643" constant="no"/>
 <attribute name="LCSC_PART" value="C1538" constant="no"/>
+<attribute name="MANUFACTURER" value="Walsin" constant="no"/>
+<attribute name="MPN" value="0402B472K500CT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="4.7nF 50V" constant="no"/>
 </technology>
 </technologies>
@@ -3512,7 +3623,11 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="50V 33pF NP0 ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" constant="no"/>
+<attribute name="HQ_PART" value="CA0484207" constant="no"/>
 <attribute name="LCSC_PART" value="C107005" constant="no"/>
+<attribute name="MANUFACTURER" value="PSA" constant="no"/>
+<attribute name="MPN" value="FN15N330J500PNG" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="33pF 50V" constant="no"/>
 </technology>
 </technologies>
@@ -4057,6 +4172,31 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <attribute name="LCSC_PART" value="C286012" constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="X2P2222KN1B0130110050ES0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1NF-2KV" prefix="C">
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46766482/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Chip Capacitor (MLCC) 1206 1nF ±10% 2KV X7R " constant="no"/>
+<attribute name="HQ_PART" value="CA0134884" constant="no"/>
+<attribute name="MANUFACTURER" value="KEMET" constant="no"/>
+<attribute name="MPN" value="C1206C102KGRACTU" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 </technology>
 </technologies>
 </device>

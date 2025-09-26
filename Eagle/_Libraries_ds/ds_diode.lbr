@@ -791,7 +791,11 @@
 <technology name="">
 <attribute name="DATASHEET" value="https://www.vishay.com/docs/88768/us1_test_dcicons.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="1.7V@1A 1A 600V SMA(DO-214AC) Fast Recovery / High Efficiency Diodes ROHS " constant="no"/>
+<attribute name="HQ_PART" value="DS0007395" constant="no"/>
 <attribute name="LCSC_PART" value="C44763" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay" constant="no"/>
+<attribute name="MPN" value="US1J-E3/61T" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="US1J-E3/61T " constant="no"/>
 </technology>
 </technologies>
@@ -816,7 +820,11 @@
 <technology name="">
 <attribute name="DATASHEET" value="https://www.vishay.com/docs/88746/ss12.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="20V Independent Type 450mV@1A 1A SMA(DO-214AC) Schottky Diodes ROHS " constant="no"/>
+<attribute name="HQ_PART" value="DS0145075" constant="no"/>
 <attribute name="LCSC_PART" value="C727049" constant="no"/>
+<attribute name="MANUFACTURER" value="MDD" constant="no"/>
+<attribute name="MPN" value="SS12" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="SS12" constant="no"/>
 </technology>
 </technologies>
@@ -841,7 +849,11 @@
 <technology name="">
 <attribute name="DATASHEET" value="https://www.sycelectronica.com.ar/semiconductores/1N4007-SMD.pdf?srsltid=AfmBOorCHiPwFTsNfQbBfqAoh5UjZ4nVNdjXugiEGIgvQSRi56Ew2-9Q" constant="no"/>
 <attribute name="DESCRIPTION" value="1A Independent Type 1kV 1.1V@1A SMA(DO-214AC) Diodes - General Purpose ROHS " constant="no"/>
+<attribute name="HQ_PART" value="UN0002522" constant="no"/>
 <attribute name="LCSC_PART" value="C727081" constant="no"/>
+<attribute name="MANUFACTURER" value="SK" constant="no"/>
+<attribute name="MPN" value="1N4007G" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="1N4007" constant="no"/>
 </technology>
 </technologies>
@@ -866,7 +878,11 @@
 <technology name="">
 <attribute name="DATASHEET" value="https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_smbj_datasheet.pdf?assetguid=09a6ae9a-73cb-4ac4-acac-e6dab92ab953" constant="no"/>
 <attribute name="DESCRIPTION" value="16.4A 24.4V 16.7V 15V SMA(DO-214AC) ESD and Surge Protection (TVS/ESD) ROHS " constant="no"/>
+<attribute name="HQ_PART" value="PD0003270" constant="no"/>
 <attribute name="LCSC_PART" value="C23424" constant="no"/>
+<attribute name="MANUFACTURER" value="TWGMC" constant="no"/>
+<attribute name="MPN" value="SMAJ15A" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="SMAJ15A" constant="no"/>
 </technology>
 </technologies>

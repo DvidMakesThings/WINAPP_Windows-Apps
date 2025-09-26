@@ -12325,6 +12325,7 @@ Phototransistor Optocoupler</description>
 <attribute name="LCSC_PART" value="C845537" constant="no"/>
 <attribute name="MANUFACTURER" value="UMW" constant="no"/>
 <attribute name="MPN" value="ULN2803A" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="ULN2803AFWG" constant="no"/>
 </technology>
 </technologies>
@@ -13331,7 +13332,11 @@ Surface Mount TVS Avalanche Diode Array</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="SOT-143 ESD and Surge Protection (TVS/ESD) ROHS " constant="no"/>
+<attribute name="HQ_PART" value="CP0003989" constant="no"/>
 <attribute name="LCSC_PART" value="C3040626" constant="no"/>
+<attribute name="MANUFACTURER" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="SP0503BAHTG" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="SP0503BAHTG" constant="no"/>
 </technology>
 </technologies>
@@ -14849,7 +14854,11 @@ system, W5500 provides WOL (Wake on LAN) and power down mode.</description>
 <technology name="">
 <attribute name="DATASHEET" value="https://docs.wiznet.io/img/products/w5500/W5500_ds_v110e.pdf" constant="no"/>
 <attribute name="DESCRIPTION" value="Ethernet Controllers ROHS" constant="no"/>
+<attribute name="HQ_PART" value="IC0084426" constant="no"/>
 <attribute name="LCSC_PART" value="C32843" constant="no"/>
+<attribute name="MANUFACTURER" value="WIZNET" constant="no"/>
+<attribute name="MPN" value="W5500" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="W5500" constant="no"/>
 </technology>
 </technologies>
