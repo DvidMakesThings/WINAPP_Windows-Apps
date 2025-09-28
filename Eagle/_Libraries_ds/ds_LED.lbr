@@ -437,7 +437,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="10mA Colorless transparent lens -40℃~+85℃ 598nm~608nm Orange 120° 40mW 0805 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="HQ_PART" value="PH0093712" constant="no"/>
 <attribute name="LCSC_PART" value="C434437" constant="no"/>
+<attribute name="MANUFACTURER" value="NATIONSTAR" constant="no"/>
+<attribute name="MPN" value="FC-2012YOXK(5)-600H08" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="Orange" constant="no"/>
 </technology>
 </technologies>
@@ -528,7 +532,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Emerald 0805 LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="HQ_PART" value="PH0094653" constant="no"/>
 <attribute name="LCSC_PART" value="C2297" constant="no"/>
+<attribute name="MANUFACTURER" value="MEIHUA" constant="no"/>
+<attribute name="MPN" value="MHT170UGCT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="Green" constant="no"/>
 </technology>
 </technologies>
@@ -560,7 +568,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="-20℃~+80℃ 20mA 30° 3mm Round Lens 600nm~610nm 610nm 72mW Amber Water Clear Plugin,D=3mm LED Indication - Discrete ROHS " constant="no"/>
+<attribute name="HQ_PART" value="PH0094890" constant="no"/>
 <attribute name="LCSC_PART" value="C414645" constant="no"/>
+<attribute name="MANUFACTURER" value="MEIHUA" constant="no"/>
+<attribute name="MPN" value="MHL3014UGTD" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="GREEN" constant="no"/>
 </technology>
 </technologies>
@@ -655,7 +667,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="3mm Round Lens Blue Plugin,D=3mm LED Indication - Discrete ROHS" constant="no"/>
+<attribute name="HQ_PART" value="PH0094706" constant="no"/>
 <attribute name="LCSC_PART" value="C86881" constant="no"/>
+<attribute name="MANUFACTURER" value="MEIHUA" constant="no"/>
+<attribute name="MPN" value="MHL3014UBTD" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="BLUE" constant="no"/>
 </technology>
 </technologies>
@@ -758,7 +774,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="-20℃~+80℃ 20mA 30° 3mm Round Lens Red Water Clear Plugin,D=3mm LED Indication - Discrete ROHS " constant="no"/>
+<attribute name="HQ_PART" value="PH0094690" constant="no"/>
 <attribute name="LCSC_PART" value="C330752" constant="no"/>
+<attribute name="MANUFACTURER" value="MEIHUA" constant="no"/>
+<attribute name="MPN" value="MHL3014SRTS" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="RED" constant="no"/>
 </technology>
 </technologies>

@@ -5993,7 +5993,12 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="6mm 4.3mm Round Button 50mA Standing paste 6mm SPST 12V SMD,6x6mm Tactile Switches ROHS " constant="no"/>
+<attribute name="HQ_PART" value="SW0049370" constant="no"/>
 <attribute name="LCSC_PART" value="C455108" constant="no"/>
+<attribute name="MANUFACTURER" value="USAKRO" constant="no"/>
+<attribute name="MPN" value="UK-B0228G43-SP25
+" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="TS-1002S-04326C " constant="no"/>
 </technology>
 </technologies>
@@ -6053,8 +6058,7 @@
 <attribute name="HQ_PART" value="CR208634843" constant="no"/>
 <attribute name="LCSC_PART" value="C20625731" constant="no"/>
 <attribute name="MANUFACTURER" value="Abracon" constant="no"/>
-<attribute name="MPN" value="ABM8-272-T3
-" constant="no"/>
+<attribute name="MPN" value="ABM8-272-T3 " constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="ABM8-272-T3 12MHz" constant="no"/>
 </technology>
