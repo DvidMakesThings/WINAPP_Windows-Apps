@@ -1086,6 +1086,53 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="2.2UH" prefix="L" uservalue="yes">
+<description>Power Inductance 32mΩ 2.2µH ±20% 4A - IND_5.4X5.2MM_SM</description>
+<gates>
+<gate name="G$1" symbol="L-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="L-5.2X5.2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49051881/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Power Inductance 32mΩ 2.2µH ±20% 4A - IND_5.4X5.2MM_SM " constant="no"/>
+<attribute name="HQ_PART" value="IN0027459" constant="no"/>
+<attribute name="MANUFACTURER" value="YJYCOIN" constant="no"/>
+<attribute name="MPN" value="YSPI0520-2R2M " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="2.2uH 4A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="L-10X10" package="L-10X10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49051882/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="12A 2.2uH 25.6A 8.2mΩ ±20% SMD,10.8x10.2mm Power Inductors ROHS " constant="no"/>
+<attribute name="HQ_PART" value="IN0036584" constant="no"/>
+<attribute name="LCSC_PART" value="C499483" constant="no"/>
+<attribute name="MANUFACTURER" value="Sunltech" constant="no"/>
+<attribute name="MPN" value="SLO1040H2R2MTT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="2.2uH 12A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

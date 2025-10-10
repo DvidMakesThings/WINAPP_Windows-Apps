@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1210,7 +1210,11 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 470kΩ 0402 Chip Resistor - Surface Mount ROHS"/>
+<attribute name="HQ_PART" value="RE0202502" constant="no"/>
 <attribute name="LCSC_PART" value="C25790" constant="no"/>
+<attribute name="MANUFACTURER" value="LIZ" constant="no"/>
+<attribute name="MPN" value="CR0402FF4703G" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="470K 1%" constant="no"/>
 </technology>
 </technologies>
@@ -5501,6 +5505,386 @@
 <technology name="">
 <attribute name="DESCRIPTION" value="TRIMMER 5M OHM 0.5W PC PIN TOP " constant="no"/>
 <attribute name="VALUE" value="5M ±10%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="330R-1%_ARRAY" prefix="RN" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="742C083103JP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603X4-1206" package="_0603X4-1206">
+<connects>
+<connect gate="G$1" pin="1" pad="A1"/>
+<connect gate="G$1" pin="2" pad="B1"/>
+<connect gate="G$1" pin="3" pad="C1"/>
+<connect gate="G$1" pin="4" pad="D1"/>
+<connect gate="G$1" pin="5" pad="D2"/>
+<connect gate="G$1" pin="6" pad="C2"/>
+<connect gate="G$1" pin="7" pad="B2"/>
+<connect gate="G$1" pin="8" pad="A2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49287421/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="4 ±1% 330Ω 62.5mW ±200ppm/℃ 0603x4 Resistor Networks, Arrays ROHS " constant="no"/>
+<attribute name="HQ_PART" value="RE0094815" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="YC164-FR-07330RL " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="330R 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1.43K-1%" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683743/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1.43kΩ 0603 Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0010501" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-071K43L " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="1.43K 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1206" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683745/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="250mW Thick Film Resistors 200V ±1% 1.43kΩ 1206 Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0014010" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC1206FR-071K43L " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="1.43K 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0201" package="0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47403529/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 1.43kΩ 0201  Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0063515" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0201FR-071K43L " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="1.43K 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="475R-1%" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0402" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683744/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Chip Resistors 0402 475Ω ±1% 1/16W ±100ppm/℃ "/>
+<attribute name="HQ_PART" value="RE0203640" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="AC0402FR-07475RL" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="475R 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683743/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Chip Resistors 0603 475Ω ±1% 1/10W ±100ppm/℃ " constant="no"/>
+<attribute name="HQ_PART" value="RE0185868" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="RALEC" constant="no"/>
+<attribute name="MPN" value="RTT034750FTP" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="475R 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683742/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 470Ω 0805 Chip Resistor - Surface Mount ROHS" constant="no"/>
+<attribute name="HQ_PART" value="RE0187288" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0805FR-07475RL " constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="475R 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1R-1%" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0402" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683744/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Chip Resistors 0402 1Ω ±1% 1/16W ±200ppm/℃
+"/>
+<attribute name="HQ_PART" value="RE0322446" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="RALEC" constant="no"/>
+<attribute name="MPN" value="RTT021R00FTH" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="1R 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683743/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Chip Resistors 0603 1Ω ±1% 1/10W ±200ppm/℃
+" constant="no"/>
+<attribute name="HQ_PART" value="RE0421839" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="RALEC" constant="no"/>
+<attribute name="MPN" value="RTT031R00FTP" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="1R 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1206" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683745/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Chip Resistors 1206 1Ω ±1% 1/2W ±100ppm/℃
+" constant="no"/>
+<attribute name="HQ_PART" value="RE0460909" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Uniohm" constant="no"/>
+<attribute name="MPN" value="HP06W2F100KT5E" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="1R 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2512" package="2512">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47078537/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Chip Resistors 2512 1Ω ±1% 2W ±200ppm/℃
+" constant="no"/>
+<attribute name="HQ_PART" value="RE0261935" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC2512FK-7W1RL
+" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="1R 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0201" package="0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47403529/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Chip Resistors 0201 1Ω ±1% 1/20W ±400ppm/℃
+" constant="no"/>
+<attribute name="HQ_PART" value="RE0424539" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="FH" constant="no"/>
+<attribute name="MPN" value="RC-01U1R00FT
+" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="1R 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="31.6K-1%" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683743/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Chip Resistors 0603 31.6KΩ ±1% 1/10W ±100ppm/℃
+" constant="no"/>
+<attribute name="HQ_PART" value="RE0204784" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="AC0603FR-0731K6L
+" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="31.6K 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683742/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Chip Resistors 0805 31.6KΩ ±0.1% 1/8W ±25ppm/℃
+" constant="no"/>
+<attribute name="HQ_PART" value="RE0603042" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RT0805BRD0731K6L" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="31.6K 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10.2K-1%" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0402" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683744/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Chip Resistors 0402 10.2KΩ ±1% 1/16W ±100ppm/℃
+"/>
+<attribute name="HQ_PART" value="RE0191583" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="ROHM" constant="no"/>
+<attribute name="MPN" value="0402WGF1022TCE" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="10.2K 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683743/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Chip Resistors 0603 10.2KΩ ±1% 1/10W ±100ppm/℃
+" constant="no"/>
+<attribute name="HQ_PART" value="RE0191161" constant="no"/>
+<attribute name="LCSC_PART" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="UNIOHM" constant="no"/>
+<attribute name="MPN" value="0603WAF1022T5E" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="10.2K 1%" constant="no"/>
 </technology>
 </technologies>
 </device>

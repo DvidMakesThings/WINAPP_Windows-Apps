@@ -756,41 +756,41 @@
 <text x="-7.2644" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-7.8994" y="-13.7414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
-<symbol name="P-MOSFET" urn="urn:adsk.eagle:symbol:46769346/1">
-<wire x1="0.762" y1="-0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="0.762" y2="0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-3.175" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0.762" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="1.905" x2="0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="0.762" y2="3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0.762" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="3.048" y1="0.762" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="4.318" y1="0.508" x2="4.572" y2="0.254" width="0.1524" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<text x="5.08" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
-<text x="5.08" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="G" x="-2.54" y="2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<symbol name="P-MOSFET" urn="urn:adsk.eagle:symbol:46769346/1" locally_modified="yes">
+<wire x1="-1.778" y1="0.762" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="3.175" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-1.905" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.508" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-0.762" x2="0.762" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-0.508" x2="1.27" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.508" x2="1.778" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-0.508" x2="2.032" y2="-0.254" width="0.1524" layer="94"/>
+<circle x="0" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="0" y="2.54" radius="0.3592" width="0" layer="94"/>
+<text x="2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="-1.27" size="1.778" layer="95">&gt;NAME</text>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <polygon width="0.1524" layer="94">
-<vertex x="3.302" y="-0.254"/>
-<vertex x="4.318" y="-0.254"/>
-<vertex x="3.81" y="0.508003125"/>
+<vertex x="0.762" y="0.254"/>
+<vertex x="1.778" y="0.254"/>
+<vertex x="1.27" y="-0.508003125"/>
 </polygon>
 <polygon width="0.1524" layer="94">
-<vertex x="1.524" y="0.761996875"/>
-<vertex x="1.524" y="-0.761996875"/>
-<vertex x="2.540003125" y="0"/>
+<vertex x="-1.016" y="-0.761996875"/>
+<vertex x="-1.016" y="0.761996875"/>
+<vertex x="0.000003125" y="0"/>
 </polygon>
 </symbol>
 <symbol name="DIODEDUAL" urn="urn:adsk.eagle:symbol:46769345/1">
@@ -964,6 +964,25 @@
 <text x="10.5156" y="6.5786" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="9.8806" y="4.0386" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
+<symbol name="PNP">
+<wire x1="2.086" y1="1.678" x2="1.578" y2="2.594" width="0.1524" layer="94"/>
+<wire x1="1.578" y1="2.594" x2="0.516" y2="1.478" width="0.1524" layer="94"/>
+<wire x1="0.516" y1="1.478" x2="2.086" y2="1.678" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.808" y2="2.124" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="1.778" x2="1.524" y2="2.413" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.413" x2="0.762" y2="1.651" width="0.254" layer="94"/>
+<wire x1="0.762" y1="1.651" x2="1.778" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="1.778" x2="1.524" y2="2.159" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.159" x2="1.143" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.143" y1="1.905" x2="1.524" y2="1.905" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DMP3013SFV-7" urn="urn:adsk.eagle:component:47392604/1" locally_modified="yes" prefix="T">
@@ -990,7 +1009,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="AO4407A" urn="urn:adsk.eagle:component:47392605/1" prefix="T" uservalue="yes">
+<deviceset name="AO4407A" urn="urn:adsk.eagle:component:47392605/1" locally_modified="yes" prefix="T" uservalue="yes">
 <description>30V P-Channel MOSFET</description>
 <gates>
 <gate name="1" symbol="P-MOSFET" x="0" y="0"/>
@@ -1007,13 +1026,18 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="AO4407A" value="AO4407A" constant="no"/>
+<attribute name="DESCRIPTION" value="-30V P-Channel Enhancement-Mode MOSFET" constant="no"/>
+<attribute name="HQ_PART" value="DS0190347" constant="no"/>
+<attribute name="MANUFACTURER" value="UMW" constant="no"/>
+<attribute name="MPN" value="AO4407A" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="AO4407A" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DMP3098" urn="urn:adsk.eagle:component:46769352/2" prefix="T" uservalue="yes">
+<deviceset name="DMP3098" urn="urn:adsk.eagle:component:46769352/2" locally_modified="yes" prefix="T" uservalue="yes">
 <description>DUAL P-CHANNEL ENHANCEMENT MODE MOSFET</description>
 <gates>
 <gate name="A" symbol="P-MOSFET" x="-2.54" y="7.62"/>
@@ -1054,8 +1078,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="50V 230mA 3.4Ω@10V,220mA 230mW 1.5V@250uA N Channel SOT-23-3 MOSFETs ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="50V 230mA 3.4Ω@10V,220mA 230mW 1.5V@250uA N Channel SOT-23-3 MOSFETs ROHS " constant="no"/>
 <attribute name="HQ_PART" value="DS0190318" constant="no"/>
 <attribute name="MANUFACTURER" value="HUASHUO" constant="no"/>
 <attribute name="MPN" value="BSS138" constant="no"/>
@@ -1213,6 +1236,34 @@
 <attribute name="DESCRIPTION" value="20V 800mA 250mΩ@4.5V 280mW 750mV@250uA 1 N-channel SOT-523-3 MOSFETs ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C2830301" constant="no"/>
 <attribute name="VALUE" value="DMG1012T" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMBT2907A" prefix="T">
+<description>60V PNP SMALL SIGNAL TRANSISTOR IN SOT23</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46684430/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="General Purpose Transistors PNP Ic=600mA Vceo=60V hfe=100~300 P=250mW SOT23 " constant="no"/>
+<attribute name="HQ_PART" value="DS0140100" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="MMBT2907A" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="MMBT2907A" constant="no"/>
 </technology>
 </technologies>
 </device>
