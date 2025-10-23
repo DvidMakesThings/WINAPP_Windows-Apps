@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -580,6 +580,37 @@
 <smd name="2" x="-0.72" y="-0.5" dx="0.99" dy="0.3" layer="1" roundness="25"/>
 <smd name="3" x="0.72" y="0" dx="0.99" dy="0.3" layer="1" roundness="25"/>
 </package>
+<package name="WE-TVSP_DO-214AA_UNIDIRECTIONAL" urn="urn:adsk.eagle:footprint:12146519/1">
+<description>&lt;b&gt;WE-TVSP Power TVS Diode
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;DO-214AA Unidirectional</description>
+<wire x1="-0.635" y1="1.75" x2="-0.635" y2="-1.75" width="0.254" layer="21"/>
+<wire x1="-2.16" y1="1.81" x2="-2.16" y2="-1.81" width="0.1" layer="51"/>
+<wire x1="2.16" y1="-1.81" x2="2.16" y2="1.81" width="0.1" layer="51"/>
+<wire x1="2.26" y1="1.91" x2="-2.26" y2="1.91" width="0.2" layer="21"/>
+<wire x1="-2.26" y1="1.5" x2="-2.26" y2="1.91" width="0.2" layer="21"/>
+<wire x1="2.26" y1="1.5" x2="2.26" y2="1.91" width="0.2" layer="21"/>
+<wire x1="-2.16" y1="1.81" x2="2.16" y2="1.81" width="0.1" layer="51"/>
+<wire x1="2.16" y1="-1.81" x2="-2.16" y2="-1.81" width="0.1" layer="51"/>
+<wire x1="-2.26" y1="-1.91" x2="2.26" y2="-1.91" width="0.2" layer="21"/>
+<wire x1="2.26" y1="-1.5" x2="2.26" y2="-1.91" width="0.2" layer="21"/>
+<wire x1="-2.26" y1="-1.5" x2="-2.26" y2="-1.91" width="0.2" layer="21"/>
+<smd name="1" x="-2.25" y="0" dx="2.3" dy="2.3" layer="1"/>
+<smd name="2" x="2.25" y="0" dx="2.3" dy="2.3" layer="1"/>
+<text x="0.06" y="2.54" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.04" y="-3.21" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.127" layer="39">
+<vertex x="-3.6" y="2"/>
+<vertex x="3.6" y="2"/>
+<vertex x="3.6" y="-2"/>
+<vertex x="-3.6" y="-2"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-3.6" y="2.11"/>
+<vertex x="3.6" y="2.11"/>
+<vertex x="3.6" y="-2.11"/>
+<vertex x="-3.6" y="-2.11"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOD-323" urn="urn:adsk.eagle:package:10898396/3" type="model">
@@ -604,6 +635,13 @@
 <package3d name="SC75" urn="urn:adsk.eagle:package:49873936/3" type="model">
 <packageinstances>
 <packageinstance name="SC75"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-TVSP_DO-214AA_UNIDIRECTIONAL" urn="urn:adsk.eagle:package:12146527/2" type="model">
+<description>&lt;b&gt;WE-TVSP Power TVS Diode
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;DO-214AA Unidirectional</description>
+<packageinstances>
+<packageinstance name="WE-TVSP_DO-214AA_UNIDIRECTIONAL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -731,6 +769,20 @@
 <pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="UNIDIRECTIONAL">
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<text x="-1.27" y="2.54" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.27" layer="96">&gt;VALUE</text>
+<polygon width="0.127" layer="94">
+<vertex x="-2.54" y="1.27"/>
+<vertex x="-2.54" y="-1.27"/>
+<vertex x="0" y="0"/>
+</polygon>
+<wire x1="-0.635" y1="-1.905" x2="0" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.127" layer="94"/>
+<wire x1="0" y1="1.27" x2="0.635" y2="1.905" width="0.127" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PTVS3V3S1UR,115" urn="urn:adsk.eagle:component:49873941/1" prefix="D">
@@ -756,8 +808,7 @@ overvoltage protection.</description>
 <attribute name="HQ_PART" value="CP0009318" constant="no"/>
 <attribute name="LCSC_PART" value="C183521" constant="no"/>
 <attribute name="MANUFACTURER" value="Nexperia" constant="no"/>
-<attribute name="MPN" value="PTVS3V3S1UR,115
-" constant="no"/>
+<attribute name="MPN" value="PTVS3V3S1UR,115 " constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="PTVS3V3S1UR,115 " constant="no"/>
 </technology>
@@ -959,6 +1010,36 @@ The low-capacitance and high ESD robustness of the RClamp0582BQ make it an ideal
 <attribute name="MPN" value="SS12" constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="SS12" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMBJ5929B" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="D-ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-TVSP_DO-214AA_UNIDIRECTIONAL">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12146527/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/aemDocuments/documents/HRDS/ProductDocuments/DataSheets/RF01101-SMB%28G%29%28J%295913-56.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="15V 1uA@11.4V 2W 9Ω SMBJ(DO-214AA) Zener Diodes
+" constant="no"/>
+<attribute name="HQ_PART" value="DS2556081" constant="no"/>
+<attribute name="LCSC_PART" value="C17530559" constant="no"/>
+<attribute name="MPN" value="SMBJ5929B/TR13
+" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="SMBJ5929B/TR13
+" constant="no"/>
 </technology>
 </technologies>
 </device>

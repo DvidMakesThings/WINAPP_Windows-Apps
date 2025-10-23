@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -3774,115 +3774,116 @@ package type TQ</description>
 <text x="7.62" y="-40.64" size="1.016" layer="94" distance="150" rot="R180" align="center-left">UART0_RX  | I2C0_SCL  | SPI1_CSN     | ADC3</text>
 </symbol>
 <symbol name="RP235XB-IO1">
-<pin name="GPIO0" x="30.48" y="43.18" length="middle" rot="R180"/>
-<pin name="GPIO1" x="30.48" y="40.64" length="middle" rot="R180"/>
-<pin name="GPIO2" x="30.48" y="38.1" length="middle" rot="R180"/>
-<pin name="GPIO3" x="30.48" y="35.56" length="middle" rot="R180"/>
-<pin name="GPIO4" x="30.48" y="33.02" length="middle" rot="R180"/>
-<pin name="GPIO5" x="30.48" y="30.48" length="middle" rot="R180"/>
-<pin name="GPIO6" x="30.48" y="27.94" length="middle" rot="R180"/>
-<pin name="GPIO7" x="30.48" y="25.4" length="middle" rot="R180"/>
-<pin name="GPIO8" x="30.48" y="20.32" length="middle" rot="R180"/>
-<pin name="GPIO9" x="30.48" y="17.78" length="middle" rot="R180"/>
-<pin name="GPIO10" x="30.48" y="15.24" length="middle" rot="R180"/>
-<pin name="GPIO11" x="30.48" y="12.7" length="middle" rot="R180"/>
-<pin name="GPIO12" x="30.48" y="10.16" length="middle" rot="R180"/>
-<pin name="GPIO13" x="30.48" y="7.62" length="middle" rot="R180"/>
-<pin name="GPIO14" x="30.48" y="5.08" length="middle" rot="R180"/>
-<pin name="GPIO15" x="30.48" y="2.54" length="middle" rot="R180"/>
-<pin name="GPIO16" x="30.48" y="-2.54" length="middle" rot="R180"/>
-<pin name="GPIO17" x="30.48" y="-5.08" length="middle" rot="R180"/>
-<pin name="GPIO18" x="30.48" y="-7.62" length="middle" rot="R180"/>
-<pin name="GPIO19" x="30.48" y="-10.16" length="middle" rot="R180"/>
-<pin name="GPIO20" x="30.48" y="-12.7" length="middle" rot="R180"/>
-<pin name="GPIO21" x="30.48" y="-15.24" length="middle" rot="R180"/>
-<pin name="GPIO22" x="30.48" y="-17.78" length="middle" rot="R180"/>
-<pin name="GPIO23" x="30.48" y="-20.32" length="middle" rot="R180"/>
-<pin name="GPIO24" x="30.48" y="-25.4" length="middle" rot="R180"/>
-<pin name="GPIO25" x="30.48" y="-27.94" length="middle" rot="R180"/>
-<wire x1="-27.94" y1="45.72" x2="25.4" y2="45.72" width="0.254" layer="94"/>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="-40.64" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-40.64" x2="-27.94" y2="-40.64" width="0.254" layer="94"/>
-<wire x1="-27.94" y1="-40.64" x2="-27.94" y2="45.72" width="0.254" layer="94"/>
-<text x="22.86" y="48.26" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<text x="-22.86" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GPIO26" x="30.48" y="-30.48" length="middle" rot="R180"/>
-<pin name="GPIO27" x="30.48" y="-33.02" length="middle" rot="R180"/>
-<pin name="GPIO28" x="30.48" y="-35.56" length="middle" rot="R180"/>
-<pin name="GPIO29" x="30.48" y="-38.1" length="middle" rot="R180"/>
-<text x="12.7" y="43.18" size="1.4224" layer="94" align="center-right">SPI0_MISO UART0_TX I2C0_SDA</text>
-<text x="12.7" y="40.64" size="1.4224" layer="94" align="center-right">SPI0_CSn  UART0_RX I2C0_SCL</text>
-<text x="12.7" y="38.1" size="1.4224" layer="94" align="center-right">SPI0_SCK  UART0_CTS I2C1_SDA</text>
-<text x="12.7" y="35.56" size="1.4224" layer="94" align="center-right">SPI0_MOSI UART0_RTS I2C1_SCL</text>
-<text x="12.7" y="33.02" size="1.4224" layer="94" align="center-right">SPI0_MISO UART1_TX I2C0_SDA</text>
-<text x="12.7" y="30.48" size="1.4224" layer="94" align="center-right">SPI0_CSn  UART1_RX I2C0_SCL</text>
-<text x="12.7" y="27.94" size="1.4224" layer="94" align="center-right">SPI0_SCK  UART1_CTS I2C1_SDA</text>
-<text x="12.7" y="25.4" size="1.4224" layer="94" align="center-right">SPI0_MOSI UART1_RTS I2C1_SCL</text>
-<text x="12.7" y="20.32" size="1.4224" layer="94" align="center-right">SPI1_MISO UART1_TX I2C0_SDA</text>
-<text x="12.7" y="17.78" size="1.4224" layer="94" align="center-right">SPI1_CSn  UART1_RX I2C0_SCL</text>
-<text x="12.7" y="15.24" size="1.4224" layer="94" align="center-right">SPI1_SCK  UART1_CTS I2C1_SDA</text>
-<text x="12.7" y="12.7" size="1.4224" layer="94" align="center-right">SPI1_MOSI UART1_RTS I2C1_SCL</text>
-<text x="12.7" y="10.16" size="1.4224" layer="94" align="center-right">SPI1_MISO UART0_TX I2C0_SDA HSTX</text>
-<text x="12.7" y="7.62" size="1.4224" layer="94" align="center-right">SPI1_CSn  UART0_RX I2C0_SCL HSTX</text>
-<text x="12.7" y="5.08" size="1.4224" layer="94" align="center-right">SPI1_SCK  UART0_CTS I2C1_SDA HSTX</text>
-<text x="12.7" y="2.54" size="1.4224" layer="94" align="center-right">SPI1_MOSI UART0_RTS I2C1_SCL HSTX</text>
-<text x="12.7" y="-2.54" size="1.4224" layer="94" align="center-right">SPI0_MISO UART0_TX I2C0_SDA HSTX</text>
-<text x="12.7" y="-5.08" size="1.4224" layer="94" align="center-right">SPI0_CSn  UART0_RX I2C0_SCL HSTX</text>
-<text x="12.7" y="-7.62" size="1.4224" layer="94" align="center-right">SPI0_SCK  UART0_CTS I2C1_SDA HSTX</text>
-<text x="12.7" y="-10.16" size="1.4224" layer="94" align="center-right">SPI0_MOSI UART0_RTS I2C1_SCL HSTX</text>
-<text x="12.7" y="-12.7" size="1.4224" layer="94" align="center-right">SPI0_MISO UART1_TX I2C0_SDA</text>
-<text x="12.7" y="-15.24" size="1.4224" layer="94" align="center-right">SPI0_CSn  UART1_RX I2C0_SCL</text>
-<text x="12.7" y="-17.78" size="1.4224" layer="94" align="center-right">SPI0_SCK  UART1_CTS I2C1_SDA</text>
-<text x="12.7" y="-20.32" size="1.4224" layer="94" align="center-right">SPI0_MOSI UART1_RTS I2C1_SCL</text>
-<text x="12.7" y="-25.4" size="1.4224" layer="94" align="center-right">SPI1_MISO UART1_TX I2C0_SDA</text>
-<text x="12.7" y="-27.94" size="1.4224" layer="94" align="center-right">SPI1_CSn  UART1_RX I2C0_SCL</text>
-<text x="12.7" y="-30.48" size="1.4224" layer="94" align="center-right">SPI1_SCK  UART1_CTS I2C1_SDA</text>
-<text x="12.7" y="-33.02" size="1.4224" layer="94" align="center-right">SPI1_MOSI UART1_RTS I2C1_SCL</text>
-<text x="12.7" y="-35.56" size="1.4224" layer="94" align="center-right">SPI1_MISO UART0_TX I2C0_SDA</text>
-<text x="12.7" y="-38.1" size="1.4224" layer="94" align="center-right">SPI1_CSn  UART0_RX I2C0_SCL</text>
+<pin name="GPIO0" x="38.1" y="43.18" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO1" x="38.1" y="40.64" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO2" x="38.1" y="38.1" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO3" x="38.1" y="35.56" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO4" x="38.1" y="33.02" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO5" x="38.1" y="30.48" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO6" x="38.1" y="27.94" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO7" x="38.1" y="25.4" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO8" x="38.1" y="20.32" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO9" x="38.1" y="17.78" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO10" x="38.1" y="15.24" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO11" x="38.1" y="12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO12" x="38.1" y="10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO13" x="38.1" y="7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO14" x="38.1" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO15" x="38.1" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO16" x="38.1" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO17" x="38.1" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO18" x="38.1" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO19" x="38.1" y="-10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO20" x="38.1" y="-12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO21" x="38.1" y="-15.24" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO22" x="38.1" y="-17.78" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO23" x="38.1" y="-20.32" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO24" x="38.1" y="-25.4" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO25" x="38.1" y="-27.94" visible="pad" length="middle" rot="R180"/>
+<wire x1="-38.1" y1="45.72" x2="33.02" y2="45.72" width="0.254" layer="94"/>
+<wire x1="33.02" y1="45.72" x2="33.02" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-40.64" x2="-38.1" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="-40.64" x2="-38.1" y2="45.72" width="0.254" layer="94"/>
+<text x="30.48" y="48.26" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<text x="-36.83" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GPIO26" x="38.1" y="-30.48" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO27" x="38.1" y="-33.02" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO28" x="38.1" y="-35.56" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO29" x="38.1" y="-38.1" visible="pad" length="middle" rot="R180"/>
+<text x="31.75" y="34.29" size="1.6764" layer="97" distance="43" align="center-right">SPI0 RX / UART0 TX / I2C0 SDA / QMI CS1 / GPIO0 / 0A~
+SPI0 CSn / UART0 RX / I2C0 SCL / GPIO1 / 0B~
+SPI0 SCK / UART0 CTS / I2C1 SDA / GPIO2 / 1A~
+SPI0 TX / UART0 RTS / I2C1 SCL / GPIO3 / 1B~
+SPI0 RX / UART1 TX / I2C0 SDA / GPIO4 / 2A~
+SPI0 CSn / UART1 RX / I2C0 SCL / GPIO5 / 2B~
+SPI0 SCK / UART1 CTS / I2C1 SDA / GPIO6 / 3A~
+SPI0 TX / UART1 RTS / I2C1 SCL / GPIO7 / 3B~</text>
+<text x="31.75" y="11.43" size="1.6764" layer="97" distance="43" align="center-right">SPI1 RX / UART1 TX / I2C0 SDA / QMI CS1 / GPIO8 / 4A~
+SPI1 CSn / UART1 RX / I2C0 SCL / GPIO9 / 4B~
+SPI1 SCK / UART1 CTS / I2C1 SDA / GPIO10 / 5A~ 
+SPI1 TX / UART1 RTS / I2C1 SCL / GPIO11 / 5B~
+SPI1 RX / UART0 TX / I2C0 SDA / GPIO12 / 6A~
+SPI1 CS / UART0 RX / I2C0 SCL / GPIO13 / 6B~
+SPI1 SCK / UART0 CTS / I2C1 SDA / GPIO14 / 7A~
+SPI1 TX / UART0 RTS / I2C1 SCL / GPIO15 / 7B~</text>
+<text x="31.75" y="-11.43" size="1.6764" layer="97" distance="43" align="center-right">SPI0 RX / UART0 TX / I2C0 SDA / GPIO16 / 0A~
+SPI0 CSn / UART0 RX / I2C0 SCL / GPIO17 / 0B~
+SPI0 SCK / UART0 CTS / I2C1 SDA / GPIO18 / 1A~
+SPI0 TX / UART0 RTS / I2C1 SCL / QMI CS1 / GPIO19 / 1B~
+SPI0 RX / UART1 TX / I2C0 SDA / GPIO20 / 2A~
+SPI0 CSn / UART1 RX / I2C0 SCL / GPIO21 / 2B~
+SPI0 SCK / UART1 CTS / I2C1 SDA / GPIO22 / 3A~
+SPI0 TX / UART1 RTS / I2C1 SCL / GPIO23 / 3B~</text>
+<text x="31.75" y="-31.75" size="1.6764" layer="97" distance="43" align="center-right">SPI1 RX / UART1 TX / I2C0 SDA / GPIO24 / 4A~
+SPI1 CSn / UART1 RX / I2C0 SCL / GPIO25 / 4B~
+SPI1 SCK / UART1 RTS / I2C1 SDA / GPIO26 / 5A~
+SPI1 TX / UART1 CTS / I2C1 SCL / GPIO27 / 5B~
+SPI1 RX / UART0 RX / I2C0 SDA / GPIO28 / 6A~
+SPI1 CSn / UART0 TX / I2C0 SCL / GPIO29 / 6B~</text>
 </symbol>
 <symbol name="RP235XB-IO2">
-<pin name="GPIO30" x="35.56" y="25.4" length="middle" rot="R180"/>
-<pin name="GPIO31" x="35.56" y="22.86" length="middle" rot="R180"/>
-<pin name="GPIO32" x="35.56" y="17.78" length="middle" rot="R180"/>
-<pin name="GPIO33" x="35.56" y="15.24" length="middle" rot="R180"/>
-<pin name="GPIO34" x="35.56" y="12.7" length="middle" rot="R180"/>
-<pin name="GPIO35" x="35.56" y="10.16" length="middle" rot="R180"/>
-<pin name="GPIO36" x="35.56" y="7.62" length="middle" rot="R180"/>
-<pin name="GPIO37" x="35.56" y="5.08" length="middle" rot="R180"/>
-<pin name="GPIO38" x="35.56" y="2.54" length="middle" rot="R180"/>
-<pin name="GPIO39" x="35.56" y="0" length="middle" rot="R180"/>
-<pin name="GPIO40_ADC0" x="35.56" y="-5.08" length="middle" rot="R180"/>
-<pin name="GPIO41_ADC1" x="35.56" y="-7.62" length="middle" rot="R180"/>
-<pin name="GPIO42_ADC2" x="35.56" y="-10.16" length="middle" rot="R180"/>
-<pin name="GPIO43_ADC3" x="35.56" y="-12.7" length="middle" rot="R180"/>
-<pin name="GPIO44_ADC4" x="35.56" y="-15.24" length="middle" rot="R180"/>
-<pin name="GPIO45_ADC5" x="35.56" y="-17.78" length="middle" rot="R180"/>
-<pin name="GPIO46_ADC6" x="35.56" y="-20.32" length="middle" rot="R180"/>
-<pin name="GPIO47_ADC7" x="35.56" y="-22.86" length="middle" rot="R180"/>
-<wire x1="30.48" y1="27.94" x2="-27.94" y2="27.94" width="0.254" layer="94"/>
-<wire x1="-27.94" y1="-25.4" x2="30.48" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="30.48" y1="-25.4" x2="30.48" y2="27.94" width="0.254" layer="94"/>
-<text x="-25.4" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="-27.94" y1="-25.4" x2="-27.94" y2="27.94" width="0.254" layer="94"/>
-<text x="27.94" y="30.48" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<text x="10.16" y="25.4" size="1.4224" layer="94" align="center-right">SPI1_SCK  UART0_CTS I2C1_SDA</text>
-<text x="10.16" y="22.86" size="1.4224" layer="94" align="center-right">SPI1_MOSI UART0_RTS I2C1_SCL</text>
-<text x="10.16" y="17.78" size="1.4224" layer="94" align="center-right">SPI0_MISO UART0_TX I2C0_SDA</text>
-<text x="10.16" y="15.24" size="1.4224" layer="94" align="center-right">SPI0_CSn  UART0_RX I2C0_SCL</text>
-<text x="10.16" y="12.7" size="1.4224" layer="94" align="center-right">SPI0_SCK  UART0_CTS I2C1_SDA</text>
-<text x="10.16" y="10.16" size="1.4224" layer="94" align="center-right">SPI0_MOSI UART0_RTS I2C1_SCL</text>
-<text x="10.16" y="7.62" size="1.4224" layer="94" align="center-right">SPI0_MISO UART1_TX I2C0_SDA</text>
-<text x="10.16" y="5.08" size="1.4224" layer="94" align="center-right">SPI0_CSn  UART1_RX I2C0_SCL</text>
-<text x="10.16" y="2.54" size="1.4224" layer="94" align="center-right">SPI0_SCK  UART1_CTS I2C1_SDA</text>
-<text x="10.16" y="-5.08" size="1.4224" layer="94" align="center-right">SPI1_MISO UART1_TX I2C0_SDA  ADC0</text>
-<text x="10.16" y="-7.62" size="1.4224" layer="94" align="center-right">SPI1_CSn  UART1_RX I2C0_SCL  ADC1</text>
-<text x="10.16" y="-10.16" size="1.4224" layer="94" align="center-right">SPI1_SCK  UART1_CTS I2C1_SDA  ADC2</text>
-<text x="10.16" y="-12.7" size="1.4224" layer="94" align="center-right">SPI1_MOSI UART1_RTS I2C1_SCL  ADC3</text>
-<text x="10.16" y="-15.24" size="1.4224" layer="94" align="center-right">SPI1_MISO UART0_TX I2C0_SDA  ADC4</text>
-<text x="10.16" y="-17.78" size="1.4224" layer="94" align="center-right">SPI1_CSn  UART0_RX I2C0_SCL  ADC5</text>
-<text x="10.16" y="-20.32" size="1.4224" layer="94" align="center-right">SPI1_SCK  UART0_CTS I2C1_SDA  ADC6</text>
-<text x="10.16" y="-22.86" size="1.4224" layer="94" align="center-right">SPI1_MOSI UART0_RTS I2C1_SCL  ADC7</text>
+<pin name="GPIO30" x="43.18" y="27.94" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO31" x="43.18" y="25.4" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO32" x="43.18" y="20.32" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO33" x="43.18" y="17.78" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO34" x="43.18" y="15.24" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO35" x="43.18" y="12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO36" x="43.18" y="10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO37" x="43.18" y="7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO38" x="43.18" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO39" x="43.18" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO40_ADC0" x="43.18" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO41_ADC1" x="43.18" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO42_ADC2" x="43.18" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO43_ADC3" x="43.18" y="-10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO44_ADC4" x="43.18" y="-12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO45_ADC5" x="43.18" y="-15.24" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO46_ADC6" x="43.18" y="-17.78" visible="pad" length="middle" rot="R180"/>
+<pin name="GPIO47_ADC7" x="43.18" y="-20.32" visible="pad" length="middle" rot="R180"/>
+<wire x1="38.1" y1="30.48" x2="-43.18" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-43.18" y1="-22.86" x2="38.1" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-22.86" x2="38.1" y2="30.48" width="0.254" layer="94"/>
+<text x="-40.64" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-43.18" y1="-22.86" x2="-43.18" y2="30.48" width="0.254" layer="94"/>
+<text x="35.56" y="33.02" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<text x="36.83" y="-11.43" size="1.6764" layer="97" distance="43" align="center-right">SPI1 RX / UART1 TX / I2C0 SDA / GPIO40 / 8A~ / ADC0
+SPI1 CSn / UART1 RX / I2C0 SCL / GPIO41 / 8B~ / ADC1
+SPI1 SCK / UART1 CTS / I2C1 SDA / GPIO42 / 9A~ / ADC2
+SPI1 TX / UART1 RTS / I2C1 SCL / GPIO43 / 9B~ / ADC3
+SPI1 RX / UART0 TX / I2C0 SDA / GPIO44 / 10A~ / ADC4
+SPI1 CSn / UART0 RX / I2C0 SCL / GPIO45 / 10B~ / ADC5
+SPI1 SCK / UART0 CTS / I2C1 SDA / GPIO46 / 11A~ / ADC6
+SPI1 TX / UART0 RTS / I2C1 SCL / QMI CS1 / GPIO47 / 11B~ / ADC7</text>
+<text x="36.83" y="11.43" size="1.6764" layer="97" distance="43" align="center-right">SPI0 RX / UART0 RX / I2C0 SDA / GPIO32 / 8A~
+SPI0 CSn / UART0 TX / I2C0 SCL / GPIO33 / 8B~
+SPI0 SCK / UART1 CTS / I2C1 SDA / GPIO34 / 9A~
+SPI0 TX / UART1 RTS / I2C1 SCL / GPIO35 / 9B~
+SPI0 RX / UART1 TX / I2C0 SDA / GPIO36 / 10A~
+SPI0 CSn / UART1 RX / I2C0 SCL / GPIO37 / 10B~
+SPI0 SCK / UART1 CTS / I2C1 SDA / GPIO38 / 11A~
+SPI0 TX / UART1 RTS / I2C1 SCL / GPIO39 / 11B~</text>
+<text x="36.83" y="26.67" size="1.6764" layer="97" distance="43" align="center-right">SPI1 SCK / UART0 CTS / I2C1 SDA / GPIO30 / 7A~
+SPI1 TX / UART0 RTS / I2C1 SCL / GPIO31 / 7B~</text>
 </symbol>
 <symbol name="RP235XB-PWR">
 <pin name="QSPI_IOVDD" x="-22.86" y="0" length="middle" direction="pwr"/>
@@ -5199,8 +5200,7 @@ This product is recommended for safety critical applications targeting both indu
 <attribute name="DESCRIPTION" value="133MHz LQFN-56(7x7) Microcontrollers (MCU/MPU/SOC) ROHS" constant="no"/>
 <attribute name="HQ_PART" value="ZHLM0164739" constant="no"/>
 <attribute name="LCSC_PART" value="C2040" constant="no"/>
-<attribute name="MANUFACTURER" value="Raspberry Pi
-" constant="no"/>
+<attribute name="MANUFACTURER" value="Raspberry Pi " constant="no"/>
 <attribute name="MPN" value="RP2040" constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="RP2040" constant="no"/>
@@ -5865,9 +5865,9 @@ features include:
 ◦12× PIO state machines
 ◦1× HSTX peripheral</description>
 <gates>
-<gate name="PWR" symbol="RP235XB-PWR" x="-63.5" y="0"/>
+<gate name="PWR" symbol="RP235XB-PWR" x="-81.28" y="0"/>
 <gate name="GPIO1" symbol="RP235XB-IO1" x="0" y="0"/>
-<gate name="GPIO2" symbol="RP235XB-IO2" x="71.12" y="-2.54"/>
+<gate name="GPIO2" symbol="RP235XB-IO2" x="93.98" y="-2.54"/>
 </gates>
 <devices>
 <device name="" package="QFN80-10X10">

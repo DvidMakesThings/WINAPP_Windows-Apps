@@ -1133,6 +1133,35 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="BLM18PG121SH1D" prefix="L">
+<description>150mΩ ±25% 220Ω@100MHz 0603 Ferrite Beads ROHS</description>
+<gates>
+<gate name="G$1" symbol="FERRITE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49051870/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-55℃~+125℃ 1 120Ω@100MHz 2A 50mΩ ±25% 0603 Ferrite Beads ROHS
+" constant="no"/>
+<attribute name="HQ_PART" value="WF0012207" constant="no"/>
+<attribute name="LCSC_PART" value="C354394" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata" constant="no"/>
+<attribute name="MPN" value="BLM18PG121SH1D" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="BLM18PG121SH1D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

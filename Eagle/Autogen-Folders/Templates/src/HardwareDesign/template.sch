@@ -73,41 +73,59 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Frames" urn="urn:adsk.eagle:library:42976481">
-<description>Frames for Sheet and Layout</description>
+<library name="ds_drawings">
 <packages>
 </packages>
 <symbols>
-<symbol name="A3L-LOC" urn="urn:adsk.eagle:symbol:42979710/1" library_version="8">
-<wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="3.81" x2="373.38" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="373.38" y1="3.81" x2="383.54" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="3.81" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="8.89" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="13.97" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="19.05" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="288.29" y1="3.81" x2="288.29" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="288.29" y1="24.13" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="24.13" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="373.38" y1="3.81" x2="373.38" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="373.38" y1="8.89" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="373.38" y1="8.89" x2="342.265" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="8.89" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="8.89" x2="342.265" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="13.97" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="13.97" x2="342.265" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="19.05" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="19.05" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="344.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-<text x="344.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="357.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
-<text x="343.916" y="4.953" size="2.54" layer="94">Sheet:</text>
+<symbol name="A3L-LOC">
+<wire x1="342.265" y1="3.81" x2="383.54" y2="3.81" width="0.1016" layer="94"/>
+<text x="252.73" y="22.225" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="280.035" y="16.51" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="347.98" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="335.28" y="5.08" size="2.54" layer="94">Sheet:</text>
 <frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
+<text x="243.205" y="46.99" size="5.08" layer="94">Title:</text>
+<text x="242.57" y="22.225" size="2.54" layer="94">File:</text>
+<text x="242.57" y="16.51" size="2.54" layer="94">Size:   A3</text>
+<text x="269.875" y="16.51" size="2.54" layer="94">Date:</text>
+<text x="345.44" y="11.43" size="5.08" layer="94">&gt;REVISION</text>
+<text x="242.57" y="10.795" size="2.54" layer="94">&gt;COMPANY</text>
+<text x="242.57" y="5.08" size="2.54" layer="94">&gt;WEB</text>
+<text x="335.28" y="15.875" size="2.54" layer="94">Rev:</text>
+<wire x1="383.54" y1="20.32" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="241.3" y1="3.81" x2="241.3" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="241.3" y1="8.89" x2="241.3" y2="14.605" width="0.1524" layer="94"/>
+<wire x1="241.3" y1="14.605" x2="241.3" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="241.3" y1="26.67" x2="241.3" y2="33.655" width="0.1524" layer="94"/>
+<wire x1="241.3" y1="33.655" x2="241.3" y2="53.975" width="0.1524" layer="94"/>
+<wire x1="241.3" y1="53.975" x2="383.54" y2="53.975" width="0.1524" layer="94"/>
+<wire x1="241.3" y1="33.655" x2="383.54" y2="33.655" width="0.1524" layer="94"/>
+<wire x1="383.54" y1="33.655" x2="383.54" y2="26.67" width="0.1524" layer="94"/>
+<wire x1="383.54" y1="26.67" x2="241.3" y2="26.67" width="0.1524" layer="94"/>
+<wire x1="241.3" y1="26.67" x2="241.3" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="241.3" y1="20.32" x2="268.605" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="268.605" y1="20.32" x2="334.01" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="334.01" y1="20.32" x2="383.54" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="383.54" y1="20.32" x2="383.54" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="383.54" y1="8.89" x2="334.01" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="334.01" y1="8.89" x2="241.3" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="334.01" y1="8.89" x2="334.01" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="334.01" y1="3.81" x2="241.3" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="334.01" y1="3.81" x2="383.54" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="383.54" y1="3.81" x2="383.54" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="383.54" y1="20.32" x2="383.54" y2="53.975" width="0.1524" layer="94"/>
+<wire x1="334.01" y1="14.605" x2="334.01" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="334.01" y1="20.32" x2="334.01" y2="14.605" width="0.1524" layer="94"/>
+<wire x1="334.01" y1="14.605" x2="268.605" y2="14.605" width="0.1524" layer="94"/>
+<wire x1="268.605" y1="14.605" x2="241.3" y2="14.605" width="0.1524" layer="94"/>
+<wire x1="268.605" y1="20.32" x2="268.605" y2="14.605" width="0.1524" layer="94"/>
+<text x="242.57" y="27.94" size="3.81" layer="94">Sheet:</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A3L-LOC" urn="urn:adsk.eagle:component:42979757/3" prefix="FRAME" uservalue="yes" library_version="8">
-<description>A3 FRAME DIN  landscape with location and doc. field</description>
+<deviceset name="A3L-LOC" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A3, landscape with location and doc. field</description>
 <gates>
 <gate name="G$1" symbol="A3L-LOC" x="0" y="0"/>
 </gates>
@@ -123,6 +141,9 @@
 </library>
 </libraries>
 <attributes>
+<attribute name="COMPANY" value="DvidMakesThings"/>
+<attribute name="REVISION" value="0.0.1"/>
+<attribute name="WEB" value="https://github.com/DvidMakesThings"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -131,7 +152,7 @@
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="Frames" library_urn="urn:adsk.eagle:library:42976481" deviceset="A3L-LOC" device=""/>
+<part name="FRAME1" library="ds_drawings" deviceset="A3L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -139,9 +160,12 @@
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
-<attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="252.73" y="22.225" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="280.035" y="16.51" size="2.286" layer="94"/>
+<attribute name="SHEET" x="347.98" y="5.08" size="2.54" layer="94"/>
+<attribute name="REVISION" x="345.44" y="11.43" size="5.08" layer="94"/>
+<attribute name="COMPANY" x="242.57" y="10.795" size="2.54" layer="94"/>
+<attribute name="WEB" x="242.57" y="5.08" size="2.54" layer="94"/>
 </instance>
 </instances>
 <busses>
@@ -152,16 +176,4 @@
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>

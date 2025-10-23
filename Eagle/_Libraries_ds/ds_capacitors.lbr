@@ -3859,7 +3859,7 @@ LXWXH=3.2X2.5X0.95mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="330UF-50V" urn="urn:adsk.eagle:component:48944485/2" prefix="C" uservalue="yes">
+<deviceset name="330UF-50V" urn="urn:adsk.eagle:component:48944485/2" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
 </gates>
@@ -3875,7 +3875,10 @@ LXWXH=3.2X2.5X0.95mm</description>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="330uF 50V ±20% SMD,D10xL10.2mm Aluminum Electrolytic Capacitors - SMD ROHS" constant="no"/>
+<attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C2895745" constant="no"/>
+<attribute name="MPN" value="EEE-FT1H331AP" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="330uF 50V" constant="no"/>
 </technology>
 </technologies>
