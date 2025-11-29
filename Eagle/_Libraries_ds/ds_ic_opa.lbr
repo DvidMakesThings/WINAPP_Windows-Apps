@@ -159,249 +159,29 @@
 </layers>
 <library>
 <packages>
-<package name="SOT95P280X145-6N" urn="urn:adsk.eagle:footprint:18604124/1">
-<description>6-SOT23, 0.95 mm pitch, 2.80 mm span, 2.92 X 1.63 X 1.45 mm body
-&lt;p&gt;6-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.92 X 1.63 X 1.45 mm&lt;/p&gt;</description>
-<circle x="-1.379" y="1.7525" radius="0.25" width="0" layer="21"/>
-<wire x1="-0.875" y1="1.5625" x2="0.875" y2="1.5625" width="0.12" layer="21"/>
-<wire x1="-0.875" y1="-1.5625" x2="0.875" y2="-1.5625" width="0.12" layer="21"/>
-<wire x1="0.875" y1="-1.525" x2="-0.875" y2="-1.525" width="0.12" layer="51"/>
-<wire x1="-0.875" y1="-1.525" x2="-0.875" y2="1.525" width="0.12" layer="51"/>
-<wire x1="-0.875" y1="1.525" x2="0.875" y2="1.525" width="0.12" layer="51"/>
-<wire x1="0.875" y1="1.525" x2="0.875" y2="-1.525" width="0.12" layer="51"/>
-<smd name="1" x="-1.2754" y="0.95" dx="1.1646" dy="0.5971" layer="1"/>
-<smd name="2" x="-1.2754" y="0" dx="1.1646" dy="0.5971" layer="1"/>
-<smd name="3" x="-1.2754" y="-0.95" dx="1.1646" dy="0.5971" layer="1"/>
-<smd name="4" x="1.2754" y="-0.95" dx="1.1646" dy="0.5971" layer="1"/>
-<smd name="5" x="1.2754" y="0" dx="1.1646" dy="0.5971" layer="1"/>
-<smd name="6" x="1.2754" y="0.95" dx="1.1646" dy="0.5971" layer="1"/>
-<text x="0" y="2.6375" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.1975" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SO8MINI">
-<wire x1="3.2" y1="1.71" x2="3.2" y2="-1.59" width="0.1998" layer="39"/>
-<wire x1="3.2" y1="-1.59" x2="-3.1" y2="-1.59" width="0.1998" layer="39"/>
-<wire x1="-3.1" y1="-1.59" x2="-3.1" y2="1.71" width="0.1998" layer="39"/>
-<wire x1="-3.1" y1="1.71" x2="3.2" y2="1.71" width="0.1998" layer="39"/>
-<text x="-2.905" y="2.135" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.155" y="-3.285" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.45" y1="-1.45" x2="1.55" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="1.55" y1="-1.45" x2="1.55" y2="1.55" width="0.127" layer="51"/>
-<wire x1="1.55" y1="1.55" x2="-1.45" y2="1.55" width="0.127" layer="51"/>
-<wire x1="-1.45" y1="1.55" x2="-1.45" y2="-1.45" width="0.127" layer="51"/>
-<smd name="1" x="-2.05" y="1" dx="0.3" dy="1.524" layer="1" rot="R270"/>
-<smd name="2" x="-2.05" y="0.35" dx="0.3" dy="1.524" layer="1" rot="R270"/>
-<smd name="3" x="-2.05" y="-0.3" dx="0.3" dy="1.524" layer="1" rot="R270"/>
-<smd name="4" x="-2.05" y="-0.95" dx="0.3" dy="1.524" layer="1" rot="R270"/>
-<smd name="8" x="2.15" y="1" dx="0.3" dy="1.524" layer="1" rot="R270"/>
-<smd name="7" x="2.15" y="0.35" dx="0.3" dy="1.524" layer="1" rot="R270"/>
-<smd name="6" x="2.15" y="-0.3" dx="0.3" dy="1.524" layer="1" rot="R270"/>
-<smd name="5" x="2.15" y="-0.95" dx="0.3" dy="1.524" layer="1" rot="R270"/>
-<circle x="-0.8" y="1.1" radius="0.206153125" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="1.35" x2="-1.45" y2="1.55" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="21"/>
-<wire x1="1.55" y1="1.55" x2="1.55" y2="1.35" width="0.127" layer="21"/>
-<wire x1="1.55" y1="-1.3" x2="1.55" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="1.55" y1="-1.45" x2="-1.45" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="-1.45" x2="-1.45" y2="-1.3" width="0.127" layer="21"/>
-</package>
-<package name="SOIC127P770X170-8N" urn="urn:adsk.eagle:footprint:25620619/1">
-<description>8-SOIC, 1.27 mm pitch, 7.70 mm span, 5.13 X 5.18 X 1.70 mm body
-&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 7.70 mm span with body size 5.13 X 5.18 X 1.70 mm&lt;/p&gt;</description>
-<circle x="-3.423" y="2.7099" radius="0.25" width="0" layer="21"/>
-<wire x1="-2.59" y1="2.4599" x2="-2.59" y2="2.565" width="0.12" layer="21"/>
-<wire x1="-2.59" y1="2.565" x2="2.59" y2="2.565" width="0.12" layer="21"/>
-<wire x1="2.59" y1="2.565" x2="2.59" y2="2.4599" width="0.12" layer="21"/>
-<wire x1="-2.59" y1="-2.4599" x2="-2.59" y2="-2.565" width="0.12" layer="21"/>
-<wire x1="-2.59" y1="-2.565" x2="2.59" y2="-2.565" width="0.12" layer="21"/>
-<wire x1="2.59" y1="-2.565" x2="2.59" y2="-2.4599" width="0.12" layer="21"/>
-<wire x1="2.59" y1="-2.565" x2="-2.59" y2="-2.565" width="0.12" layer="51"/>
-<wire x1="-2.59" y1="-2.565" x2="-2.59" y2="2.565" width="0.12" layer="51"/>
-<wire x1="-2.59" y1="2.565" x2="2.59" y2="2.565" width="0.12" layer="51"/>
-<wire x1="2.59" y1="2.565" x2="2.59" y2="-2.565" width="0.12" layer="51"/>
-<smd name="1" x="-3.3054" y="1.905" dx="1.901" dy="0.6019" layer="1"/>
-<smd name="2" x="-3.3054" y="0.635" dx="1.901" dy="0.6019" layer="1"/>
-<smd name="3" x="-3.3054" y="-0.635" dx="1.901" dy="0.6019" layer="1"/>
-<smd name="4" x="-3.3054" y="-1.905" dx="1.901" dy="0.6019" layer="1"/>
-<smd name="5" x="3.3054" y="-1.905" dx="1.901" dy="0.6019" layer="1"/>
-<smd name="6" x="3.3054" y="-0.635" dx="1.901" dy="0.6019" layer="1"/>
-<smd name="7" x="3.3054" y="0.635" dx="1.901" dy="0.6019" layer="1"/>
-<smd name="8" x="3.3054" y="1.905" dx="1.901" dy="0.6019" layer="1"/>
-<text x="0" y="3.5949" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.2" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SON50P300X300X75-9T140X174N" urn="urn:adsk.eagle:footprint:25643460/1">
-<description>8-SON (DFN), 0.50 mm pitch, 3.00 X 3.00 X 0.75 mm body, 1.74 X 1.40 mm thermal pad
-&lt;p&gt;8-pin SON (DFN) package with 0.50 mm pitch with body size 3.00 X 3.00 X 0.75 mm and thermal pad size 1.74 X 1.40 mm&lt;/p&gt;</description>
-<circle x="-2.004" y="1.3949" radius="0.25" width="0" layer="21"/>
-<wire x1="-1.5" y1="1.1449" x2="-1.5" y2="1.5" width="0.12" layer="21"/>
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.12" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="1.1449" width="0.12" layer="21"/>
-<wire x1="-1.5" y1="-1.1449" x2="-1.5" y2="-1.5" width="0.12" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.12" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.1449" width="0.12" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.12" layer="51"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.12" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.12" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.12" layer="51"/>
-<smd name="1" x="-1.45" y="0.75" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
-<smd name="2" x="-1.45" y="0.25" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
-<smd name="3" x="-1.45" y="-0.25" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
-<smd name="4" x="-1.45" y="-0.75" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
-<smd name="5" x="1.45" y="-0.75" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
-<smd name="6" x="1.45" y="-0.25" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
-<smd name="7" x="1.45" y="0.25" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
-<smd name="8" x="1.45" y="0.75" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
-<smd name="9" x="0" y="0" dx="1.4" dy="1.74" layer="1" thermals="no"/>
-<text x="0" y="2.2799" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.135" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SO8" urn="urn:adsk.eagle:footprint:220471/2">
-<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;</description>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
-<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
-<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
-<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
-<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
-<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-3.175" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-<package name="SOP65P640X120-14N" urn="urn:adsk.eagle:footprint:25630928/1">
-<description>14-SOP, 0.65 mm pitch, 6.40 mm span, 5.00 X 4.40 X 1.20 mm body
-&lt;p&gt;14-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 5.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
-<circle x="-2.903" y="2.6899" radius="0.25" width="0" layer="21"/>
-<wire x1="-2.2" y1="2.4399" x2="-2.2" y2="2.5" width="0.12" layer="21"/>
-<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.12" layer="21"/>
-<wire x1="2.2" y1="2.5" x2="2.2" y2="2.4399" width="0.12" layer="21"/>
-<wire x1="-2.2" y1="-2.4399" x2="-2.2" y2="-2.5" width="0.12" layer="21"/>
-<wire x1="-2.2" y1="-2.5" x2="2.2" y2="-2.5" width="0.12" layer="21"/>
-<wire x1="2.2" y1="-2.5" x2="2.2" y2="-2.4399" width="0.12" layer="21"/>
-<wire x1="2.2" y1="-2.5" x2="-2.2" y2="-2.5" width="0.12" layer="51"/>
-<wire x1="-2.2" y1="-2.5" x2="-2.2" y2="2.5" width="0.12" layer="51"/>
-<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.12" layer="51"/>
-<wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.12" layer="51"/>
-<smd name="1" x="-2.9" y="1.95" dx="1.4118" dy="0.4718" layer="1"/>
-<smd name="2" x="-2.9" y="1.3" dx="1.4118" dy="0.4718" layer="1"/>
-<smd name="3" x="-2.9" y="0.65" dx="1.4118" dy="0.4718" layer="1"/>
-<smd name="4" x="-2.9" y="0" dx="1.4118" dy="0.4718" layer="1"/>
-<smd name="5" x="-2.9" y="-0.65" dx="1.4118" dy="0.4718" layer="1"/>
-<smd name="6" x="-2.9" y="-1.3" dx="1.4118" dy="0.4718" layer="1"/>
-<smd name="7" x="-2.9" y="-1.95" dx="1.4118" dy="0.4718" layer="1"/>
-<smd name="8" x="2.9" y="-1.95" dx="1.4118" dy="0.4718" layer="1"/>
-<smd name="9" x="2.9" y="-1.3" dx="1.4118" dy="0.4718" layer="1"/>
-<smd name="10" x="2.9" y="-0.65" dx="1.4118" dy="0.4718" layer="1"/>
-<smd name="11" x="2.9" y="0" dx="1.4118" dy="0.4718" layer="1"/>
-<smd name="12" x="2.9" y="0.65" dx="1.4118" dy="0.4718" layer="1"/>
-<smd name="13" x="2.9" y="1.3" dx="1.4118" dy="0.4718" layer="1"/>
-<smd name="14" x="2.9" y="1.95" dx="1.4118" dy="0.4718" layer="1"/>
-<text x="0" y="3.5749" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.135" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOT95P280X145-5N" urn="urn:adsk.eagle:footprint:16378620/1">
-<description>5-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.60 X 1.45 mm body
-&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.60 X 1.45 mm&lt;/p&gt;</description>
-<circle x="-1.354" y="1.7525" radius="0.25" width="0" layer="21"/>
-<wire x1="-0.85" y1="1.5625" x2="0.85" y2="1.5625" width="0.12" layer="21"/>
-<wire x1="-0.85" y1="-1.5625" x2="0.85" y2="-1.5625" width="0.12" layer="21"/>
-<wire x1="0.85" y1="-1.5" x2="-0.85" y2="-1.5" width="0.12" layer="51"/>
-<wire x1="-0.85" y1="-1.5" x2="-0.85" y2="1.5" width="0.12" layer="51"/>
-<wire x1="-0.85" y1="1.5" x2="0.85" y2="1.5" width="0.12" layer="51"/>
-<wire x1="0.85" y1="1.5" x2="0.85" y2="-1.5" width="0.12" layer="51"/>
-<smd name="1" x="-1.2644" y="0.95" dx="1.1864" dy="0.5971" layer="1"/>
-<smd name="2" x="-1.2644" y="0" dx="1.1864" dy="0.5971" layer="1"/>
-<smd name="3" x="-1.2644" y="-0.95" dx="1.1864" dy="0.5971" layer="1"/>
-<smd name="4" x="1.2644" y="-0.95" dx="1.1864" dy="0.5971" layer="1"/>
-<smd name="5" x="1.2644" y="0.95" dx="1.1864" dy="0.5971" layer="1"/>
-<text x="0" y="2.6375" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.1975" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="MSOP8" urn="urn:adsk.eagle:footprint:30957/1">
-<description>&lt;b&gt;Micro Small Outline Package&lt;/b&gt;</description>
-<wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
-<circle x="-1" y="-1" radius="0.2" width="0" layer="21"/>
-<smd name="1" x="-0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="2" x="-0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="3" x="0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="4" x="0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="5" x="0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="6" x="0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="7" x="-0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="8" x="-0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
-<text x="-1.15" y="0.15" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.65" y="-1.05" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.1254" y1="-2.45" x2="-0.8254" y2="-1.5" layer="51"/>
-<rectangle x1="-0.4751" y1="-2.45" x2="-0.1751" y2="-1.5" layer="51"/>
-<rectangle x1="0.1751" y1="-2.45" x2="0.4751" y2="-1.5" layer="51"/>
-<rectangle x1="0.8253" y1="-2.45" x2="1.1253" y2="-1.5" layer="51"/>
-<rectangle x1="0.8254" y1="1.5" x2="1.1254" y2="2.45" layer="51"/>
-<rectangle x1="0.1751" y1="1.5" x2="0.4751" y2="2.45" layer="51"/>
-<rectangle x1="-0.4751" y1="1.5" x2="-0.1751" y2="2.45" layer="51"/>
-<rectangle x1="-1.1253" y1="1.5" x2="-0.8253" y2="2.45" layer="51"/>
-</package>
-<package name="SOT23-8">
-<smd name="1" x="-0.975" y="-1.35" dx="0.45" dy="0.8" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-0.325" y="-1.35" dx="0.45" dy="0.8" layer="1" stop="no" cream="no"/>
-<smd name="3" x="0.325" y="-1.35" dx="0.45" dy="0.8" layer="1" stop="no" cream="no"/>
-<smd name="4" x="0.975" y="-1.35" dx="0.45" dy="0.8" layer="1" stop="no" cream="no"/>
-<rectangle x1="-1.225" y1="-1.825" x2="-0.725" y2="-0.875" layer="29"/>
-<rectangle x1="-1.175" y1="-1.725" x2="-0.775" y2="-0.975" layer="31"/>
-<rectangle x1="-0.575" y1="-1.825" x2="-0.075" y2="-0.875" layer="29"/>
-<rectangle x1="-0.525" y1="-1.725" x2="-0.125" y2="-0.975" layer="31"/>
-<rectangle x1="0.075" y1="-1.825" x2="0.575" y2="-0.875" layer="29"/>
-<rectangle x1="0.125" y1="-1.725" x2="0.525" y2="-0.975" layer="31"/>
-<rectangle x1="0.725" y1="-1.825" x2="1.225" y2="-0.875" layer="29"/>
-<rectangle x1="0.775" y1="-1.725" x2="1.175" y2="-0.975" layer="31"/>
-<smd name="5" x="0.975" y="1.35" dx="0.45" dy="0.8" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="6" x="0.325" y="1.35" dx="0.45" dy="0.8" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="7" x="-0.325" y="1.35" dx="0.45" dy="0.8" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="8" x="-0.975" y="1.35" dx="0.45" dy="0.8" layer="1" rot="R180" stop="no" cream="no"/>
-<rectangle x1="0.725" y1="0.875" x2="1.225" y2="1.825" layer="29" rot="R180"/>
-<rectangle x1="0.775" y1="0.975" x2="1.175" y2="1.725" layer="31" rot="R180"/>
-<rectangle x1="0.075" y1="0.875" x2="0.575" y2="1.825" layer="29" rot="R180"/>
-<rectangle x1="0.125" y1="0.975" x2="0.525" y2="1.725" layer="31" rot="R180"/>
-<rectangle x1="-0.575" y1="0.875" x2="-0.075" y2="1.825" layer="29" rot="R180"/>
-<rectangle x1="-0.525" y1="0.975" x2="-0.125" y2="1.725" layer="31" rot="R180"/>
-<rectangle x1="-1.225" y1="0.875" x2="-0.725" y2="1.825" layer="29" rot="R180"/>
-<rectangle x1="-1.175" y1="0.975" x2="-0.775" y2="1.725" layer="31" rot="R180"/>
-<rectangle x1="-1.15" y1="-1.5" x2="-0.8" y2="-0.825" layer="51"/>
-<wire x1="-1.4" y1="0.775" x2="1.4" y2="0.775" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.775" x2="1.4" y2="-0.775" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="-0.775" x2="-1.4" y2="-0.775" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="-0.775" x2="-1.4" y2="0.775" width="0.2032" layer="21"/>
-<rectangle x1="-0.5" y1="-1.5" x2="-0.15" y2="-0.825" layer="51"/>
-<rectangle x1="0.15" y1="-1.5" x2="0.5" y2="-0.825" layer="51"/>
-<rectangle x1="0.8" y1="-1.5" x2="1.15" y2="-0.825" layer="51"/>
-<rectangle x1="0.725" y1="0.875" x2="1.225" y2="1.825" layer="29" rot="R180"/>
-<rectangle x1="0.075" y1="0.875" x2="0.575" y2="1.825" layer="29" rot="R180"/>
-<rectangle x1="-0.575" y1="0.875" x2="-0.075" y2="1.825" layer="29" rot="R180"/>
-<rectangle x1="-1.225" y1="0.875" x2="-0.725" y2="1.825" layer="29" rot="R180"/>
-<rectangle x1="0.8" y1="0.825" x2="1.15" y2="1.5" layer="51" rot="R180"/>
-<rectangle x1="0.15" y1="0.825" x2="0.5" y2="1.5" layer="51" rot="R180"/>
-<rectangle x1="-0.5" y1="0.825" x2="-0.15" y2="1.5" layer="51" rot="R180"/>
-<rectangle x1="-1.15" y1="0.825" x2="-0.8" y2="1.5" layer="51" rot="R180"/>
-<text x="-1.6" y="-1.775" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<circle x="-0.939290625" y="-0.28905" radius="0.231903125" width="0.127" layer="21"/>
+<package name="VSSOP8" urn="urn:adsk.eagle:footprint:50677879/1">
+<circle x="-3.62" y="1.455" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3.62" y="1.455" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1.535" x2="1.5" y2="1.535" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.535" x2="1.5" y2="-1.535" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-3.135" y1="1.75" x2="3.135" y2="1.75" width="0.05" layer="39"/>
+<wire x1="-3.135" y1="-1.75" x2="3.135" y2="-1.75" width="0.05" layer="39"/>
+<wire x1="-3.135" y1="1.75" x2="-3.135" y2="-1.75" width="0.05" layer="39"/>
+<wire x1="3.135" y1="1.75" x2="3.135" y2="-1.75" width="0.05" layer="39"/>
+<text x="-3.02" y="-2" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-3.02" y="2" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-2.15" y="0.975" dx="1.47" dy="0.48" layer="1" roundness="25"/>
+<smd name="2" x="-2.15" y="0.325" dx="1.47" dy="0.48" layer="1" roundness="25"/>
+<smd name="3" x="-2.15" y="-0.325" dx="1.47" dy="0.48" layer="1" roundness="25"/>
+<smd name="4" x="-2.15" y="-0.975" dx="1.47" dy="0.48" layer="1" roundness="25"/>
+<smd name="5" x="2.15" y="-0.975" dx="1.47" dy="0.48" layer="1" roundness="25"/>
+<smd name="6" x="2.15" y="-0.325" dx="1.47" dy="0.48" layer="1" roundness="25"/>
+<smd name="7" x="2.15" y="0.325" dx="1.47" dy="0.48" layer="1" roundness="25"/>
+<smd name="8" x="2.15" y="0.975" dx="1.47" dy="0.48" layer="1" roundness="25"/>
 </package>
 <package name="SOT23-5" urn="urn:adsk.eagle:footprint:25419216/1">
 <wire x1="1.422" y1="0.785" x2="1.422" y2="-0.785" width="0.1524" layer="21"/>
@@ -427,55 +207,6 @@
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 <circle x="-0.9906" y="-0.254" radius="0.148103125" width="0.127" layer="21"/>
 <text x="-2.54" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-</package>
-<package name="SON65P200X300X100-9T65X225" urn="urn:adsk.eagle:footprint:8325827/1">
-<description>8-SON, 0.65 mm pitch, 3.00 X 2.00 X 1.00 mm body, 2.25 X 0.65 mm thermal pad
-&lt;p&gt;8-pin SON package with 0.65 mm pitch with body size 3.00 X 2.00 X 1.00 mm and thermal pad size 2.25 X 0.65 mm&lt;/p&gt;</description>
-<circle x="-1.504" y="1.639" radius="0.25" width="0" layer="21"/>
-<wire x1="-1" y1="1.389" x2="-1" y2="1.5" width="0.12" layer="21"/>
-<wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.12" layer="21"/>
-<wire x1="1" y1="1.5" x2="1" y2="1.389" width="0.12" layer="21"/>
-<wire x1="-1" y1="-1.389" x2="-1" y2="-1.5" width="0.12" layer="21"/>
-<wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.12" layer="21"/>
-<wire x1="1" y1="-1.5" x2="1" y2="-1.389" width="0.12" layer="21"/>
-<wire x1="1" y1="-1.5" x2="-1" y2="-1.5" width="0.12" layer="51"/>
-<wire x1="-1" y1="-1.5" x2="-1" y2="1.5" width="0.12" layer="51"/>
-<wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.12" layer="51"/>
-<wire x1="1" y1="1.5" x2="1" y2="-1.5" width="0.12" layer="51"/>
-<smd name="1" x="-0.9669" y="0.975" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
-<smd name="2" x="-0.9669" y="0.325" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
-<smd name="3" x="-0.9669" y="-0.325" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
-<smd name="4" x="-0.9669" y="-0.975" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
-<smd name="5" x="0.9669" y="-0.975" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
-<smd name="6" x="0.9669" y="-0.325" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
-<smd name="7" x="0.9669" y="0.325" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
-<smd name="8" x="0.9669" y="0.975" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
-<smd name="9" x="0" y="0" dx="0.65" dy="2.25" layer="1" thermals="no"/>
-<text x="0" y="2.524" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.135" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SC70/SOT323-5">
-<wire x1="1" y1="0.55" x2="-1" y2="0.55" width="0.2032" layer="51"/>
-<wire x1="-1" y1="0.55" x2="-1" y2="-0.55" width="0.2032" layer="21"/>
-<wire x1="-1" y1="-0.55" x2="-0.45" y2="-0.55" width="0.2032" layer="51"/>
-<wire x1="-0.45" y1="-0.55" x2="1" y2="-0.55" width="0.2032" layer="51"/>
-<wire x1="1" y1="-0.55" x2="1" y2="0.55" width="0.2032" layer="21"/>
-<text x="-1.325" y="1.17" size="1.016" layer="25" rot="R180">&gt;NAME</text>
-<text x="-1.325" y="-0.27" size="1.016" layer="27" rot="R180">&gt;VALUE</text>
-<rectangle x1="0.55" y1="-1.2" x2="0.75" y2="-0.6" layer="51" rot="R180"/>
-<rectangle x1="-0.1" y1="-1.2" x2="0.1" y2="-0.6" layer="51" rot="R180"/>
-<rectangle x1="-0.75" y1="-1.2" x2="-0.55" y2="-0.6" layer="51" rot="R180"/>
-<rectangle x1="0.55" y1="0.6" x2="0.75" y2="1.2" layer="51"/>
-<rectangle x1="-0.75" y1="0.6" x2="-0.55" y2="1.2" layer="51"/>
-<smd name="3" x="0.65" y="-1" dx="0.22" dy="0.9" layer="1" roundness="25" rot="R180"/>
-<smd name="2" x="0" y="-1" dx="0.22" dy="0.9" layer="1" roundness="25" rot="R180"/>
-<smd name="1" x="-0.65" y="-1" dx="0.22" dy="0.9" layer="1" roundness="25" rot="R180"/>
-<smd name="4" x="0.65" y="1" dx="0.22" dy="0.9" layer="1" roundness="25" rot="R180"/>
-<smd name="5" x="-0.65" y="1" dx="0.22" dy="0.9" layer="1" roundness="25" rot="R180"/>
-<wire x1="-1" y1="0.55" x2="-1" y2="-0.55" width="0.2032" layer="51"/>
-<wire x1="1" y1="0.55" x2="1" y2="-0.55" width="0.2032" layer="51"/>
-<wire x1="-0.3" y1="0.55" x2="0.3" y2="0.55" width="0.2032" layer="21"/>
-<circle x="-0.65" y="-0.25" radius="0.14141875" width="0.127" layer="21"/>
 </package>
 <package name="QFN50P500X500X75-29T314N" urn="urn:adsk.eagle:footprint:46026213/1">
 <description>28-QFN, 0.50 mm pitch, 5.00 X 5.00 X 0.75 mm body, 3.14 X 3.14 mm thermal pad
@@ -525,13 +256,337 @@
 <text x="0" y="3.4996" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.4996" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="SC70/SOT323-5" urn="urn:adsk.eagle:footprint:50677880/1">
+<wire x1="1" y1="0.55" x2="-1" y2="0.55" width="0.2032" layer="51"/>
+<wire x1="-1" y1="0.55" x2="-1" y2="-0.55" width="0.2032" layer="21"/>
+<wire x1="-1" y1="-0.55" x2="-0.45" y2="-0.55" width="0.2032" layer="51"/>
+<wire x1="-0.45" y1="-0.55" x2="1" y2="-0.55" width="0.2032" layer="51"/>
+<wire x1="1" y1="-0.55" x2="1" y2="0.55" width="0.2032" layer="21"/>
+<wire x1="-1" y1="0.55" x2="-1" y2="-0.55" width="0.2032" layer="51"/>
+<wire x1="1" y1="0.55" x2="1" y2="-0.55" width="0.2032" layer="51"/>
+<wire x1="-0.3" y1="0.55" x2="0.3" y2="0.55" width="0.2032" layer="21"/>
+<text x="-1.325" y="1.17" size="1.016" layer="25" rot="R180">&gt;NAME</text>
+<text x="-1.325" y="-0.27" size="1.016" layer="27" rot="R180">&gt;VALUE</text>
+<rectangle x1="0.55" y1="-1.2" x2="0.75" y2="-0.6" layer="51" rot="R180"/>
+<rectangle x1="-0.1" y1="-1.2" x2="0.1" y2="-0.6" layer="51" rot="R180"/>
+<rectangle x1="-0.75" y1="-1.2" x2="-0.55" y2="-0.6" layer="51" rot="R180"/>
+<rectangle x1="0.55" y1="0.6" x2="0.75" y2="1.2" layer="51"/>
+<rectangle x1="-0.75" y1="0.6" x2="-0.55" y2="1.2" layer="51"/>
+<smd name="3" x="0.65" y="-1" dx="0.22" dy="0.9" layer="1" roundness="25" rot="R180"/>
+<smd name="2" x="0" y="-1" dx="0.22" dy="0.9" layer="1" roundness="25" rot="R180"/>
+<smd name="1" x="-0.65" y="-1" dx="0.22" dy="0.9" layer="1" roundness="25" rot="R180"/>
+<smd name="4" x="0.65" y="1" dx="0.22" dy="0.9" layer="1" roundness="25" rot="R180"/>
+<smd name="5" x="-0.65" y="1" dx="0.22" dy="0.9" layer="1" roundness="25" rot="R180"/>
+<circle x="-0.65" y="-0.25" radius="0.14141875" width="0.127" layer="21"/>
+</package>
+<package name="SON65P200X300X100-9T65X225" urn="urn:adsk.eagle:footprint:8325827/1">
+<description>8-SON, 0.65 mm pitch, 3.00 X 2.00 X 1.00 mm body, 2.25 X 0.65 mm thermal pad
+&lt;p&gt;8-pin SON package with 0.65 mm pitch with body size 3.00 X 2.00 X 1.00 mm and thermal pad size 2.25 X 0.65 mm&lt;/p&gt;</description>
+<circle x="-1.504" y="1.639" radius="0.25" width="0" layer="21"/>
+<wire x1="-1" y1="1.389" x2="-1" y2="1.5" width="0.12" layer="21"/>
+<wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.12" layer="21"/>
+<wire x1="1" y1="1.5" x2="1" y2="1.389" width="0.12" layer="21"/>
+<wire x1="-1" y1="-1.389" x2="-1" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="1" y1="-1.5" x2="1" y2="-1.389" width="0.12" layer="21"/>
+<wire x1="1" y1="-1.5" x2="-1" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-1" y1="-1.5" x2="-1" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.12" layer="51"/>
+<wire x1="1" y1="1.5" x2="1" y2="-1.5" width="0.12" layer="51"/>
+<smd name="1" x="-0.9669" y="0.975" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
+<smd name="2" x="-0.9669" y="0.325" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
+<smd name="3" x="-0.9669" y="-0.325" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
+<smd name="4" x="-0.9669" y="-0.975" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
+<smd name="5" x="0.9669" y="-0.975" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
+<smd name="6" x="0.9669" y="-0.325" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
+<smd name="7" x="0.9669" y="0.325" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
+<smd name="8" x="0.9669" y="0.975" dx="0.7779" dy="0.32" layer="1" roundness="100"/>
+<smd name="9" x="0" y="0" dx="0.65" dy="2.25" layer="1" thermals="no"/>
+<text x="0" y="2.524" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.135" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOIC127P770X170-8N" urn="urn:adsk.eagle:footprint:25620619/1">
+<description>8-SOIC, 1.27 mm pitch, 7.70 mm span, 5.13 X 5.18 X 1.70 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 7.70 mm span with body size 5.13 X 5.18 X 1.70 mm&lt;/p&gt;</description>
+<circle x="-3.423" y="2.7099" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.59" y1="2.4599" x2="-2.59" y2="2.565" width="0.12" layer="21"/>
+<wire x1="-2.59" y1="2.565" x2="2.59" y2="2.565" width="0.12" layer="21"/>
+<wire x1="2.59" y1="2.565" x2="2.59" y2="2.4599" width="0.12" layer="21"/>
+<wire x1="-2.59" y1="-2.4599" x2="-2.59" y2="-2.565" width="0.12" layer="21"/>
+<wire x1="-2.59" y1="-2.565" x2="2.59" y2="-2.565" width="0.12" layer="21"/>
+<wire x1="2.59" y1="-2.565" x2="2.59" y2="-2.4599" width="0.12" layer="21"/>
+<wire x1="2.59" y1="-2.565" x2="-2.59" y2="-2.565" width="0.12" layer="51"/>
+<wire x1="-2.59" y1="-2.565" x2="-2.59" y2="2.565" width="0.12" layer="51"/>
+<wire x1="-2.59" y1="2.565" x2="2.59" y2="2.565" width="0.12" layer="51"/>
+<wire x1="2.59" y1="2.565" x2="2.59" y2="-2.565" width="0.12" layer="51"/>
+<smd name="1" x="-3.3054" y="1.905" dx="1.901" dy="0.6019" layer="1"/>
+<smd name="2" x="-3.3054" y="0.635" dx="1.901" dy="0.6019" layer="1"/>
+<smd name="3" x="-3.3054" y="-0.635" dx="1.901" dy="0.6019" layer="1"/>
+<smd name="4" x="-3.3054" y="-1.905" dx="1.901" dy="0.6019" layer="1"/>
+<smd name="5" x="3.3054" y="-1.905" dx="1.901" dy="0.6019" layer="1"/>
+<smd name="6" x="3.3054" y="-0.635" dx="1.901" dy="0.6019" layer="1"/>
+<smd name="7" x="3.3054" y="0.635" dx="1.901" dy="0.6019" layer="1"/>
+<smd name="8" x="3.3054" y="1.905" dx="1.901" dy="0.6019" layer="1"/>
+<text x="0" y="3.5949" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.2" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SO8MINI" urn="urn:adsk.eagle:footprint:50677882/1">
+<wire x1="3.2" y1="1.71" x2="3.2" y2="-1.59" width="0.1998" layer="39"/>
+<wire x1="3.2" y1="-1.59" x2="-3.1" y2="-1.59" width="0.1998" layer="39"/>
+<wire x1="-3.1" y1="-1.59" x2="-3.1" y2="1.71" width="0.1998" layer="39"/>
+<wire x1="-3.1" y1="1.71" x2="3.2" y2="1.71" width="0.1998" layer="39"/>
+<wire x1="-1.45" y1="-1.45" x2="1.55" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="1.55" y1="-1.45" x2="1.55" y2="1.55" width="0.127" layer="51"/>
+<wire x1="1.55" y1="1.55" x2="-1.45" y2="1.55" width="0.127" layer="51"/>
+<wire x1="-1.45" y1="1.55" x2="-1.45" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-1.45" y1="1.35" x2="-1.45" y2="1.55" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="1.35" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-1.3" x2="1.55" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-1.45" x2="-1.45" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-1.45" x2="-1.45" y2="-1.3" width="0.127" layer="21"/>
+<text x="-2.905" y="2.135" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.155" y="-3.285" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="-2.05" y="1" dx="0.3" dy="1.524" layer="1" rot="R270"/>
+<smd name="2" x="-2.05" y="0.35" dx="0.3" dy="1.524" layer="1" rot="R270"/>
+<smd name="3" x="-2.05" y="-0.3" dx="0.3" dy="1.524" layer="1" rot="R270"/>
+<smd name="4" x="-2.05" y="-0.95" dx="0.3" dy="1.524" layer="1" rot="R270"/>
+<smd name="8" x="2.15" y="1" dx="0.3" dy="1.524" layer="1" rot="R270"/>
+<smd name="7" x="2.15" y="0.35" dx="0.3" dy="1.524" layer="1" rot="R270"/>
+<smd name="6" x="2.15" y="-0.3" dx="0.3" dy="1.524" layer="1" rot="R270"/>
+<smd name="5" x="2.15" y="-0.95" dx="0.3" dy="1.524" layer="1" rot="R270"/>
+<circle x="-0.8" y="1.1" radius="0.206153125" width="0.127" layer="21"/>
+</package>
+<package name="SOT95P280X145-6N" urn="urn:adsk.eagle:footprint:18604124/1">
+<description>6-SOT23, 0.95 mm pitch, 2.80 mm span, 2.92 X 1.63 X 1.45 mm body
+&lt;p&gt;6-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.92 X 1.63 X 1.45 mm&lt;/p&gt;</description>
+<circle x="-1.379" y="1.7525" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.875" y1="1.5625" x2="0.875" y2="1.5625" width="0.12" layer="21"/>
+<wire x1="-0.875" y1="-1.5625" x2="0.875" y2="-1.5625" width="0.12" layer="21"/>
+<wire x1="0.875" y1="-1.525" x2="-0.875" y2="-1.525" width="0.12" layer="51"/>
+<wire x1="-0.875" y1="-1.525" x2="-0.875" y2="1.525" width="0.12" layer="51"/>
+<wire x1="-0.875" y1="1.525" x2="0.875" y2="1.525" width="0.12" layer="51"/>
+<wire x1="0.875" y1="1.525" x2="0.875" y2="-1.525" width="0.12" layer="51"/>
+<smd name="1" x="-1.2754" y="0.95" dx="1.1646" dy="0.5971" layer="1"/>
+<smd name="2" x="-1.2754" y="0" dx="1.1646" dy="0.5971" layer="1"/>
+<smd name="3" x="-1.2754" y="-0.95" dx="1.1646" dy="0.5971" layer="1"/>
+<smd name="4" x="1.2754" y="-0.95" dx="1.1646" dy="0.5971" layer="1"/>
+<smd name="5" x="1.2754" y="0" dx="1.1646" dy="0.5971" layer="1"/>
+<smd name="6" x="1.2754" y="0.95" dx="1.1646" dy="0.5971" layer="1"/>
+<text x="0" y="2.6375" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.1975" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOP65P640X120-14N" urn="urn:adsk.eagle:footprint:25630928/1">
+<description>14-SOP, 0.65 mm pitch, 6.40 mm span, 5.00 X 4.40 X 1.20 mm body
+&lt;p&gt;14-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 5.00 X 4.40 X 1.20 mm&lt;/p&gt;</description>
+<circle x="-2.903" y="2.6899" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.2" y1="2.4399" x2="-2.2" y2="2.5" width="0.12" layer="21"/>
+<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.12" layer="21"/>
+<wire x1="2.2" y1="2.5" x2="2.2" y2="2.4399" width="0.12" layer="21"/>
+<wire x1="-2.2" y1="-2.4399" x2="-2.2" y2="-2.5" width="0.12" layer="21"/>
+<wire x1="-2.2" y1="-2.5" x2="2.2" y2="-2.5" width="0.12" layer="21"/>
+<wire x1="2.2" y1="-2.5" x2="2.2" y2="-2.4399" width="0.12" layer="21"/>
+<wire x1="2.2" y1="-2.5" x2="-2.2" y2="-2.5" width="0.12" layer="51"/>
+<wire x1="-2.2" y1="-2.5" x2="-2.2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.12" layer="51"/>
+<wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.12" layer="51"/>
+<smd name="1" x="-2.9" y="1.95" dx="1.4118" dy="0.4718" layer="1"/>
+<smd name="2" x="-2.9" y="1.3" dx="1.4118" dy="0.4718" layer="1"/>
+<smd name="3" x="-2.9" y="0.65" dx="1.4118" dy="0.4718" layer="1"/>
+<smd name="4" x="-2.9" y="0" dx="1.4118" dy="0.4718" layer="1"/>
+<smd name="5" x="-2.9" y="-0.65" dx="1.4118" dy="0.4718" layer="1"/>
+<smd name="6" x="-2.9" y="-1.3" dx="1.4118" dy="0.4718" layer="1"/>
+<smd name="7" x="-2.9" y="-1.95" dx="1.4118" dy="0.4718" layer="1"/>
+<smd name="8" x="2.9" y="-1.95" dx="1.4118" dy="0.4718" layer="1"/>
+<smd name="9" x="2.9" y="-1.3" dx="1.4118" dy="0.4718" layer="1"/>
+<smd name="10" x="2.9" y="-0.65" dx="1.4118" dy="0.4718" layer="1"/>
+<smd name="11" x="2.9" y="0" dx="1.4118" dy="0.4718" layer="1"/>
+<smd name="12" x="2.9" y="0.65" dx="1.4118" dy="0.4718" layer="1"/>
+<smd name="13" x="2.9" y="1.3" dx="1.4118" dy="0.4718" layer="1"/>
+<smd name="14" x="2.9" y="1.95" dx="1.4118" dy="0.4718" layer="1"/>
+<text x="0" y="3.5749" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.135" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="MSOP8" urn="urn:adsk.eagle:footprint:30957/1">
+<description>&lt;b&gt;Micro Small Outline Package&lt;/b&gt;</description>
+<wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
+<circle x="-1" y="-1" radius="0.2" width="0" layer="21"/>
+<smd name="1" x="-0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="2" x="-0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="3" x="0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="4" x="0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="5" x="0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="6" x="0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="7" x="-0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="8" x="-0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
+<text x="-1.15" y="0.15" size="1.016" layer="25">&gt;NAME</text>
+<text x="-0.65" y="-1.05" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.1254" y1="-2.45" x2="-0.8254" y2="-1.5" layer="51"/>
+<rectangle x1="-0.4751" y1="-2.45" x2="-0.1751" y2="-1.5" layer="51"/>
+<rectangle x1="0.1751" y1="-2.45" x2="0.4751" y2="-1.5" layer="51"/>
+<rectangle x1="0.8253" y1="-2.45" x2="1.1253" y2="-1.5" layer="51"/>
+<rectangle x1="0.8254" y1="1.5" x2="1.1254" y2="2.45" layer="51"/>
+<rectangle x1="0.1751" y1="1.5" x2="0.4751" y2="2.45" layer="51"/>
+<rectangle x1="-0.4751" y1="1.5" x2="-0.1751" y2="2.45" layer="51"/>
+<rectangle x1="-1.1253" y1="1.5" x2="-0.8253" y2="2.45" layer="51"/>
+</package>
+<package name="SO8" urn="urn:adsk.eagle:footprint:220471/2">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-3.175" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="SOT23-8" urn="urn:adsk.eagle:footprint:50677881/1">
+<smd name="1" x="-0.975" y="-1.35" dx="0.45" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-0.325" y="-1.35" dx="0.45" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="3" x="0.325" y="-1.35" dx="0.45" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="4" x="0.975" y="-1.35" dx="0.45" dy="0.8" layer="1" stop="no" cream="no"/>
+<smd name="5" x="0.975" y="1.35" dx="0.45" dy="0.8" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="6" x="0.325" y="1.35" dx="0.45" dy="0.8" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="7" x="-0.325" y="1.35" dx="0.45" dy="0.8" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="8" x="-0.975" y="1.35" dx="0.45" dy="0.8" layer="1" rot="R180" stop="no" cream="no"/>
+<rectangle x1="-1.225" y1="-1.825" x2="-0.725" y2="-0.875" layer="29"/>
+<rectangle x1="-1.175" y1="-1.725" x2="-0.775" y2="-0.975" layer="31"/>
+<rectangle x1="-0.575" y1="-1.825" x2="-0.075" y2="-0.875" layer="29"/>
+<rectangle x1="-0.525" y1="-1.725" x2="-0.125" y2="-0.975" layer="31"/>
+<rectangle x1="0.075" y1="-1.825" x2="0.575" y2="-0.875" layer="29"/>
+<rectangle x1="0.125" y1="-1.725" x2="0.525" y2="-0.975" layer="31"/>
+<rectangle x1="0.725" y1="-1.825" x2="1.225" y2="-0.875" layer="29"/>
+<rectangle x1="0.775" y1="-1.725" x2="1.175" y2="-0.975" layer="31"/>
+<rectangle x1="0.725" y1="0.875" x2="1.225" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="0.775" y1="0.975" x2="1.175" y2="1.725" layer="31" rot="R180"/>
+<rectangle x1="0.075" y1="0.875" x2="0.575" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="0.125" y1="0.975" x2="0.525" y2="1.725" layer="31" rot="R180"/>
+<rectangle x1="-0.575" y1="0.875" x2="-0.075" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="-0.525" y1="0.975" x2="-0.125" y2="1.725" layer="31" rot="R180"/>
+<rectangle x1="-1.225" y1="0.875" x2="-0.725" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="-1.175" y1="0.975" x2="-0.775" y2="1.725" layer="31" rot="R180"/>
+<rectangle x1="-1.15" y1="-1.5" x2="-0.8" y2="-0.825" layer="51"/>
+<rectangle x1="-0.5" y1="-1.5" x2="-0.15" y2="-0.825" layer="51"/>
+<rectangle x1="0.15" y1="-1.5" x2="0.5" y2="-0.825" layer="51"/>
+<rectangle x1="0.8" y1="-1.5" x2="1.15" y2="-0.825" layer="51"/>
+<rectangle x1="0.725" y1="0.875" x2="1.225" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="0.075" y1="0.875" x2="0.575" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="-0.575" y1="0.875" x2="-0.075" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="-1.225" y1="0.875" x2="-0.725" y2="1.825" layer="29" rot="R180"/>
+<rectangle x1="0.8" y1="0.825" x2="1.15" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="0.15" y1="0.825" x2="0.5" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-0.5" y1="0.825" x2="-0.15" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-1.15" y1="0.825" x2="-0.8" y2="1.5" layer="51" rot="R180"/>
+<wire x1="-1.4" y1="0.775" x2="1.4" y2="0.775" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.775" x2="1.4" y2="-0.775" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.775" x2="-1.4" y2="-0.775" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-0.775" x2="-1.4" y2="0.775" width="0.2032" layer="21"/>
+<text x="-1.6" y="-1.775" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<circle x="-0.939290625" y="-0.28905" radius="0.231903125" width="0.127" layer="21"/>
+</package>
+<package name="SON50P300X300X75-9T140X174N" urn="urn:adsk.eagle:footprint:25643460/1">
+<description>8-SON (DFN), 0.50 mm pitch, 3.00 X 3.00 X 0.75 mm body, 1.74 X 1.40 mm thermal pad
+&lt;p&gt;8-pin SON (DFN) package with 0.50 mm pitch with body size 3.00 X 3.00 X 0.75 mm and thermal pad size 1.74 X 1.40 mm&lt;/p&gt;</description>
+<circle x="-2.004" y="1.3949" radius="0.25" width="0" layer="21"/>
+<wire x1="-1.5" y1="1.1449" x2="-1.5" y2="1.5" width="0.12" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.12" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.1449" width="0.12" layer="21"/>
+<wire x1="-1.5" y1="-1.1449" x2="-1.5" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.1449" width="0.12" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.12" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.12" layer="51"/>
+<smd name="1" x="-1.45" y="0.75" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="2" x="-1.45" y="0.25" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="3" x="-1.45" y="-0.25" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="4" x="-1.45" y="-0.75" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="5" x="1.45" y="-0.75" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="6" x="1.45" y="-0.25" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="7" x="1.45" y="0.25" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="8" x="1.45" y="0.75" dx="0.8118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="9" x="0" y="0" dx="1.4" dy="1.74" layer="1" thermals="no"/>
+<text x="0" y="2.2799" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.135" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOT95P280X145-5N" urn="urn:adsk.eagle:footprint:16378620/1">
+<description>5-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.60 X 1.45 mm body
+&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.60 X 1.45 mm&lt;/p&gt;</description>
+<circle x="-1.354" y="1.7525" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.85" y1="1.5625" x2="0.85" y2="1.5625" width="0.12" layer="21"/>
+<wire x1="-0.85" y1="-1.5625" x2="0.85" y2="-1.5625" width="0.12" layer="21"/>
+<wire x1="0.85" y1="-1.5" x2="-0.85" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="-1.5" x2="-0.85" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="1.5" x2="0.85" y2="1.5" width="0.12" layer="51"/>
+<wire x1="0.85" y1="1.5" x2="0.85" y2="-1.5" width="0.12" layer="51"/>
+<smd name="1" x="-1.2644" y="0.95" dx="1.1864" dy="0.5971" layer="1"/>
+<smd name="2" x="-1.2644" y="0" dx="1.1864" dy="0.5971" layer="1"/>
+<smd name="3" x="-1.2644" y="-0.95" dx="1.1864" dy="0.5971" layer="1"/>
+<smd name="4" x="1.2644" y="-0.95" dx="1.1864" dy="0.5971" layer="1"/>
+<smd name="5" x="1.2644" y="0.95" dx="1.1864" dy="0.5971" layer="1"/>
+<text x="0" y="2.6375" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.1975" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
+<package3d name="VSSOP8" urn="urn:adsk.eagle:package:50677891/2" type="model">
+<packageinstances>
+<packageinstance name="VSSOP8"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23-5" urn="urn:adsk.eagle:package:25419215/3" type="model">
+<description>5-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT23-5"/>
+</packageinstances>
+</package3d>
+<package3d name="SC70/SOT323-5" urn="urn:adsk.eagle:package:50677892/1" type="box">
+<packageinstances>
+<packageinstance name="SC70/SOT323-5"/>
+</packageinstances>
+</package3d>
+<package3d name="QFN50P500X500X75-29T314N" urn="urn:adsk.eagle:package:46026212/2" type="model">
+<description>28-QFN, 0.50 mm pitch, 5.00 X 5.00 X 0.75 mm body, 3.14 X 3.14 mm thermal pad
+&lt;p&gt;28-pin QFN package with 0.50 mm pitch with body size 5.00 X 5.00 X 0.75 mm and thermal pad size 3.14 X 3.14 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="QFN50P500X500X75-29T314N"/>
+</packageinstances>
+</package3d>
 <package3d name="SOT95P280X145-6N" urn="urn:adsk.eagle:package:18604126/1" type="model">
 <description>6-SOT23, 0.95 mm pitch, 2.80 mm span, 2.92 X 1.63 X 1.45 mm body
 &lt;p&gt;6-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.92 X 1.63 X 1.45 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT95P280X145-6N"/>
+</packageinstances>
+</package3d>
+<package3d name="SON65P200X300X100-9T65X225" urn="urn:adsk.eagle:package:8325822/1" type="model">
+<description>8-SON, 0.65 mm pitch, 3.00 X 2.00 X 1.00 mm body, 2.25 X 0.65 mm thermal pad
+&lt;p&gt;8-pin SON package with 0.65 mm pitch with body size 3.00 X 2.00 X 1.00 mm and thermal pad size 2.25 X 0.65 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SON65P200X300X100-9T65X225"/>
 </packageinstances>
 </package3d>
 <package3d name="SOIC127P770X170-8N" urn="urn:adsk.eagle:package:25620618/1" type="model">
@@ -541,11 +596,20 @@
 <packageinstance name="SOIC127P770X170-8N"/>
 </packageinstances>
 </package3d>
-<package3d name="SON50P300X300X75-9T140X174N" urn="urn:adsk.eagle:package:25643444/1" type="model">
-<description>8-SON (DFN), 0.50 mm pitch, 3.00 X 3.00 X 0.75 mm body, 1.74 X 1.40 mm thermal pad
-&lt;p&gt;8-pin SON (DFN) package with 0.50 mm pitch with body size 3.00 X 3.00 X 0.75 mm and thermal pad size 1.74 X 1.40 mm&lt;/p&gt;</description>
+<package3d name="MSOP8" urn="urn:adsk.eagle:package:30988/2" type="model">
+<description>Micro Small Outline Package</description>
 <packageinstances>
-<packageinstance name="SON50P300X300X75-9T140X174N"/>
+<packageinstance name="MSOP8"/>
+</packageinstances>
+</package3d>
+<package3d name="SO8MINI" urn="urn:adsk.eagle:package:50677894/1" type="box">
+<packageinstances>
+<packageinstance name="SO8MINI"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23-8" urn="urn:adsk.eagle:package:50677893/1" type="box">
+<packageinstances>
+<packageinstance name="SOT23-8"/>
 </packageinstances>
 </package3d>
 <package3d name="SO8" urn="urn:adsk.eagle:package:220529/4" type="model">
@@ -568,76 +632,16 @@
 <packageinstance name="SOT95P280X145-5N"/>
 </packageinstances>
 </package3d>
-<package3d name="MSOP8" urn="urn:adsk.eagle:package:30988/2" type="model">
-<description>Micro Small Outline Package</description>
+<package3d name="SON50P300X300X75-9T140X174N" urn="urn:adsk.eagle:package:25643444/1" type="model">
+<description>8-SON (DFN), 0.50 mm pitch, 3.00 X 3.00 X 0.75 mm body, 1.74 X 1.40 mm thermal pad
+&lt;p&gt;8-pin SON (DFN) package with 0.50 mm pitch with body size 3.00 X 3.00 X 0.75 mm and thermal pad size 1.74 X 1.40 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="MSOP8"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT23-5" urn="urn:adsk.eagle:package:25419215/3" type="model">
-<description>5-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
-&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOT23-5"/>
-</packageinstances>
-</package3d>
-<package3d name="SON65P200X300X100-9T65X225" urn="urn:adsk.eagle:package:8325822/1" type="model">
-<description>8-SON, 0.65 mm pitch, 3.00 X 2.00 X 1.00 mm body, 2.25 X 0.65 mm thermal pad
-&lt;p&gt;8-pin SON package with 0.65 mm pitch with body size 3.00 X 2.00 X 1.00 mm and thermal pad size 2.25 X 0.65 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SON65P200X300X100-9T65X225"/>
-</packageinstances>
-</package3d>
-<package3d name="QFN50P500X500X75-29T314N" urn="urn:adsk.eagle:package:46026212/2" type="model">
-<description>28-QFN, 0.50 mm pitch, 5.00 X 5.00 X 0.75 mm body, 3.14 X 3.14 mm thermal pad
-&lt;p&gt;28-pin QFN package with 0.50 mm pitch with body size 5.00 X 5.00 X 0.75 mm and thermal pad size 3.14 X 3.14 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="QFN50P500X500X75-29T314N"/>
+<packageinstance name="SON50P300X300X75-9T140X174N"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="AD8027">
-<wire x1="-1.27" y1="1.905" x2="-1.27" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="3.8862" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<text x="5.08" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.143" y="4.191" size="0.8128" layer="93" rot="R90">V+</text>
-<pin name="+IN" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
-<pin name="-IN" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
-<pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
-<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
-<text x="1.016" y="-5.08" size="0.8128" layer="93" rot="R90">V-</text>
-<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-<pin name="!DIS" x="7.62" y="-2.54" visible="off" length="middle" rot="R180"/>
-<text x="2.5908" y="-0.9652" size="1.016" layer="94" rot="R180">!DIS</text>
-</symbol>
-<symbol name="OPA_PWR">
-<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="3.8862" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<text x="5.08" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.143" y="4.191" size="0.8128" layer="93" rot="R90">V+</text>
-<pin name="+IN" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
-<pin name="-IN" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
-<pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
-<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
-<text x="1.016" y="-5.08" size="0.8128" layer="93" rot="R90">V-</text>
-<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-</symbol>
-<symbol name="OPA">
+<symbol name="OPA" urn="urn:adsk.eagle:symbol:50677888/1">
 <wire x1="-1.27" y1="-3.175" x2="-1.27" y2="-1.905" width="0.1524" layer="94"/>
 <wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
@@ -650,101 +654,7 @@
 <pin name="-IN" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
 <pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
 </symbol>
-<symbol name="AD8099">
-<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="3.8862" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<text x="7.112" y="5.588" size="1.778" layer="95">&gt;NAME</text>
-<text x="7.112" y="2.794" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.143" y="4.191" size="0.8128" layer="93" rot="R90">V+</text>
-<pin name="+IN" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
-<pin name="-IN" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
-<pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
-<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
-<text x="1.016" y="-5.08" size="0.8128" layer="93" rot="R90">V-</text>
-<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-<pin name="FB" x="2.54" y="7.62" visible="pad" length="middle" rot="R270"/>
-<pin name="CC" x="2.54" y="-7.62" visible="pad" length="middle" rot="R90"/>
-<pin name="DIS" x="7.62" y="-2.54" visible="pad" length="middle" rot="R180"/>
-<text x="4.318" y="-4.064" size="1.016" layer="94">DIS</text>
-<text x="3.048" y="-6.096" size="1.016" layer="94">CC</text>
-<text x="3.302" y="3.302" size="1.016" layer="94">FB</text>
-</symbol>
-<symbol name="INA126">
-<wire x1="-1.27" y1="3.175" x2="-1.27" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="3.8862" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="1.3462" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="2.54" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.6162" width="0.1524" layer="94"/>
-<text x="7.62" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<text x="7.62" y="-5.08" size="1.778" layer="96">INA126</text>
-<text x="6.096" y="4.064" size="0.8128" layer="93" rot="R90">RG</text>
-<text x="3.556" y="4.191" size="0.8128" layer="93" rot="R90">RG</text>
-<text x="1.016" y="-5.08" size="0.8128" layer="93" rot="R90">V-</text>
-<text x="3.556" y="-5.334" size="0.8128" layer="93" rot="R90">REF</text>
-<text x="1.143" y="4.191" size="0.8128" layer="93" rot="R90">V+</text>
-<pin name="-IN" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
-<pin name="+IN" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
-<pin name="RG@2" x="5.08" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
-<pin name="RG@1" x="2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
-<pin name="REF" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-</symbol>
-<symbol name="LT1013">
-<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="3.8862" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<text x="5.08" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="-10.16" size="1.778" layer="96">LT1013</text>
-<text x="1.143" y="4.191" size="0.8128" layer="93" rot="R90">V+</text>
-<pin name="-INA" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
-<pin name="+INA" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
-<pin name="OUTA" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
-<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
-<text x="1.016" y="-5.08" size="0.8128" layer="93" rot="R90">V-</text>
-<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-</symbol>
-<symbol name="OPA_SHDN">
-<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="3.8862" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<text x="5.08" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.143" y="4.191" size="0.8128" layer="93" rot="R90">V+</text>
-<pin name="+IN" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
-<pin name="-IN" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
-<pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
-<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
-<text x="1.016" y="-5.08" size="0.8128" layer="93" rot="R90">V-</text>
-<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-<pin name="SHDN" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
-<text x="2.6924" y="-0.6096" size="0.8128" layer="94" rot="R180">SHDN</text>
-</symbol>
-<symbol name="ADA4254">
+<symbol name="ADA4254" urn="urn:adsk.eagle:symbol:50677883/1">
 <pin name="IN1+" x="-17.78" y="12.7" length="middle" direction="in"/>
 <pin name="IN1-" x="-17.78" y="10.16" length="middle" direction="in"/>
 <pin name="IN2+" x="-17.78" y="5.08" length="middle" direction="in"/>
@@ -779,40 +689,149 @@
 <text x="10.16" y="27.94" size="1.27" layer="95" rot="R180">&gt;NAME</text>
 <text x="-10.16" y="-27.94" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="OPA_PWR" urn="urn:adsk.eagle:symbol:50677889/1">
+<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="3.8862" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
+<text x="5.08" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.143" y="4.191" size="0.8128" layer="93" rot="R90">V+</text>
+<text x="1.016" y="-5.08" size="0.8128" layer="93" rot="R90">V-</text>
+<pin name="+IN" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="-IN" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="AD8027" urn="urn:adsk.eagle:symbol:50677890/1">
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="3.8862" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
+<text x="5.08" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.143" y="4.191" size="0.8128" layer="93" rot="R90">V+</text>
+<text x="1.016" y="-5.08" size="0.8128" layer="93" rot="R90">V-</text>
+<text x="2.5908" y="-0.9652" size="1.016" layer="94" rot="R180">!DIS</text>
+<pin name="+IN" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="-IN" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="!DIS" x="7.62" y="-2.54" visible="off" length="middle" rot="R180"/>
+</symbol>
+<symbol name="OPA_SHDN" urn="urn:adsk.eagle:symbol:50677884/1">
+<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="3.8862" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
+<text x="5.08" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.143" y="4.191" size="0.8128" layer="93" rot="R90">V+</text>
+<text x="1.016" y="-5.08" size="0.8128" layer="93" rot="R90">V-</text>
+<text x="2.6924" y="-0.6096" size="0.8128" layer="94" rot="R180">SHDN</text>
+<pin name="+IN" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="-IN" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="SHDN" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
+</symbol>
+<symbol name="LT1013" urn="urn:adsk.eagle:symbol:50677885/1">
+<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="3.8862" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
+<text x="5.08" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-10.16" size="1.778" layer="96">LT1013</text>
+<text x="1.143" y="4.191" size="0.8128" layer="93" rot="R90">V+</text>
+<text x="1.016" y="-5.08" size="0.8128" layer="93" rot="R90">V-</text>
+<pin name="-INA" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="+INA" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUTA" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="INA126" urn="urn:adsk.eagle:symbol:50677886/1">
+<wire x1="-1.27" y1="3.175" x2="-1.27" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="3.8862" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="1.3462" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.6162" width="0.1524" layer="94"/>
+<text x="7.62" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="-5.08" size="1.778" layer="96">INA126</text>
+<text x="6.096" y="4.064" size="0.8128" layer="93" rot="R90">RG</text>
+<text x="3.556" y="4.191" size="0.8128" layer="93" rot="R90">RG</text>
+<text x="1.016" y="-5.08" size="0.8128" layer="93" rot="R90">V-</text>
+<text x="3.556" y="-5.334" size="0.8128" layer="93" rot="R90">REF</text>
+<text x="1.143" y="4.191" size="0.8128" layer="93" rot="R90">V+</text>
+<pin name="-IN" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="RG@2" x="5.08" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="RG@1" x="2.54" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="REF" x="2.54" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="AD8099" urn="urn:adsk.eagle:symbol:50677887/1">
+<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="3.8862" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
+<text x="7.112" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.112" y="2.794" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.143" y="4.191" size="0.8128" layer="93" rot="R90">V+</text>
+<text x="1.016" y="-5.08" size="0.8128" layer="93" rot="R90">V-</text>
+<text x="4.318" y="-4.064" size="1.016" layer="94">DIS</text>
+<text x="3.048" y="-6.096" size="1.016" layer="94">CC</text>
+<text x="3.302" y="3.302" size="1.016" layer="94">FB</text>
+<pin name="+IN" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="-IN" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="FB" x="2.54" y="7.62" visible="pad" length="middle" rot="R270"/>
+<pin name="CC" x="2.54" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="DIS" x="7.62" y="-2.54" visible="pad" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="AD8027" prefix="IC" uservalue="yes">
-<description>Low Distortion, High Speed Rail-to-Rail Input/Output Amplifiers</description>
+<deviceset name="LM358BIDGKR" urn="urn:adsk.eagle:component:50677895/1" locally_modified="yes" prefix="IC" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="AD8027" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT95P280X145-6N">
-<connects>
-<connect gate="G$1" pin="!DIS" pad="5"/>
-<connect gate="G$1" pin="+IN" pad="3"/>
-<connect gate="G$1" pin="-IN" pad="4"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-<connect gate="G$1" pin="V+" pad="6"/>
-<connect gate="G$1" pin="V-" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18604126/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AD8066" prefix="IC">
-<description>High Performance, 145 MHz FastFET Op Amp</description>
-<gates>
-<gate name="A" symbol="OPA_PWR" x="0" y="10.16"/>
+<gate name="A" symbol="OPA_PWR" x="0" y="15.24"/>
 <gate name="B" symbol="OPA" x="0" y="-7.62"/>
 </gates>
 <devices>
-<device name="ARMZ" package="SO8MINI">
+<device name="" package="VSSOP8">
 <connects>
 <connect gate="A" pin="+IN" pad="3"/>
 <connect gate="A" pin="-IN" pad="2"/>
@@ -823,182 +842,57 @@
 <connect gate="B" pin="-IN" pad="6"/>
 <connect gate="B" pin="OUT" pad="7"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:50677891/2"/>
+</package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/lm358.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1764304665624&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm358" constant="no"/>
+<attribute name="DESCRIPTION" value="-40℃~+85℃ 1.2MHz 100dB 10pA/℃ 12uV/℃ 2 20mA 300uA 35nA 36V 3V~36V 3mV 40nV/√Hz@1kHz 4nA 500V/ms VSSOP-8 Operational Amplifier ROHS" constant="no"/>
+<attribute name="LCSC_PART" value="C2846792" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LM358BIDGKR" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="LM358BIDGKR" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AD8099" prefix="IC">
-<description>Ultralow Distortion, High Speed,
-0.95 nV/√Hz Voltage Noise Op Amp</description>
+<deviceset name="LMV611MFX" urn="urn:adsk.eagle:component:50677897/1" prefix="IC" uservalue="yes">
+<description>MV61x Single, Dual, and Quad, 1.4-MHz, Low-Power, General-Purpose 1.8-V Operational Amplifiers</description>
 <gates>
-<gate name="G$1" symbol="AD8099" x="0" y="0"/>
+<gate name="G$1" symbol="OPA_PWR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="RDZ" package="SOIC127P770X170-8N">
+<device name="" package="SOT23-5">
 <connects>
-<connect gate="G$1" pin="+IN" pad="3"/>
-<connect gate="G$1" pin="-IN" pad="2"/>
-<connect gate="G$1" pin="CC" pad="5"/>
-<connect gate="G$1" pin="DIS" pad="8"/>
-<connect gate="G$1" pin="FB" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="6"/>
-<connect gate="G$1" pin="V+" pad="7"/>
-<connect gate="G$1" pin="V-" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25620618/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CPZ" package="SON50P300X300X75-9T140X174N">
-<connects>
-<connect gate="G$1" pin="+IN" pad="4"/>
+<connect gate="G$1" pin="+IN" pad="1"/>
 <connect gate="G$1" pin="-IN" pad="3"/>
-<connect gate="G$1" pin="CC" pad="6"/>
-<connect gate="G$1" pin="DIS" pad="1"/>
-<connect gate="G$1" pin="FB" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="7"/>
-<connect gate="G$1" pin="V+" pad="8"/>
-<connect gate="G$1" pin="V-" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25643444/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25419215/3"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/lmv611.pdf?ts=1749071328501" constant="no"/>
+<attribute name="DESCRIPTION" value="Single 14nA 0.42V/us 1.5MHz SOT-23-5 Operational Amplifier ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C165135" constant="no"/>
+<attribute name="VALUE" value="LMV611MFX/NOPB " constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AD8646" prefix="IC">
-<description>24 MHz Rail-to-Rail Amplifiers
-with Shutdown Option</description>
+<deviceset name="OPA365" urn="urn:adsk.eagle:component:50677896/1" prefix="IC" uservalue="yes">
 <gates>
-<gate name="A" symbol="OPA_PWR" x="0" y="10.16"/>
-<gate name="B" symbol="OPA" x="0" y="-5.08"/>
+<gate name="G$1" symbol="OPA_PWR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SO8" package="SOIC127P770X170-8N">
-<connects>
-<connect gate="A" pin="+IN" pad="3"/>
-<connect gate="A" pin="-IN" pad="2"/>
-<connect gate="A" pin="OUT" pad="1"/>
-<connect gate="A" pin="V+" pad="8"/>
-<connect gate="A" pin="V-" pad="4"/>
-<connect gate="B" pin="+IN" pad="5"/>
-<connect gate="B" pin="-IN" pad="6"/>
-<connect gate="B" pin="OUT" pad="7"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25620618/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="INA126" prefix="IC">
-<description>MicroPOWER INSTRUMENTATION AMPLIFIER</description>
-<gates>
-<gate name="G$1" symbol="INA126" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SO8">
-<connects>
-<connect gate="G$1" pin="+IN" pad="3"/>
-<connect gate="G$1" pin="-IN" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="6"/>
-<connect gate="G$1" pin="REF" pad="5"/>
-<connect gate="G$1" pin="RG@1" pad="1"/>
-<connect gate="G$1" pin="RG@2" pad="8"/>
-<connect gate="G$1" pin="V+" pad="7"/>
-<connect gate="G$1" pin="V-" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:220529/4"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LMH6644" prefix="IC">
-<description>LMH6644-MIL Low-Power, 130-MHz, 75-mA Rail-to-Rail Output Amplifier</description>
-<gates>
-<gate name="B" symbol="OPA" x="10.16" y="10.16"/>
-<gate name="C" symbol="OPA" x="-15.24" y="-10.16"/>
-<gate name="D" symbol="OPA" x="10.16" y="-10.16"/>
-<gate name="A" symbol="OPA_PWR" x="-15.24" y="10.16"/>
-</gates>
-<devices>
-<device name="MT" package="SOP65P640X120-14N">
-<connects>
-<connect gate="A" pin="+IN" pad="3"/>
-<connect gate="A" pin="-IN" pad="2"/>
-<connect gate="A" pin="OUT" pad="1"/>
-<connect gate="A" pin="V+" pad="4"/>
-<connect gate="A" pin="V-" pad="11"/>
-<connect gate="B" pin="+IN" pad="5"/>
-<connect gate="B" pin="-IN" pad="6"/>
-<connect gate="B" pin="OUT" pad="7"/>
-<connect gate="C" pin="+IN" pad="10"/>
-<connect gate="C" pin="-IN" pad="9"/>
-<connect gate="C" pin="OUT" pad="8"/>
-<connect gate="D" pin="+IN" pad="12"/>
-<connect gate="D" pin="-IN" pad="13"/>
-<connect gate="D" pin="OUT" pad="14"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25630919/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LT1013" prefix="IC">
-<description>Dual Precision Op Amp</description>
-<gates>
-<gate name="A" symbol="LT1013" x="0" y="15.24"/>
-<gate name="B" symbol="OPA" x="0" y="-10.16"/>
-</gates>
-<devices>
-<device name="" package="SO8">
-<connects>
-<connect gate="A" pin="+INA" pad="1"/>
-<connect gate="A" pin="-INA" pad="8"/>
-<connect gate="A" pin="OUTA" pad="7"/>
-<connect gate="A" pin="V+" pad="6"/>
-<connect gate="A" pin="V-" pad="2"/>
-<connect gate="B" pin="+IN" pad="4"/>
-<connect gate="B" pin="-IN" pad="3"/>
-<connect gate="B" pin="OUT" pad="5"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:220529/4"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LT6003" prefix="IC">
-<description>1.6V, 1µA Precision
-Rail-to-Rail Input and
-Output Op Amps</description>
-<gates>
-<gate name="G$1" symbol="OPA_PWR" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="IS5" package="SOT95P280X145-5N">
+<device name="AQDBVRQ1" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="+IN" pad="3"/>
 <connect gate="G$1" pin="-IN" pad="4"/>
@@ -1007,36 +901,38 @@ Output Op Amps</description>
 <connect gate="G$1" pin="V-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378632/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25419215/3"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/opa365-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1761217255248&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fopa365-q1" constant="no"/>
+<attribute name="DESCRIPTION" value="Standard (General Purpose) Amplifier 1 Circuit Rail-to-Rail SOT-23-5" constant="no"/>
+<attribute name="HQ_PART" value="" constant="no"/>
+<attribute name="LCSC_PART" value="C485978" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="OPA365AQDBVRQ1" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="OPA365" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LT6004" prefix="IC">
-<description>1.6V, 1µA Precision
-Rail-to-Rail Input and
-Output Op Amps</description>
+<deviceset name="OPA197" urn="urn:adsk.eagle:component:50677900/1" prefix="IC" uservalue="yes">
 <gates>
-<gate name="A" symbol="OPA_PWR" x="-2.54" y="12.7"/>
-<gate name="B" symbol="OPA" x="-2.54" y="-10.16"/>
+<gate name="G$1" symbol="OPA_PWR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="IMS8" package="MSOP8">
+<device name="" package="SOT23-5">
 <connects>
-<connect gate="A" pin="+IN" pad="3"/>
-<connect gate="A" pin="-IN" pad="2"/>
-<connect gate="A" pin="OUT" pad="1"/>
-<connect gate="A" pin="V+" pad="8"/>
-<connect gate="A" pin="V-" pad="4"/>
-<connect gate="B" pin="+IN" pad="5"/>
-<connect gate="B" pin="-IN" pad="6"/>
-<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30988/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25419215/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1044,57 +940,7 @@ Output Op Amps</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX4477" prefix="IC">
-<description>The MAX4475–MAX4478/MAX4488/MAX4489 wideband, low-noise, low-distortion operational amplifiers
-offer rail-to-rail outputs and single-supply operation
-down to 2.7V.</description>
-<gates>
-<gate name="A" symbol="OPA_PWR" x="0" y="10.16"/>
-<gate name="B" symbol="OPA" x="0" y="-7.62"/>
-</gates>
-<devices>
-<device name="" package="SO8MINI">
-<connects>
-<connect gate="A" pin="+IN" pad="3"/>
-<connect gate="A" pin="-IN" pad="2"/>
-<connect gate="A" pin="OUT" pad="1"/>
-<connect gate="A" pin="V+" pad="8"/>
-<connect gate="A" pin="V-" pad="4"/>
-<connect gate="B" pin="+IN" pad="5"/>
-<connect gate="B" pin="-IN" pad="6"/>
-<connect gate="B" pin="OUT" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MAX9637" prefix="IC">
-<description>3V/5V Low-Power, Low-Noise, CMOS, Rail-to-Rail I/O Op Amps</description>
-<gates>
-<gate name="A" symbol="OPA_PWR" x="0" y="10.16"/>
-<gate name="B" symbol="OPA" x="0" y="-7.62"/>
-</gates>
-<devices>
-<device name="" package="SOT23-8">
-<connects>
-<connect gate="A" pin="+IN" pad="3"/>
-<connect gate="A" pin="-IN" pad="2"/>
-<connect gate="A" pin="OUT" pad="1"/>
-<connect gate="A" pin="V+" pad="8"/>
-<connect gate="A" pin="V-" pad="4"/>
-<connect gate="B" pin="+IN" pad="5"/>
-<connect gate="B" pin="-IN" pad="6"/>
-<connect gate="B" pin="OUT" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MCP6001RT" prefix="IC">
+<deviceset name="MCP6001RT" urn="urn:adsk.eagle:component:50677906/1" prefix="IC">
 <description>1 MHz, Low-Power Op Amp</description>
 <gates>
 <gate name="G$1" symbol="OPA_PWR" x="0" y="0"/>
@@ -1125,137 +971,7 @@ down to 2.7V.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="OPA2727" prefix="IC">
-<description>20MHz, High Precision CMOS Operational Amplifier</description>
-<gates>
-<gate name="A" symbol="OPA_PWR" x="0" y="12.7" addlevel="must"/>
-<gate name="B" symbol="OPA" x="0" y="-10.16"/>
-</gates>
-<devices>
-<device name="" package="SOIC127P770X170-8N">
-<connects>
-<connect gate="A" pin="+IN" pad="3"/>
-<connect gate="A" pin="-IN" pad="2"/>
-<connect gate="A" pin="OUT" pad="1"/>
-<connect gate="A" pin="V+" pad="8"/>
-<connect gate="A" pin="V-" pad="4"/>
-<connect gate="B" pin="+IN" pad="5"/>
-<connect gate="B" pin="-IN" pad="6"/>
-<connect gate="B" pin="OUT" pad="7"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25620618/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="AIDRBX" package="SON65P200X300X100-9T65X225">
-<connects>
-<connect gate="A" pin="+IN" pad="3"/>
-<connect gate="A" pin="-IN" pad="2"/>
-<connect gate="A" pin="OUT" pad="1"/>
-<connect gate="A" pin="V+" pad="8"/>
-<connect gate="A" pin="V-" pad="4"/>
-<connect gate="B" pin="+IN" pad="5"/>
-<connect gate="B" pin="-IN" pad="6"/>
-<connect gate="B" pin="OUT" pad="7"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8325822/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TLV3501" prefix="IC" uservalue="yes">
-<description>4.5ns, Rail-to-Rail, High Speed Comparator with Shutdown</description>
-<gates>
-<gate name="G$1" symbol="OPA_SHDN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="AIDB" package="SOT95P280X145-6N">
-<connects>
-<connect gate="G$1" pin="+IN" pad="3"/>
-<connect gate="G$1" pin="-IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="5"/>
-<connect gate="G$1" pin="SHDN" pad="6"/>
-<connect gate="G$1" pin="V+" pad="4"/>
-<connect gate="G$1" pin="V-" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:18604126/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/tlv3502.pdf?ts=1749128525689" constant="no"/>
-<attribute name="DESCRIPTION" value="6.5mV 10pA SOT-23-6 Comparators ROHS " constant="no"/>
-<attribute name="LCSC_PART" value="C193413" constant="no"/>
-<attribute name="VALUE" value="TLV3501AIDBVR" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TSU101" prefix="IC">
-<description>Nanopower (580nA) rail-to-rail I/O 5V CMOS Op-Amp</description>
-<gates>
-<gate name="G$1" symbol="OPA_PWR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="R" package="SC70/SOT323-5">
-<connects>
-<connect gate="G$1" pin="+IN" pad="3"/>
-<connect gate="G$1" pin="-IN" pad="4"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-<connect gate="G$1" pin="V+" pad="5"/>
-<connect gate="G$1" pin="V-" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="I" package="SC70/SOT323-5">
-<connects>
-<connect gate="G$1" pin="+IN" pad="1"/>
-<connect gate="G$1" pin="-IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="4"/>
-<connect gate="G$1" pin="V+" pad="5"/>
-<connect gate="G$1" pin="V-" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TSU102" prefix="IC">
-<description>Nanopower (580nA) rail-to-rail I/O 5V CMOS Op-Amp</description>
-<gates>
-<gate name="G$1" symbol="OPA_PWR" x="0" y="10.16"/>
-<gate name="G$2" symbol="OPA" x="0" y="-7.62"/>
-</gates>
-<devices>
-<device name="IST" package="SO8MINI">
-<connects>
-<connect gate="G$1" pin="+IN" pad="3"/>
-<connect gate="G$1" pin="-IN" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-<connect gate="G$1" pin="V+" pad="8"/>
-<connect gate="G$1" pin="V-" pad="4"/>
-<connect gate="G$2" pin="+IN" pad="5"/>
-<connect gate="G$2" pin="-IN" pad="6"/>
-<connect gate="G$2" pin="OUT" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ADA4254" prefix="IC" uservalue="yes">
+<deviceset name="ADA4254" urn="urn:adsk.eagle:component:50677901/1" prefix="IC" uservalue="yes">
 <description>Zero Drift, High Voltage, Low Power,
 Programmable Gain Instrumentation Amplifier</description>
 <gates>
@@ -1301,12 +1017,13 @@ Programmable Gain Instrumentation Amplifier</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="OPA197" prefix="IC" uservalue="yes">
+<deviceset name="TSU101" urn="urn:adsk.eagle:component:50677903/1" prefix="IC">
+<description>Nanopower (580nA) rail-to-rail I/O 5V CMOS Op-Amp</description>
 <gates>
 <gate name="G$1" symbol="OPA_PWR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23-5">
+<device name="R" package="SC70/SOT323-5">
 <connects>
 <connect gate="G$1" pin="+IN" pad="3"/>
 <connect gate="G$1" pin="-IN" pad="4"/>
@@ -1315,7 +1032,22 @@ Programmable Gain Instrumentation Amplifier</description>
 <connect gate="G$1" pin="V-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25419215/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:50677892/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="I" package="SC70/SOT323-5">
+<connects>
+<connect gate="G$1" pin="+IN" pad="1"/>
+<connect gate="G$1" pin="-IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:50677892/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1323,7 +1055,7 @@ Programmable Gain Instrumentation Amplifier</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AD8605" prefix="IC" uservalue="yes">
+<deviceset name="AD8605" urn="urn:adsk.eagle:component:50677899/1" prefix="IC" uservalue="yes">
 <description>Precision, Low Noise, CMOS, Rail-to-Rail,
 Input/Output Operational Amplifiers</description>
 <gates>
@@ -1347,14 +1079,14 @@ Input/Output Operational Amplifiers</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="OPA192" prefix="IC" uservalue="yes">
+<deviceset name="OPA192" urn="urn:adsk.eagle:component:50677898/1" prefix="IC" uservalue="yes">
 <description>OPAx192 36-V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage,
 Low Input Bias Current Op Amp with e-trim™</description>
 <gates>
 <gate name="G$1" symbol="OPA_PWR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23-5">
+<device name="IDBVT" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="+IN" pad="3"/>
 <connect gate="G$1" pin="-IN" pad="4"/>
@@ -1366,34 +1098,472 @@ Low Input Bias Current Op Amp with e-trim™</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:25419215/3"/>
 </package3dinstances>
 <technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/opa192.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="-18V~-2.25V -40℃~+125℃ 1 10MHz 140dB 1mA 200nV/℃ 20V/us 2pA 36V 4.5V~36V 5.5nV/√Hz@1kHz 5pA 5uV 65mA Rail-to-Rail Input, Rail-to-Rail Output SOT-23-5 Precision Op Amps ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C139657" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="OPA192IDBVT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="OPA192IDBVT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD8646" urn="urn:adsk.eagle:component:50677914/1" prefix="IC">
+<description>24 MHz Rail-to-Rail Amplifiers
+with Shutdown Option</description>
+<gates>
+<gate name="A" symbol="OPA_PWR" x="0" y="10.16"/>
+<gate name="B" symbol="OPA" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="SO8" package="SOIC127P770X170-8N">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="V+" pad="8"/>
+<connect gate="A" pin="V-" pad="4"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25620618/1"/>
+</package3dinstances>
+<technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LMV611MFX" prefix="IC" uservalue="yes">
-<description>MV61x Single, Dual, and Quad, 1.4-MHz, Low-Power, General-Purpose 1.8-V Operational Amplifiers</description>
+<deviceset name="OPA2727" urn="urn:adsk.eagle:component:50677905/1" prefix="IC">
+<description>20MHz, High Precision CMOS Operational Amplifier</description>
 <gates>
-<gate name="G$1" symbol="OPA_PWR" x="0" y="0"/>
+<gate name="A" symbol="OPA_PWR" x="0" y="12.7" addlevel="must"/>
+<gate name="B" symbol="OPA" x="0" y="-10.16"/>
 </gates>
 <devices>
-<device name="" package="SOT23-5">
+<device name="" package="SOIC127P770X170-8N">
 <connects>
-<connect gate="G$1" pin="+IN" pad="1"/>
-<connect gate="G$1" pin="-IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="V+" pad="8"/>
+<connect gate="A" pin="V-" pad="4"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25620618/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="AIDRBX" package="SON65P200X300X100-9T65X225">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="V+" pad="8"/>
+<connect gate="A" pin="V-" pad="4"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8325822/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX4477" urn="urn:adsk.eagle:component:50677908/1" prefix="IC">
+<description>The MAX4475–MAX4478/MAX4488/MAX4489 wideband, low-noise, low-distortion operational amplifiers
+offer rail-to-rail outputs and single-supply operation
+down to 2.7V.</description>
+<gates>
+<gate name="A" symbol="OPA_PWR" x="0" y="10.16"/>
+<gate name="B" symbol="OPA" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="SO8MINI">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="V+" pad="8"/>
+<connect gate="A" pin="V-" pad="4"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:50677894/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD8066" urn="urn:adsk.eagle:component:50677916/1" prefix="IC">
+<description>High Performance, 145 MHz FastFET Op Amp</description>
+<gates>
+<gate name="A" symbol="OPA_PWR" x="0" y="10.16"/>
+<gate name="B" symbol="OPA" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="ARMZ" package="SO8MINI">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="V+" pad="8"/>
+<connect gate="A" pin="V-" pad="4"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:50677894/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD8027" urn="urn:adsk.eagle:component:50677917/1" prefix="IC" uservalue="yes">
+<description>Low Distortion, High Speed Rail-to-Rail Input/Output Amplifiers</description>
+<gates>
+<gate name="G$1" symbol="AD8027" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X145-6N">
+<connects>
+<connect gate="G$1" pin="!DIS" pad="5"/>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="6"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18604126/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSU102" urn="urn:adsk.eagle:component:50677902/1" prefix="IC">
+<description>Nanopower (580nA) rail-to-rail I/O 5V CMOS Op-Amp</description>
+<gates>
+<gate name="G$1" symbol="OPA_PWR" x="0" y="10.16"/>
+<gate name="G$2" symbol="OPA" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="IST" package="SO8MINI">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+<connect gate="G$2" pin="+IN" pad="5"/>
+<connect gate="G$2" pin="-IN" pad="6"/>
+<connect gate="G$2" pin="OUT" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:50677894/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLV3501" urn="urn:adsk.eagle:component:50677904/1" prefix="IC" uservalue="yes">
+<description>4.5ns, Rail-to-Rail, High Speed Comparator with Shutdown</description>
+<gates>
+<gate name="G$1" symbol="OPA_SHDN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="AIDB" package="SOT95P280X145-6N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="SHDN" pad="6"/>
+<connect gate="G$1" pin="V+" pad="4"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18604126/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/tlv3502.pdf?ts=1749128525689" constant="no"/>
+<attribute name="DESCRIPTION" value="6.5mV 10pA SOT-23-6 Comparators ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C193413" constant="no"/>
+<attribute name="VALUE" value="TLV3501AIDBVR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LT6004" urn="urn:adsk.eagle:component:50677909/1" prefix="IC">
+<description>1.6V, 1µA Precision
+Rail-to-Rail Input and
+Output Op Amps</description>
+<gates>
+<gate name="A" symbol="OPA_PWR" x="-2.54" y="12.7"/>
+<gate name="B" symbol="OPA" x="-2.54" y="-10.16"/>
+</gates>
+<devices>
+<device name="IMS8" package="MSOP8">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="V+" pad="8"/>
+<connect gate="A" pin="V-" pad="4"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30988/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMH6644" urn="urn:adsk.eagle:component:50677912/1" prefix="IC">
+<description>LMH6644-MIL Low-Power, 130-MHz, 75-mA Rail-to-Rail Output Amplifier</description>
+<gates>
+<gate name="B" symbol="OPA" x="10.16" y="10.16"/>
+<gate name="C" symbol="OPA" x="-15.24" y="-10.16"/>
+<gate name="D" symbol="OPA" x="10.16" y="-10.16"/>
+<gate name="A" symbol="OPA_PWR" x="-15.24" y="10.16"/>
+</gates>
+<devices>
+<device name="MT" package="SOP65P640X120-14N">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="V+" pad="4"/>
+<connect gate="A" pin="V-" pad="11"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="C" pin="+IN" pad="10"/>
+<connect gate="C" pin="-IN" pad="9"/>
+<connect gate="C" pin="OUT" pad="8"/>
+<connect gate="D" pin="+IN" pad="12"/>
+<connect gate="D" pin="-IN" pad="13"/>
+<connect gate="D" pin="OUT" pad="14"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25630919/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INA126" urn="urn:adsk.eagle:component:50677913/1" prefix="IC">
+<description>MicroPOWER INSTRUMENTATION AMPLIFIER</description>
+<gates>
+<gate name="G$1" symbol="INA126" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO8">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="REF" pad="5"/>
+<connect gate="G$1" pin="RG@1" pad="1"/>
+<connect gate="G$1" pin="RG@2" pad="8"/>
+<connect gate="G$1" pin="V+" pad="7"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:220529/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX9637" urn="urn:adsk.eagle:component:50677907/1" prefix="IC">
+<description>3V/5V Low-Power, Low-Noise, CMOS, Rail-to-Rail I/O Op Amps</description>
+<gates>
+<gate name="A" symbol="OPA_PWR" x="0" y="10.16"/>
+<gate name="B" symbol="OPA" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="SOT23-8">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="V+" pad="8"/>
+<connect gate="A" pin="V-" pad="4"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:50677893/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LT1013" urn="urn:adsk.eagle:component:50677911/1" prefix="IC">
+<description>Dual Precision Op Amp</description>
+<gates>
+<gate name="A" symbol="LT1013" x="0" y="15.24"/>
+<gate name="B" symbol="OPA" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="SO8">
+<connects>
+<connect gate="A" pin="+INA" pad="1"/>
+<connect gate="A" pin="-INA" pad="8"/>
+<connect gate="A" pin="OUTA" pad="7"/>
+<connect gate="A" pin="V+" pad="6"/>
+<connect gate="A" pin="V-" pad="2"/>
+<connect gate="B" pin="+IN" pad="4"/>
+<connect gate="B" pin="-IN" pad="3"/>
+<connect gate="B" pin="OUT" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:220529/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LT6003" urn="urn:adsk.eagle:component:50677910/1" prefix="IC">
+<description>1.6V, 1µA Precision
+Rail-to-Rail Input and
+Output Op Amps</description>
+<gates>
+<gate name="G$1" symbol="OPA_PWR" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="IS5" package="SOT95P280X145-5N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
 <connect gate="G$1" pin="V+" pad="5"/>
 <connect gate="G$1" pin="V-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25419215/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378632/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD8099" urn="urn:adsk.eagle:component:50677915/1" prefix="IC">
+<description>Ultralow Distortion, High Speed,
+0.95 nV/√Hz Voltage Noise Op Amp</description>
+<gates>
+<gate name="G$1" symbol="AD8099" x="0" y="0"/>
+</gates>
+<devices>
+<device name="RDZ" package="SOIC127P770X170-8N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="CC" pad="5"/>
+<connect gate="G$1" pin="DIS" pad="8"/>
+<connect gate="G$1" pin="FB" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="V+" pad="7"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25620618/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CPZ" package="SON50P300X300X75-9T140X174N">
+<connects>
+<connect gate="G$1" pin="+IN" pad="4"/>
+<connect gate="G$1" pin="-IN" pad="3"/>
+<connect gate="G$1" pin="CC" pad="6"/>
+<connect gate="G$1" pin="DIS" pad="1"/>
+<connect gate="G$1" pin="FB" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25643444/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM393BIDR" prefix="IC" uservalue="yes">
+<gates>
+<gate name="A" symbol="OPA_PWR" x="0" y="15.24"/>
+<gate name="B" symbol="OPA" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="SO8">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="V+" pad="8"/>
+<connect gate="A" pin="V-" pad="4"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:220529/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/lmv611.pdf?ts=1749071328501" constant="no"/>
-<attribute name="DESCRIPTION" value="Single 14nA 0.42V/us 1.5MHz SOT-23-5 Operational Amplifier ROHS " constant="no"/>
-<attribute name="LCSC_PART" value="C165135" constant="no"/>
-<attribute name="VALUE" value="LMV611MFX/NOPB " constant="no"/>
+<attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/lm393.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="-40℃~+85℃ 1us 2 3.5nA 370uV 400uA TTL SOIC-8 Comparators ROHS
+" constant="no"/>
+<attribute name="LCSC_PART" value="C2865059" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LM393BIDR" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="LM393BIDR" constant="no"/>
 </technology>
 </technologies>
 </device>

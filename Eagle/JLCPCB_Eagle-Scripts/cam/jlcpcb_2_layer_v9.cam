@@ -9,6 +9,30 @@
     "output_type": "zip",
     "outputs": [
         {
+            "filename_prefix": "",
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+                {
+                    "drills": {
+                        "NPTH": true,
+                        "PTH": true,
+                        "VIA": true
+                    },
+                    "filename_format": "%N.XLN",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "Excellon",
+                    "type": "excellon"
+                }
+            ]
+        },
+        {
             "filename_prefix": "GerberJob",
             "format_specifier": {
                 "decimal": 4,
@@ -130,7 +154,7 @@
                     "type": "gerber_layer"
                 },
                 {
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Legend",
                         "index": 1,
@@ -147,7 +171,7 @@
                     "type": "gerber_layer"
                 },
                 {
-                    "board_outline": false,
+                    "board_outline": true,
                     "config": {
                         "file_function": "Legend",
                         "index": 1,
@@ -165,36 +189,6 @@
                 }
             ],
             "version": "RS274X"
-        },
-        {
-            "filename_prefix": "",
-            "format_specifier": {
-                "decimal": 3,
-                "integer": 3
-            },
-            "output_type": "drill",
-            "outputs": [
-                {
-                    "drills": {
-                        "NPTH": true,
-                        "PTH": true,
-                        "VIA": true
-                    },
-                    "filename_format": "%N.XLN",
-                    "layers": {
-                        "from": 1,
-                        "to": 16
-                    },
-                    "name": "Excellon",
-                    "type": "excellon"
-                }
-            ]
-        },
-        {
-            "filename_prefix": "CAMOutputs/Assembly",
-            "output_type": "assembly",
-            "outputs": [
-            ]
         },
         {
             "filename_prefix": "CAMOutputs/DrawingFiles",

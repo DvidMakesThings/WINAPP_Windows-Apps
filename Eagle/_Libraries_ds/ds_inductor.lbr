@@ -499,6 +499,48 @@
 <wire x1="0" y1="3.3" x2="0" y2="3.2" width="0.1" layer="21" curve="180"/>
 <wire x1="0" y1="3.2" x2="0" y2="3.3" width="0.1" layer="21" curve="180"/>
 </package>
+<package name="WE-LQSA_8040" urn="urn:adsk.eagle:footprint:21690159/3">
+<description>&lt;B&gt;WE-LQSA SMD Power Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 8040, SMT, 2pins
+&lt;BR&gt;L X W X H = 8mm X 8mm X 4.2mm</description>
+<smd name="1" x="3.1" y="0" dx="3.05" dy="8.2" layer="1" rot="R180"/>
+<smd name="2" x="-3.1" y="0" dx="3.05" dy="8.2" layer="1" rot="R180"/>
+<text x="0" y="4.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<wire x1="-4" y1="2.8" x2="-3.8" y2="3" width="0.1" layer="51" curve="-90"/>
+<wire x1="-2.9" y1="3" x2="-2.7" y2="3.1" width="0.1" layer="51" curve="25.559965"/>
+<wire x1="-3.8" y1="3" x2="-2.9" y2="3" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="4" x2="-1.9" y2="3.9" width="0.1" layer="51" curve="25.559965"/>
+<wire x1="-2.7" y1="3.1" x2="-1.9" y2="3.9" width="0.1" layer="51"/>
+<wire x1="4" y1="-2.8" x2="3.8" y2="-3" width="0.1" layer="51" curve="-90"/>
+<wire x1="2.9" y1="-3" x2="2.7" y2="-3.1" width="0.1" layer="51" curve="25.559965"/>
+<wire x1="3.8" y1="-3" x2="2.9" y2="-3" width="0.1" layer="51"/>
+<wire x1="1.7" y1="-4" x2="1.9" y2="-3.9" width="0.1" layer="51" curve="25.559965"/>
+<wire x1="2.7" y1="-3.1" x2="1.9" y2="-3.9" width="0.1" layer="51"/>
+<wire x1="4" y1="2.8" x2="3.8" y2="3" width="0.1" layer="51" curve="90"/>
+<wire x1="2.9" y1="3" x2="2.7" y2="3.1" width="0.1" layer="51" curve="-25.559965"/>
+<wire x1="3.8" y1="3" x2="2.9" y2="3" width="0.1" layer="51"/>
+<wire x1="1.7" y1="4" x2="1.9" y2="3.9" width="0.1" layer="51" curve="-25.559965"/>
+<wire x1="2.7" y1="3.1" x2="1.9" y2="3.9" width="0.1" layer="51"/>
+<wire x1="-4" y1="-2.8" x2="-3.8" y2="-3" width="0.1" layer="51" curve="90"/>
+<wire x1="-2.9" y1="-3" x2="-2.7" y2="-3.1" width="0.1" layer="51" curve="-25.559965"/>
+<wire x1="-3.8" y1="-3" x2="-2.9" y2="-3" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="-4" x2="-1.9" y2="-3.9" width="0.1" layer="51" curve="-25.559965"/>
+<wire x1="-2.7" y1="-3.1" x2="-1.9" y2="-3.9" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="4" x2="1.7" y2="4" width="0.1" layer="51"/>
+<wire x1="4" y1="2.8" x2="4" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="-4" x2="1.7" y2="-4" width="0.1" layer="51"/>
+<wire x1="-4" y1="-2.8" x2="-4" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="4.1" x2="1.2" y2="4.1" width="0.2" layer="21"/>
+<wire x1="-1.2" y1="-4.1" x2="1.2" y2="-4.1" width="0.2" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-4.9" y="4.3"/>
+<vertex x="4.9" y="4.3"/>
+<vertex x="4.9" y="-4.3"/>
+<vertex x="-4.9" y="-4.3"/>
+</polygon>
+<circle x="5.5" y="-3.4" radius="0.2" width="0.4" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="0603" urn="urn:adsk.eagle:package:49051870/2" type="model">
@@ -578,6 +620,14 @@
 <packageinstance name="SRR5228A"/>
 </packageinstances>
 </package3d>
+<package3d name="WE-LQSA_8040" urn="urn:adsk.eagle:package:21690165/4" type="model">
+<description>&lt;B&gt;WE-LQSA SMD Power Inductor
+&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;Size: 8040, SMT, 2pins
+&lt;BR&gt;L X W X H = 8mm X 8mm X 4.2mm</description>
+<packageinstances>
+<packageinstance name="WE-LQSA_8040"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="FERRITE" urn="urn:adsk.eagle:symbol:49051859/1">
@@ -615,6 +665,19 @@
 <wire x1="0" y1="1.27" x2="0.635" y2="0.635" width="0.254" layer="94" curve="-90"/>
 <wire x1="0" y1="0" x2="0.635" y2="-0.635" width="0.254" layer="94" curve="-90"/>
 <wire x1="0" y1="-1.27" x2="0.635" y2="-1.905" width="0.254" layer="94" curve="-90"/>
+</symbol>
+<symbol name="WE-LQSA">
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<circle x="-5.842" y="0.508" radius="0.127" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -780,8 +843,13 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="3.3uH ±20% 350mA 200mΩ 0805 Inductors (SMD) ROHS" constant="no"/>
-<attribute name="LCSC_PART" value="C383406" constant="no"/>
+<attribute name="DATASHEET" value="https://abracon.com/datasheets/AOTA-B201610S3R3-101-T.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="3.3 µH Shielded Molded Inductor 2.1 A 140mOhm Max 0806 (2016 Metric)" constant="no"/>
+<attribute name="HQ_PART" value="IN47489734" constant="no"/>
+<attribute name="LCSC_PART" value="C42411119" constant="no"/>
+<attribute name="MANUFACTURER" value="Abracon LLC" constant="no"/>
+<attribute name="MPN" value="AOTA-B201610S3R3-101-T" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="3.3uH" constant="no"/>
 </technology>
 </technologies>
@@ -879,6 +947,10 @@
 </technologies>
 </device>
 <device name="L-7.3X7.3" package="L-7.3X7.3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:49051868/2"/>
 </package3dinstances>
@@ -1049,8 +1121,9 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Power Inductance 70mΩ 4.7µH ±20% 2.5A - IND_5.8X5.2MM_SM " constant="no"/>
+<attribute name="DESCRIPTION" value="4.7uH 46mΩ 4A ±20% SMD,5.4x5.2mm Power Inductors ROHS " constant="no"/>
 <attribute name="HQ_PART" value="IN0027228" constant="no"/>
+<attribute name="LCSC_PART" value="C325964" constant="no"/>
 <attribute name="MANUFACTURER" value="YJYCOIN" constant="no"/>
 <attribute name="MPN" value="YP0503-4R7M" constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
@@ -1075,12 +1148,13 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Power Inductance 70mΩ 4.7µH ±20% 2.5A - IND_5.8X5.2MM_SM " constant="no"/>
-<attribute name="HQ_PART" value="IN0027228" constant="no"/>
-<attribute name="MANUFACTURER" value="YJYCOIN" constant="no"/>
+<attribute name="DESCRIPTION" value="3.5A 4.7uH 52mΩ Unshielded Inductor ±20% SMD,5.8x5.2mm Power Inductors ROHS" constant="no"/>
+<attribute name="HQ_PART" value="" constant="no"/>
+<attribute name="LCSC_PART" value="C14258" constant="no"/>
+<attribute name="MANUFACTURER" value="SXN" constant="no"/>
 <attribute name="MPN" value="YP0503-4R7M" constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
-<attribute name="VALUE" value="4.7uH" constant="no"/>
+<attribute name="VALUE" value="4.7uH 3.5A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1149,14 +1223,147 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+125℃ 1 120Ω@100MHz 2A 50mΩ ±25% 0603 Ferrite Beads ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+125℃ 1 120Ω@100MHz 2A 50mΩ ±25% 0603 Ferrite Beads ROHS " constant="no"/>
 <attribute name="HQ_PART" value="WF0012207" constant="no"/>
 <attribute name="LCSC_PART" value="C354394" constant="no"/>
 <attribute name="MANUFACTURER" value="Murata" constant="no"/>
 <attribute name="MPN" value="BLM18PG121SH1D" constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="BLM18PG121SH1D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="330NH" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="7.3X6.6" package="L-7.3X7.3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49051868/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://abracon.com/Magnetics/power/ASPI7318.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="20A/28A 3.9mΩ 330nH ±20% SMD,7.3x6.8mm Power Inductors ROHS" constant="no"/>
+<attribute name="HQ_PART" value="" constant="no"/>
+<attribute name="LCSC_PART" value="C187361" constant="no"/>
+<attribute name="MANUFACTURER" value="Abracon LLC" constant="no"/>
+<attribute name="MPN" value="ASPI-7318-R33M-T" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="330nH 20A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="22UH" prefix="L" uservalue="yes">
+<description>Power Inductance 32mΩ 2.2µH ±20% 4A - IND_5.4X5.2MM_SM</description>
+<gates>
+<gate name="G$1" symbol="L-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="L-10X10" package="L-10X10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49051882/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2905/MWSA-S_Series_DS.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="22uH 5.5A 5A 66mΩ ±20% SMD,11x10mm Power Inductors ROHS" constant="no"/>
+<attribute name="HQ_PART" value="" constant="no"/>
+<attribute name="LCSC_PART" value="C408489" constant="no"/>
+<attribute name="MANUFACTURER" value="Sunlord" constant="no"/>
+<attribute name="MPN" value="MWSA1004S-220MT" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="22uH 5.5A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-L12.5X12.5" package="L-12.5X12.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49051879/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5000/TMPC_G.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="14A 22uH 34mΩ 8A ±20% SMD,13.5x12.5mm Power Inductors ROHS" constant="no"/>
+<attribute name="HQ_PART" value="" constant="no"/>
+<attribute name="LCSC_PART" value="C357261" constant="no"/>
+<attribute name="MANUFACTURER" value="TAI-TECH" constant="no"/>
+<attribute name="MPN" value="TMPC1206HP-220MG-D" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="22uH 14A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="6.8UH" prefix="L" uservalue="yes">
+<description>Power Inductance 32mΩ 2.2µH ±20% 4A - IND_5.4X5.2MM_SM</description>
+<gates>
+<gate name="G$1" symbol="L-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="L-10X10" package="L-10X10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49051882/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="6.8 µH Shielded Wirewound Inductor 10.8 A 14mOhm Max" constant="no"/>
+<attribute name="HQ_PART" value="" constant="no"/>
+<attribute name="LCSC_PART" value="C29774884" constant="no"/>
+<attribute name="MANUFACTURER" value="Cyntec" constant="no"/>
+<attribute name="MPN" value="VCHA105D-6R8MS6" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="6.8uH 10.8A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="100UH" prefix="L">
+<gates>
+<gate name="G$1" symbol="WE-LQSA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQSA_8040">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21690165/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6718/Application%20Guide.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="1.1A 100uH 1A 280mΩ ±20% SMD,8x8mm Power Inductors ROHS
+" constant="no"/>
+<attribute name="LCSC_PART" value="C223045" constant="no"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="NRS8040T101MJGK" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="100uH 1.1A" constant="no"/>
 </technology>
 </technologies>
 </device>
