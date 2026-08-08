@@ -9590,8 +9590,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 5.23kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 5.23kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C2933105" constant="no"/>
 <attribute name="MANUFACTURER" value="FOJAN" constant="no"/>
@@ -9612,8 +9611,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 100mW 5.23kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 100mW 5.23kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C23068" constant="no"/>
 <attribute name="MANUFACTURER" value="UNI-ROYAL" constant="no"/>
@@ -9634,8 +9632,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 125mW 150V 5.23kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 125mW 150V 5.23kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C2933464" constant="no"/>
 <attribute name="MANUFACTURER" value="FOJAN" constant="no"/>
@@ -9656,8 +9653,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 200V 250mW 5.23kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 200V 250mW 5.23kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C49010147" constant="no"/>
 <attribute name="MANUFACTURER" value="FOJAN" constant="no"/>
@@ -9678,8 +9674,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+125℃ 25V 5.23kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+125℃ 25V 5.23kΩ 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C332546" constant="no"/>
 <attribute name="MANUFACTURER" value="RALEC" constant="no"/>
@@ -9707,8 +9702,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 50V 62.5mW 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 50V 62.5mW 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C2909390" constant="no"/>
 <attribute name="MANUFACTURER" value="FOJAN" constant="no"/>
@@ -9729,8 +9723,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 100mW 75V 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 100mW 75V 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C23260" constant="no"/>
 <attribute name="MANUFACTURER" value="UNI-ROYAL" constant="no"/>
@@ -9751,8 +9744,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 125mW 150V 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 125mW 150V 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C17855" constant="no"/>
 <attribute name="MANUFACTURER" value="UNI-ROYAL" constant="no"/>
@@ -9773,8 +9765,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 200V 250mW 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 200V 250mW 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C2933766" constant="no"/>
 <attribute name="MANUFACTURER" value="FOJAN" constant="no"/>
@@ -9795,8 +9786,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 25V 50mW 9.1kΩ Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 25V 50mW 9.1kΩ Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C226641" constant="no"/>
 <attribute name="MANUFACTURER" value="YAGEO" constant="no"/>
@@ -9824,8 +9814,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 25.5kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 25.5kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C26970" constant="no"/>
 <attribute name="MANUFACTURER" value="UNI-ROYAL" constant="no"/>
@@ -9846,8 +9835,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 100mW 25.5kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 100mW 25.5kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C2933179" constant="no"/>
 <attribute name="MANUFACTURER" value="FOJAN" constant="no"/>
@@ -9868,8 +9856,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 125mW 150V 25.5kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 125mW 150V 25.5kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C2930187" constant="no"/>
 <attribute name="MANUFACTURER" value="FOJAN" constant="no"/>
@@ -9890,8 +9877,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 200V 25.5kΩ 250mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 200V 25.5kΩ 250mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C3000609" constant="no"/>
 <attribute name="MANUFACTURER" value="FOJAN" constant="no"/>
@@ -9912,8 +9898,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+125℃ 25.5kΩ 25V 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+125℃ 25.5kΩ 25V 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C320788" constant="no"/>
 <attribute name="MANUFACTURER" value="FH" constant="no"/>
@@ -9941,8 +9926,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 3.24MΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 3.24MΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C368365" constant="no"/>
 <attribute name="MANUFACTURER" value="Walsin " constant="no"/>
@@ -9963,8 +9947,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 100mW 3.24MΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 100mW 3.24MΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C482826" constant="no"/>
 <attribute name="MANUFACTURER" value="YAGEO" constant="no"/>
@@ -9985,8 +9968,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 125mW 150V 3.24MΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 125mW 150V 3.24MΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C332842" constant="no"/>
 <attribute name="MANUFACTURER" value="RALEC" constant="no"/>
@@ -10007,8 +9989,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="-55℃~+155℃ 200V 250mW 3.24MΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 200V 250mW 3.24MΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS " constant="no"/>
 <attribute name="HQ_PART" value="" constant="no"/>
 <attribute name="LCSC_PART" value="C488776" constant="no"/>
 <attribute name="MANUFACTURER" value="YAGEO" constant="no"/>
@@ -10037,6 +10018,185 @@
 <attribute name="PACKAGE" value="0201" constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="3.24M 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="75K-1%" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0402" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683744/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 50V 62.5mW 75kΩ Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS " constant="no"/>
+<attribute name="HQ_PART" value="" constant="no"/>
+<attribute name="LCSC_PART" value="C2909383" constant="no"/>
+<attribute name="MANUFACTURER" value="FOJAN" constant="no"/>
+<attribute name="MPN" value="FRC0402F7502TS" constant="no"/>
+<attribute name="PACKAGE" value="0402" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="75K 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683743/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 100mW 75V 75kΩ Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS " constant="no"/>
+<attribute name="HQ_PART" value="" constant="no"/>
+<attribute name="LCSC_PART" value="C23242" constant="no"/>
+<attribute name="MANUFACTURER" value="UNI-ROYAL" constant="no"/>
+<attribute name="MPN" value="0603WAF7502T5E" constant="no"/>
+<attribute name="PACKAGE" value="0603" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="75K 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683742/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 125mW 150V 75kΩ Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS " constant="no"/>
+<attribute name="HQ_PART" value="" constant="no"/>
+<attribute name="LCSC_PART" value="C17819" constant="no"/>
+<attribute name="MANUFACTURER" value="UNI-ROYAL" constant="no"/>
+<attribute name="MPN" value="0805W8F7502T5E" constant="no"/>
+<attribute name="PACKAGE" value="0805" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="75K 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46683745/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 200V 250mW 75kΩ Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS " constant="no"/>
+<attribute name="HQ_PART" value="" constant="no"/>
+<attribute name="LCSC_PART" value="C17986" constant="no"/>
+<attribute name="MANUFACTURER" value="UNI-ROYAL" constant="no"/>
+<attribute name="MPN" value="1206W4F7502T5E" constant="no"/>
+<attribute name="PACKAGE" value="1206" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="75K 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0201" package="0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47403529/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-55℃~+155℃ 25V 50mW 75kΩ Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS " constant="no"/>
+<attribute name="HQ_PART" value="" constant="no"/>
+<attribute name="LCSC_PART" value="C270339" constant="no"/>
+<attribute name="MANUFACTURER" value="UNI-ROYAL" constant="no"/>
+<attribute name="MPN" value="0201WMF7502TEE" constant="no"/>
+<attribute name="PACKAGE" value="0201" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="75K 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10R-1%_ARRAY" prefix="RN" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="742C083103JP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603X4-1206" package="_0603X4-1206">
+<connects>
+<connect gate="G$1" pin="1" pad="A1"/>
+<connect gate="G$1" pin="2" pad="B1"/>
+<connect gate="G$1" pin="3" pad="C1"/>
+<connect gate="G$1" pin="4" pad="D1"/>
+<connect gate="G$1" pin="5" pad="D2"/>
+<connect gate="G$1" pin="6" pad="C2"/>
+<connect gate="G$1" pin="7" pad="B2"/>
+<connect gate="G$1" pin="8" pad="A2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49287421/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="10Ω 4 62.5mW 8 ±1% ±200ppm/℃ 0603x4 Resistor Networks, Arrays ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C723355" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="YC164-FR-0710RL" constant="no"/>
+<attribute name="PACKAGE" value="_0603X4-1206" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="10R 1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0R-5%_ARRAY" prefix="RN" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="742C083103JP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603X4-1206" package="_0603X4-1206">
+<connects>
+<connect gate="G$1" pin="1" pad="A1"/>
+<connect gate="G$1" pin="2" pad="B1"/>
+<connect gate="G$1" pin="3" pad="C1"/>
+<connect gate="G$1" pin="4" pad="D1"/>
+<connect gate="G$1" pin="5" pad="D2"/>
+<connect gate="G$1" pin="6" pad="C2"/>
+<connect gate="G$1" pin="7" pad="B2"/>
+<connect gate="G$1" pin="8" pad="A2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49287421/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="0Ω 4 62.5mW 8 ±400ppm/℃ ±5% 0603x4 Resistor Networks, Arrays ROHS
+" constant="no"/>
+<attribute name="LCSC_PART" value="C1952" constant="no"/>
+<attribute name="MANUFACTURER" value="UNI-ROYAL" constant="no"/>
+<attribute name="MPN" value="4D03WGJ0000T5E" constant="no"/>
+<attribute name="PACKAGE" value="_0603X4-1206" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="0R 5%" constant="no"/>
 </technology>
 </technologies>
 </device>

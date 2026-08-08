@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -5593,28 +5593,6 @@ follow the Milling Layer</text>
 <pad name="2" x="-2.54" y="0" drill="1.8542"/>
 <pad name="3" x="2.54" y="0" drill="1.8542"/>
 <pad name="4" x="7.62" y="0" drill="1.8542"/>
-</package>
-<package name="05-20-D-0076-A-4-06-4-T">
-<smd name="P1" x="0" y="4.5" dx="4" dy="0.3" layer="1"/>
-<smd name="P2" x="0" y="4" dx="4" dy="0.3" layer="1"/>
-<smd name="P3" x="0" y="3.5" dx="4" dy="0.3" layer="1"/>
-<smd name="P4" x="0" y="3" dx="4" dy="0.3" layer="1"/>
-<smd name="P5" x="0" y="2.5" dx="4" dy="0.3" layer="1"/>
-<smd name="P6" x="0" y="2" dx="4" dy="0.3" layer="1"/>
-<smd name="P7" x="0" y="1.5" dx="4" dy="0.3" layer="1"/>
-<smd name="P8" x="0" y="1" dx="4" dy="0.3" layer="1"/>
-<smd name="P9" x="0" y="0.5" dx="4" dy="0.3" layer="1"/>
-<smd name="P10" x="0" y="0" dx="4" dy="0.3" layer="1"/>
-<smd name="P11" x="0" y="-0.5" dx="4" dy="0.3" layer="1"/>
-<smd name="P12" x="0" y="-1" dx="4" dy="0.3" layer="1"/>
-<smd name="P13" x="0" y="-1.5" dx="4" dy="0.3" layer="1"/>
-<smd name="P14" x="0" y="-2" dx="4" dy="0.3" layer="1"/>
-<smd name="P15" x="0" y="-2.5" dx="4" dy="0.3" layer="1"/>
-<smd name="P16" x="0" y="-3" dx="4" dy="0.3" layer="1"/>
-<smd name="P17" x="0" y="-3.5" dx="4" dy="0.3" layer="1"/>
-<smd name="P18" x="0" y="-4" dx="4" dy="0.3" layer="1"/>
-<smd name="P19" x="0" y="-4.5" dx="4" dy="0.3" layer="1"/>
-<smd name="P20" x="0" y="-5" dx="4" dy="0.3" layer="1"/>
 </package>
 </packages>
 <packages3d>
@@ -14820,40 +14798,6 @@ Updated by Yingchun, Shan 2020-01-14&lt;br&gt;
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:49176048/2"/>
 </package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="05-20-D-0076-A-4-06-4-T" prefix="CON">
-<gates>
-<gate name="G$1" symbol="05-20-D-0076-A-4-06-4-T" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="05-20-D-0076-A-4-06-4-T">
-<connects>
-<connect gate="G$1" pin="P1" pad="P1"/>
-<connect gate="G$1" pin="P10" pad="P10"/>
-<connect gate="G$1" pin="P11" pad="P11"/>
-<connect gate="G$1" pin="P12" pad="P12"/>
-<connect gate="G$1" pin="P13" pad="P13"/>
-<connect gate="G$1" pin="P14" pad="P14"/>
-<connect gate="G$1" pin="P15" pad="P15"/>
-<connect gate="G$1" pin="P16" pad="P16"/>
-<connect gate="G$1" pin="P17" pad="P17"/>
-<connect gate="G$1" pin="P18" pad="P18"/>
-<connect gate="G$1" pin="P19" pad="P19"/>
-<connect gate="G$1" pin="P2" pad="P2"/>
-<connect gate="G$1" pin="P20" pad="P20"/>
-<connect gate="G$1" pin="P3" pad="P3"/>
-<connect gate="G$1" pin="P4" pad="P4"/>
-<connect gate="G$1" pin="P5" pad="P5"/>
-<connect gate="G$1" pin="P6" pad="P6"/>
-<connect gate="G$1" pin="P7" pad="P7"/>
-<connect gate="G$1" pin="P8" pad="P8"/>
-<connect gate="G$1" pin="P9" pad="P9"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>

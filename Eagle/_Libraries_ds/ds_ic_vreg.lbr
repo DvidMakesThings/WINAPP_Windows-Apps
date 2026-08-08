@@ -2636,13 +2636,13 @@ pitch 0.635 mm, body 4.5 mm x 5.1 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM4040BXX" urn="urn:adsk.eagle:component:46684459/4" prefix="REF">
+<deviceset name="LM4040" urn="urn:adsk.eagle:component:46684459/4" locally_modified="yes" prefix="REF">
 <description>Fixed voltage, 45-µA, precision micropower shunt voltage reference</description>
 <gates>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23">
+<device name="C30FTA" package="SOT23">
 <connects>
 <connect gate="G$1" pin="A" pad="2 3"/>
 <connect gate="G$1" pin="C" pad="1"/>
@@ -2659,6 +2659,26 @@ pitch 0.635 mm, body 4.5 mm x 5.1 mm</description>
 <attribute name="MPN" value="LM4040C30FTA " constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="LM4040x30" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="C25FTA" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="2 3"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:46684430/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.diodes.com/assets/Datasheets/LM4040.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Shunt Voltage Reference IC Fixed 2.5V V ±0.5% 15 mA SOT-23-3" constant="no"/>
+<attribute name="LCSC_PART" value="C47117535" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="LM4040C25FTA" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="LM4040C25FTA" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4375,8 +4395,7 @@ and Fixed 2.85V, 3.3V, 5V</description>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/lmr38010.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="-40℃~+150℃ 1 1A 1V~75V 2.2MHz 4.2V~80V 40uA Adjustable Buck Buck Built-In Yes SO-PowerPAD-8 DC-DC Converters ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-40℃~+150℃ 1 1A 1V~75V 2.2MHz 4.2V~80V 40uA Adjustable Buck Buck Built-In Yes SO-PowerPAD-8 DC-DC Converters ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C5219308" constant="no"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="LMR38010FDDAR" constant="no"/>
@@ -4406,8 +4425,7 @@ and Fixed 2.85V, 3.3V, 5V</description>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/tlv709.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="-40℃~+125℃@(Tj) 1 1.2V~28V 150mA 3.2uA 30V 487uVrms 600mV@(100mA) 90dB@(100kHz) Fixed Over Current Protection Positive SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-40℃~+125℃@(Tj) 1 1.2V~28V 150mA 3.2uA 30V 487uVrms 600mV@(100mA) 90dB@(100kHz) Fixed Over Current Protection Positive SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C22365366" constant="no"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="TLV709A01DBVR" constant="no"/>
@@ -4438,13 +4456,43 @@ and Fixed 2.85V, 3.3V, 5V</description>
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://www.ti.com/lit/ds/symlink/lm2664.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="-40℃~+85℃ -5.5V~-1.8V 1.8V~5.5V 12Ω 40mA 500uA 80kHz 91% Inverted Not Supported SOT-23-6 Charge Pumps ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="-40℃~+85℃ -5.5V~-1.8V 1.8V~5.5V 12Ω 40mA 500uA 80kHz 91% Inverted Not Supported SOT-23-6 Charge Pumps ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C840095" constant="no"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="LM2664M6/NOPB" constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="LM2664M6/NOPB" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP2112K" prefix="IC">
+<description>-40℃~+85℃@(Ta) 1 250mV@(600mA) 3.3V 50uVrms 55uA 600mA 65dB@(1kHz) 6V Fixed Over Current Protection Positive SOT-25-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS</description>
+<gates>
+<gate name="G$1" symbol="MIC5504" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-3.3TRG1" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25419215/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.diodes.com/assets/Datasheets/AP2112.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="-40℃~+85℃@(Ta) 1 250mV@(600mA) 3.3V 50uVrms 55uA 600mA 65dB@(1kHz) 6V Fixed Over Current Protection Positive SOT-25-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS " constant="no"/>
+<attribute name="LCSC_PART" value="C51118" constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="AP2112K-3.3TRG1" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="AP2112K-3.3TRG1" constant="no"/>
 </technology>
 </technologies>
 </device>

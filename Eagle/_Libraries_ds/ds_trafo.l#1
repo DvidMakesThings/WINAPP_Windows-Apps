@@ -981,9 +981,9 @@ Created by Leviosa 2024-04-15&lt;br&gt;
 <technology name="">
 <attribute name="DATASHEET" value="https://www.meanwell.com/Upload/PDF/IRM-15/IRM-15-SPEC.PDF" constant="no"/>
 <attribute name="DESCRIPTION" value="15W AC-DC PCB-Mount Green Power Module" constant="no"/>
-<attribute name="LCSC_PART" value="C6394169" constant="no"/>
+<attribute name="LCSC_PART" value="C5439799" constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
-<attribute name="VALUE" value="IRM-15-12" constant="no"/>
+<attribute name="VALUE" value="IRM-10-15 " constant="no"/>
 </technology>
 </technologies>
 </device>

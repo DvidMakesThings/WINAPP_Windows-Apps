@@ -541,6 +541,56 @@
 </polygon>
 <circle x="5.5" y="-3.4" radius="0.2" width="0.4" layer="21"/>
 </package>
+<package name="WE-PDHV_1280" urn="urn:adsk.eagle:footprint:12988398/1">
+<description>&lt;b&gt; &lt;br&gt;&lt;b&gt;WE-PD HV SMD Power Inductor (High Voltage)&lt;br&gt;&lt;/b&gt;
+&lt;pre&gt; &lt;b&gt;&lt;font size="4"&gt;Size: &lt;/b&gt;1280</description>
+<smd name="1" x="-4.95" y="0" dx="2.9" dy="5.4" layer="1"/>
+<smd name="2" x="4.95" y="0" dx="2.9" dy="5.4" layer="1"/>
+<wire x1="-6" y1="6" x2="6" y2="6" width="0.1" layer="51"/>
+<wire x1="6" y1="6" x2="6" y2="-6" width="0.1" layer="51"/>
+<wire x1="6" y1="-6" x2="-6" y2="-6" width="0.1" layer="51"/>
+<wire x1="-6" y1="-6" x2="-6" y2="6" width="0.1" layer="51"/>
+<wire x1="-6.1" y1="3" x2="-6.1" y2="6.1" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="6.1" x2="6.1" y2="6.1" width="0.2" layer="21"/>
+<wire x1="6.1" y1="6.1" x2="6.1" y2="3" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-3" x2="-6.1" y2="-6.1" width="0.2" layer="21"/>
+<wire x1="-6.1" y1="-6.1" x2="6.1" y2="-6.1" width="0.2" layer="21"/>
+<wire x1="6.1" y1="-6.1" x2="6.1" y2="-3" width="0.2" layer="21"/>
+<polygon width="0.1" layer="41">
+<vertex x="-5.9" y="5.9"/>
+<vertex x="5.9" y="5.9"/>
+<vertex x="5.9" y="2.75"/>
+<vertex x="3.45" y="2.75"/>
+<vertex x="3.45" y="-2.75"/>
+<vertex x="5.9" y="-2.75"/>
+<vertex x="5.9" y="-5.9"/>
+<vertex x="-5.9" y="-5.9"/>
+<vertex x="-5.9" y="-2.75"/>
+<vertex x="-3.45" y="-2.75"/>
+<vertex x="-3.45" y="2.75"/>
+<vertex x="-5.9" y="2.75"/>
+</polygon>
+<polygon width="0.1" layer="43">
+<vertex x="-5.9" y="5.9"/>
+<vertex x="5.9" y="5.9"/>
+<vertex x="5.9" y="2.75"/>
+<vertex x="3.45" y="2.75"/>
+<vertex x="3.45" y="-2.75"/>
+<vertex x="5.9" y="-2.75"/>
+<vertex x="5.9" y="-5.9"/>
+<vertex x="-5.9" y="-5.9"/>
+<vertex x="-5.9" y="-2.75"/>
+<vertex x="-3.45" y="-2.75"/>
+<vertex x="-3.45" y="2.75"/>
+<vertex x="-5.9" y="2.75"/>
+</polygon>
+<polygon width="0.1" layer="39">
+<vertex x="-6.6" y="6.3"/>
+<vertex x="6.6" y="6.3"/>
+<vertex x="6.6" y="-6.3"/>
+<vertex x="-6.6" y="-6.3"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="0603" urn="urn:adsk.eagle:package:49051870/2" type="model">
@@ -1357,13 +1407,36 @@
 <technologies>
 <technology name="">
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6718/Application%20Guide.pdf" constant="no"/>
-<attribute name="DESCRIPTION" value="1.1A 100uH 1A 280mΩ ±20% SMD,8x8mm Power Inductors ROHS
-" constant="no"/>
+<attribute name="DESCRIPTION" value="1.1A 100uH 1A 280mΩ ±20% SMD,8x8mm Power Inductors ROHS " constant="no"/>
 <attribute name="LCSC_PART" value="C223045" constant="no"/>
 <attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
 <attribute name="MPN" value="NRS8040T101MJGK" constant="no"/>
 <attribute name="ROHS" value="YES" constant="no"/>
 <attribute name="VALUE" value="100uH 1.1A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4.7UH-PWR" prefix="L">
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-PDHV_1280">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="-20%~+40% 11.3A 15.8mΩ 4.7uH 6.8A Magnetic Shielded Inductor SMD,12x12mm Power Inductors ROHS
+" constant="no"/>
+<attribute name="LCSC_PART" value="C2998768" constant="no"/>
+<attribute name="MANUFACTURER" value="Sumida" constant="no"/>
+<attribute name="MPN" value="CDRH127NP-4R7NC" constant="no"/>
+<attribute name="ROHS" value="YES" constant="no"/>
+<attribute name="VALUE" value="4.7uH 11.3A" constant="no"/>
 </technology>
 </technologies>
 </device>
